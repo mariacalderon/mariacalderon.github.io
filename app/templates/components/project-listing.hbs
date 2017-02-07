@@ -1,0 +1,19 @@
+<article class="listing">
+	<a {{action 'toggleImageSize'}} class="image {{if isWide "wide"}}">
+		<img src="{{project.image}}" alt="">
+		<small>View Larger</small>
+	</a>
+	<h3>{{#link-to "projects.show" project}}{{project.title}}{{/link-to}}</h3>
+	<div class="detail owner">
+		<span>Owner:</span> {{project.owner}}
+	</div>
+	<div class="detail type">
+		<span>Type:</span> {{project-property-type project.type}} - {{project.type}}
+	</div>
+	<div class="detail location">
+		<span>Location:</span> {{project.city}}
+	</div>
+	<div class="detail bedrooms">
+		<span>Number of bedrooms:</span> {{project.bedrooms}}
+	</div>
+</article>
