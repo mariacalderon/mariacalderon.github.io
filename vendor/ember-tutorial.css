@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:300,300italic,400,700,700italic);
+@import url(https://fonts.googleapis.com/css?family=Raleway);
 
 /**
  * Base Elements
@@ -21,16 +21,16 @@ p,
 div,
 span,
 a {
-    font-family: 'Lato', 'Open Sans', 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif;
+    font-family: Raleway;
     line-height: 1.5;
 }
 
 body {
-    background: #f3f3f3;
+    background: #ffffff;
 }
 
 a {
-    color: #2185D0;
+    color: #000000;
     text-decoration: none;
 }
 
@@ -61,62 +61,75 @@ p {
  * Body Container
  */
 .container {
-    max-width: 1024px;
     min-height: 100vh;
-    background: #f9f9f9;
+    background: #fff;
     margin: 0 auto;
 }
 
 /**
  * Top Navigation
  */
+
+.indexLogo {
+    float: left;
+    margin: 1em;
+}
+
 .menu {
     height: 4em;
-    background-color: #677ae4;
-    background-color: #05526A;
-    background-color: #e46855;
+    background-color: #ffffff;
 }
 
 .menu h1 {
     padding: 7px 0 0 20px;
-    color: #f9f9f9;
+    color: #000000;
     font-size: 2.1em;
 }
 
 .menu h1 em {
     position: relative;
-    left: -12px;
 }
 
 .menu a {
     text-decoration: none;
     line-height: 1;
     padding: 15px;
-    color: #f9f9f9;
+    color: #000000;
     opacity: 0.85;
+    font-size: x-large;
 }
 
 .menu a:hover,
 .menu a.active {
-    opacity: 1;
+    color: #000000;
+    opacity: 0.85;
+    text-decoration: none;
 }
 
 .menu .links {
-    padding: 21px;
+    padding: 60px;
 }
 
 .list-filter input {
+    position: relative;
     padding: 11px;
-    font-size: 18px;
-    width: 500px;
-    margin: 50px auto;
-    background-color: rgba(255, 255, 255, 0.75);
-    border: solid 1px lightgray;
+    width: 340px;
+    margin: 50px 15px 50px auto;
+    border: none;
+    border-bottom: solid 1px #f2f2f2;
     display: block;
+    background: url("images/search.png") left center no-repeat;
+    background-size: 25px 25px;
+    text-indent: 30px;
+}
+
+.list-filter input:focus {
+    outline: none;
+    font-family: Raleway;
 }
 
 .menu input:focus {
-    background-color: #f9f9f9;
+    background-color: #000000;
     outline: none;
 }
 
@@ -148,9 +161,16 @@ p {
     border-bottom: 1px solid rgba(0, 0, 0, 0.05);
 }
 
+.results {
+    display: inline;
+    columns: 3;
+}
+
 .results li {
     list-style: none;
     padding: 10px 15px;
+    width: 33%;
+    display: inline-block;
 }
 
 .menu .results li:hover {
@@ -169,16 +189,10 @@ p {
  */
 .jumbo {
     padding: 50px;
-    background: #f6f6f6;
-}
-
-.jumbo:hover {
-    background-color: #f3f3f3;
 }
 
 .jumbo h2 {
     font-size: 3.2em;
-    margin-top: -25px;
 }
 
 .jumbo p {
@@ -190,89 +204,6 @@ p {
     position: relative;
     top: -25px;
     right: -20px;
-}
-
-/**
- * Individual Listings
- */
-.listing {
-    margin-top: 15px;
-    background-color: #f6f6f6;
-    padding: 15px 50px;
-    min-height: 145px;
-    position: relative;
-}
-
-.listing:hover {
-    background-color: #f3f3f3;
-}
-
-.listing img {
-    height: 100px;
-    float: left;
-    margin-right: 45px;
-    border-radius: 5px;
-}
-
-.listing a.image.wide {
-    max-width: 100%;
-    position: relative;
-    z-index: 999;
-}
-
-.listing .wide img {
-    height: initial;
-    width: 100%;
-    margin-bottom: 30px;
-}
-
-.listing .wide small {
-    display: none;
-}
-
-.listing a.image {
-    max-width: 150px;
-    display: block;
-    cursor: pointer;
-}
-
-.listing small {
-    float: left;
-    display: block;
-    text-align: center;
-    width: 136px;
-}
-
-.listing h3 {
-    padding: 0 15px 0 0;
-}
-
-.listing h3 a {
-    display: inline;
-}
-
-.listing .map {
-    position: absolute;
-    bottom: 13px;
-    right: 50px;
-    height: 120px;
-    width: 120px;
-    background-size: cover;
-    border-radius: 5px;
-}
-
-.listing .detail {
-    width: 36%;
-    display: inline-block;
-    padding: 10px 15px 0 0;
-    margin: 0;
-    font-weight: 300;
-    font-style: italic;
-}
-
-.listing .detail span {
-    font-weight: 400;
-    font-style: normal;
 }
 
 .show-listing .title {
@@ -316,3 +247,110 @@ p {
 .relative {
     position: relative;
 }
+
+/**
+ * Images Area
+ */
+
+.imageContainer {
+    text-decoration: none;
+    position: relative;
+}
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+}
+
+.imageContainer:hover .image {
+    opacity: 0.3;
+}
+
+.imageContainer:hover .middle {
+    opacity: 1;
+}
+
+.text {
+    color: #000000;
+    font-size: 46px;
+}
+
+.text span {
+
+}
+
+.projectTitle,
+.email, .email:hover, .email:focus {
+    text-decoration: none;
+    color: #000000;
+}
+
+.phone {
+    color: #000000;
+
+}
+
+/**
+ * Images Slideshow
+ */
+
+.mySlides {
+    display: none;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    position: relative;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 50%;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover, .prev:focus, .next:focus {
+    text-decoration: none;
+    color: #000;
+}
+
+/**
+ * Bio Image
+ */
+
+ .profile-pic {
+    height: 100% !important;
+    top: 0 !important;
+    right: 0 !important;
+    left: 10em;
+    border-radius: 50%;
+ }

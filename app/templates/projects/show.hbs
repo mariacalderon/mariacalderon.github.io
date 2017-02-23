@@ -1,19 +1,23 @@
 <div class="jumbo show-listing">
 	<h2 class="title">{{model.title}}</h2>
 	<div class="right detail-section">
-		<div class="detail owner">
-			<strong>Owner:</strong> {{model.owner}}
+		<div class="detail designer">
+			by <strong>{{model.designer}}</strong>
 		</div>
-		<div class="detail">
-			<strong>Type:</strong> {{project-property-type model.type}} - {{model.type}}
-		</div>
-		<div class="detail">
-			<strong>Location:</strong> {{model.city}}
-		</div>
-		<div class="detail">
-			<strong>Number of bedrooms:</strong> {{model.bedrooms}}
-		</div>
-		<p class="description">{{model.description}}</p>
+		<br>
+		<p class="description">{{project-description-html-format model.description}}</p>
+		{{#if model.video}}
+			<iframe src="https://player.vimeo.com/video/{{model.video}}?color=ffffff&title=0&byline=0&portrait=0" width="475" height="267" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+		{{/if}}
 	</div>
-	<img src="{{model.image}}" class="project-pic">
+	<div class="slideshow-container">
+		{{#each (each-picture model.number) as |imageIndex|}}
+			<div class="mySlides">
+				<img src="/assets/images/{{model.id}}/{{model.id}}_{{imageIndex}}.jpg" class="project-pic">
+			</div>
+		{{/each}}
+		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  		<a class="next" onclick="plusSlides(1)">&#10095;</a>
+	</div>
 </div>
+<script src="/assets/slideshow.js"></script>

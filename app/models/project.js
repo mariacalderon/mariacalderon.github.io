@@ -2,10 +2,9 @@ import DS from 'ember-data';
 
 export default DS.Model.extend({
 	title: DS.attr(),
-	owner: DS.attr(),
-	city: DS.attr(),
-	type: DS.attr(),
+	designer: DS.attr(),
 	image: DS.attr(),
-	bedrooms: DS.attr(),
-	description: DS.attr()
+	number: DS.attr(),
+	description: DS.attr(),
+	video: DS.attr()
 });
