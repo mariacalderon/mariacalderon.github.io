@@ -7,7 +7,7 @@ export default function() {
             attributes: {
                 title: 'Cofia',
                 designer: 'María Granda',
-                image: 'assets/images/cofia/cofia_0.jpg',
+                image: '/assets/images/cofia/cofia_0.jpg',
                 number: 1,
                 description: 'Work in progress',
                 video: ''
