@@ -22,7 +22,10 @@ module.exports = {
           40: 'rgb(var(--primary-text) / .40)',
           30: 'rgb(var(--primary-text) / .30)',
         }
-
+      },
+      fontFamily: {
+        gilroy: 'Gilroy',
+        sans: ['Helvetica', 'Nunito']
       }
     },
   },
