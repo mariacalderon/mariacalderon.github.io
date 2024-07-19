@@ -18,7 +18,7 @@ module.exports = {
       },
       fontFamily: {
         gilroy: 'Gilroy',
-        sans: ['Helvetica', 'Nunito']
+        sans: 'Nunito',
       }
     },
   },
