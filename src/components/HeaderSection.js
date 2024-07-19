@@ -7,7 +7,7 @@ const HeaderSection = (props) => {
   const { t } = useTranslation();
 
   const isSameURL = () => {
-    return window.location.pathname === props.url;
+    return window.location.pathname === props.url ? 'extrabold' : 'semibold'
   }
 
   const navigateTo = (url) => {
@@ -15,7 +15,7 @@ const HeaderSection = (props) => {
   };
 
   return (
-    <div className={`pl-7 font-semibold cursor-pointer ${isSameURL() && 'font-extrabold'}`} onClick={() => {navigateTo(props.url)}}>
+    <div className={`pl-7 cursor-pointer font-${isSameURL()}`} onClick={() => {navigateTo(props.url)}}>
       {t(props.title)}
     </div>
   )
