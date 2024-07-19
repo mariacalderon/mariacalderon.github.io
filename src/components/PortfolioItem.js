@@ -6,7 +6,7 @@ const PortfolioItem = (props) => {
   const { t } = useTranslation();
 
   return (
-    <div className={`flex flex-row${props.imageOnRight ? '-reverse' : ''} justify-between items-center gap-16 cursor-pointer`}>
+    <div className={`flex ${props.imageOnRight ? 'flex-row-reverse' : 'flex-row'} justify-center items-center gap-16 cursor-pointer`}>
       <div className="flex w-full max-w-72">
         <img src={props.image} alt={props.image_alt}/>
       </div>

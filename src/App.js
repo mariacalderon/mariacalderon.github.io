@@ -2,6 +2,7 @@ import { Routes, Route } from "react-router-dom";
 import Homepage from "./pages/Homepage";
 import Header from "./components/Header";
 import Aboutme from "./pages/Aboutme";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route path='/about' element={<Aboutme />} />
         </Routes>
       </div>
+      <Footer />
     </div>
   );
 }
