@@ -1,13 +1,11 @@
-import { Trans } from "react-i18next";
+import Hero from "../components/Hero";
 
 function Homepage() {
   return (
     <div>
-      <p>
-        <Trans i18nKey='HELLO'> <b></b></Trans>
-      </p>
+      <Hero />
     </div>
-  );
+  )
 };
 
 export default Homepage;
