@@ -1,4 +1,5 @@
 import { useTranslation } from "react-i18next";
+import { motion } from 'framer-motion';
 
 const Hero = () => {
 
@@ -10,27 +11,27 @@ const Hero = () => {
         <img className="object-fit" src="/assets/imgs/homepage/hero-image.png" alt='Maria' />
       </div>
       <div className="flex flex-col gap-3 z-10 pt-36 px-12 pb-12">
-        <div className="font-medium text-8xl">
+        <motion.div initial={{ opacity: 0, y: -50 }} animate={{ opacity: 1, y: 0 }} transition={{duration: 0.5, delay: 0.5}} className="font-medium text-8xl">
           {t('PORTFOLIO.HERO.TITLE')}
-        </div>
-        <div className="font-medium text-6xl text-hero-title-70">
+        </motion.div>
+        <motion.div initial={{ opacity: 0, y: -50 }} animate={{ opacity: 1, y: 0 }} transition={{duration: 0.5, delay: 1}} className="font-medium text-6xl text-hero-title-70">
           {t('PORTFOLIO.HERO.TEAMPLAYER')}
-        </div>
-        <div className="font-medium text-6xl text-hero-title-70">
+        </motion.div>
+        <motion.div initial={{ opacity: 0, y: -50 }} animate={{ opacity: 1, y: 0 }} transition={{duration: 0.5, delay: 1.5}} className="font-medium text-6xl text-hero-title-70">
           {t('PORTFOLIO.HERO.ADVENTUROUS')}
-        </div>
-        <div className="font-medium text-5xl text-hero-title-60">
+        </motion.div>
+        <motion.div initial={{ opacity: 0, y: -50 }} animate={{ opacity: 1, y: 0 }} transition={{duration: 0.5, delay: 2}} className="font-medium text-5xl text-hero-title-60">
           {t('PORTFOLIO.HERO.CATLOVER')}
-        </div>
-        <div className="font-medium text-5xl text-hero-title-50">
+        </motion.div>
+        <motion.div initial={{ opacity: 0, y: -50 }} animate={{ opacity: 1, y: 0 }} transition={{duration: 0.5, delay: 2.5}} className="font-medium text-5xl text-hero-title-50">
           {t('PORTFOLIO.HERO.CURIOUS')}
-        </div>
-        <div className="font-medium text-5xl text-hero-title-40">
+        </motion.div>
+        <motion.div initial={{ opacity: 0, y: -50 }} animate={{ opacity: 1, y: 0 }} transition={{duration: 0.5, delay: 3}} className="font-medium text-5xl text-hero-title-40">
           {t('PORTFOLIO.HERO.HAPPY')}
-        </div>
-        <div className="font-medium text-5xl text-hero-title-30">
+        </motion.div>
+        <motion.div initial={{ opacity: 0, y: -50 }} animate={{ opacity: 1, y: 0 }} transition={{duration: 0.5, delay: 3.5}} className="font-medium text-5xl text-hero-title-30">
           {t('PORTFOLIO.HERO.BRAVE')}
-        </div>
+        </motion.div>
       </div>
     </div>
   )

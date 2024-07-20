@@ -1,12 +1,21 @@
 import { useTranslation } from "react-i18next";
 import { FormattingTranslation } from "../utils/translationHook";
+import { motion } from "framer-motion";
 
 const PortfolioItem = (props) => {
 
   const { t } = useTranslation();
 
   return (
-    <div className={`flex ${props.imageOnRight ? 'flex-row-reverse' : 'flex-row'} justify-center items-center gap-16 cursor-pointer`}>
+    <motion.div
+      className={`flex ${props.imageOnRight ? 'flex-row-reverse' : 'flex-row'} justify-center items-center gap-16 cursor-pointer`}
+      whileHover={{
+        scale: 1.03,
+        transition: { duration: 0.4 },
+      }}
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1, duration: 2 }}
+    >
       <div className="flex w-full max-w-72">
         <img src={props.image} alt={props.image_alt}/>
       </div>
@@ -18,7 +27,7 @@ const PortfolioItem = (props) => {
           {FormattingTranslation(props.descriptionKey)}
         </div>
       </div>
-    </div>
+    </motion.div>
   )
 }
 
