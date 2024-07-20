@@ -23,7 +23,7 @@ const PortfolioItem = (props) => {
         <div className="text-4xl font-bold">
           {t(props.titleKey)}
         </div>
-        <div className="text-lg font-sans">
+        <div className="text-lg font-sans text-body">
           {FormattingTranslation(props.descriptionKey)}
         </div>
       </div>

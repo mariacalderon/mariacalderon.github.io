@@ -40,6 +40,32 @@
     }
   },
   "ABOUTME": {
-    "TITLE": "About"
+    "TITLE": "About",
+    "PAGE_TITLE": "About Me",
+    "DESCRIPTION": "Hello! I'm María, <bold>UX-UI designer with five years of experience</bold> in crafting engaging digital experiences for international projects. \n\n<bold>Currently based in Barcelona</bold>, my design journey has taken me across different countries, enriching my approach with diverse cultural perspectives. \n\nI have had the privilege of working with some of the <bold>world's leading companies, collaborating with global teams</bold> to deliver innovative solutions that meet user needs and business goals. <bold>My expertise is in understanding complex user journeys, creating intuitive interfaces, and ensuring seamless user interactions.</bold> \n\nI am passionate about every step of the design process—from research and ideation to prototyping and testing. Listening to users, uncovering their needs, and transforming insights into impactful designs is what drives me. \n\nI am dedicated to continuous learning and staying at the forefront of design trends and technologies. \n\nI am also highly skilled in <bold>teamwork, communication, and problem-solving. I do well in collaborative environments and thrive when working with diverse teams to achieve common goals. \n\nMy adaptability and empathy allow me to connect with users and stakeholders effectively, ensuring that their needs are always at the forefront of my design solutions.</bold> \n\nIn my portfolio, you'll find a selection of projects that showcase my ability to adapt to various challenges and deliver high-quality design solutions. Each project represents a unique story of collaboration, creativity, and problem-solving. I look forward to the opportunity to bring my experience and passion for design to new and exciting projects. Thank you for visiting my portfolio.",
+    "SKILLS": {
+      "TITLE": "Skills",
+      "DESIGN_THINKING": "Design thinking",
+      "DESIGN_SPRINT": "Design sprint",
+      "LEAN_STARTUP": "Lean Startup",
+      "UX": "UX research",
+      "PROTOTYPE": "Prototyping",
+      "WIREFRAME": "Wireframing",
+      "VISUAL_DESIGN": "Visual Design",
+      "USER_PERSONAS": "User Personas",
+      "USER_JOURNEY": "User Journey Mapping",
+      "INFO_ARCH": "Information Architecture",
+      "INTER_DESIGN": "Interaction Design",
+      "USABILITY": "Usability Testing",
+      "AB_TEST": "A/B Testing",
+      "UI": "User Interface (UI) Design",
+      "RESPONSIVE": "Responsive Design",
+      "A11Y": "Accessibility (a11y) Design",
+      "HEURISTIC": "Heuristic Evaluation",
+      "TASK": "Task Flows",
+      "AGILE": "Agile Methodologies",
+      "DESIGN_SYSTEMS": "Design Systems"
+    },
+    "TOOLS": "Tools"
   }
 }
