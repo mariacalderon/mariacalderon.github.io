@@ -1,4 +1,4 @@
-import { CONTACT_EMAIL, CONTACT_TEL, LINKEDIN_LINK } from "../utils/constants";
+import { CONTACT_EMAIL, CONTACT_TEL, LINKEDIN_LINK, NAME } from "../utils/constants";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Footer = () => {
@@ -10,7 +10,7 @@ const Footer = () => {
   return (
     <div className="bg-primary w-screen h-fit py-16 px-16 flex flex-row justify-between items-center z-40 text-2xl">
       <div className="flex font-bold">
-        Maria Calderón Granda
+        {NAME}
       </div>
       <div className="flex flex-col text-center gap-2 font-medium">
         <div className="cursor-pointer" onClick={() => {

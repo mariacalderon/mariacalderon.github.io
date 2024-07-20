@@ -1,6 +1,5 @@
 import { useTranslation } from "react-i18next";
 import { useNavigate } from "react-router-dom";
-import { PORTFOLIO_PATHS } from "../utils/constants";
 
 const HeaderSection = (props) => {
 
@@ -9,13 +8,7 @@ const HeaderSection = (props) => {
 
   const isCurrentPath = () => {
     const currentPath = window.location.pathname;
-    if (PORTFOLIO_PATHS.some((path) => {
-      return currentPath.includes(path)
-    })) {
-      return props.url === '/' ? 'font-extrabold' : 'font-semibold';
-    } else {
-      return currentPath === props.url ? 'font-extrabold' : 'font-semibold';
-    }
+    return currentPath === props.url ? 'font-extrabold' : 'font-semibold';
   }
 
   const navigateTo = (url) => {

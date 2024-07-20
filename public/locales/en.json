@@ -67,5 +67,72 @@
       "DESIGN_SYSTEMS": "Design Systems"
     },
     "TOOLS": "Tools"
+  },
+  "PROJECT_COMMON": {
+    "INFO": {
+      "ROLE": "My Role",
+      "TEAM": "The Team",
+      "TOOLS": "Tools",
+      "TIMING": "Timing"
+    },
+    "PROCESS": {
+      "TITLE": "Process",
+      "AUDIT": "Audit",
+      "EMPHATIZE": "Emphatize",
+      "SPECIFY": "Specify",
+      "IDEATE": "Ideate",
+      "HANDOFF": "Handoff",
+      "VERIFY": "Verify"
+    },
+    "ROLES": {
+      "PROD_DESIGN_LEAD": "Product Designer Lead",
+      "UXUI": "UX/UI"
+    },
+    "TEAM": {
+      "UX_RESEARCH": "{{count}} UX Research",
+      "UXUI_DESIGN": "{{count}} UX/UI Designer"
+    },
+    "TIMING": {
+      "MONTHS": "{{time}} months",
+      "WEEKS": "{{time}} weeks",
+      "ITERATIONS": "+ Iterations"
+    }
+  },
+  "AYOBA": {
+    "TITLE": "ayoba",
+    "OVERVIEW": {
+      "TITLE": "OVERVIEW",
+      "DESCRIPTION": "Ayoba is a <bold>SuperApp with 30 million</bold> monthly <bold>active users</bold> in more than <bold>15 African countries</bold> with 23 languages, including more than 8 African languages. <bold>MTN</bold> is the key investor, and one of the major telecommunications companies in Africa. \n\nAyoba is a cross platform app (Android, iOS, PWA) and offers a range of services such as <bold>Chat, Voip, Music, Games, News, Microapps, Payments, Gifting and more.</bold> \n\nOne of the key obstacles faced in Africa revolves around restricted internet access, primarily attributed to high data costs and infrastructure challenges. Ayoba addresses this issue by providing complimentary data, aiming to foster digital inclusion and broaden access to digital communication for a larger population."
+    },
+    "MESSAGING": {
+      "SUBTITLE": "Redesign messaging",
+      "CONTEXT": {
+        "TITLE": "Context of the problem",
+        "DESCRIPTION": "Ayoba's primary emphasis lies in attracting new <bold>clients</bold> through comprehensive marketing strategies, <bold>user retention, and user registration on all platforms.</bold> \n\n<bold>The overarching goal is to elevate user engagement and maintain an active involvement on the platform.</bold> \n\nAcknowledging the pivotal role messaging plays in Ayoba's functionality, <bold>the company has strategically opted to enhance the messaging experience.</bold> This enhancement involves various facets, including improvements in technology, the visual design UI, new fueatures, user experience, and brand aesthetics."
+      },
+      "CHALLENGE": {
+        "TITLE": "The Challenge",
+        "PRIMARY_CHALLENGE": {
+          "TITLE": "Primary Challenge:",
+          "DESCRIPTION": "The <bold>central challenge revolved around identifying the key features in messaging</bold> that were crucial for redesign. Given that messaging constitutes the <bold>core feature in Ayoba</bold>, the objective was to enhance these features with the aim of boosting user retention and engagement."
+        },
+        "TEAM_COLLABORATION": {
+          "TITLE": "Team Collaboration:",
+          "DESCRIPTION": "Messaging serves as the cornerstone feature in Ayoba, making it a substantial project. Another <bold>challenge was to collaborate closely with other teams, ensuring alignment and motivation across the board to collectively tackle this epic task.</bold>"
+        },
+        "ACCESSIBILITY": {
+          "TITLE": "Accessibility/Inclusivity:",
+          "DESCRIPTION": "Embarking on a <bold>fresh UI design</bold>, the paramount objective is to maintain the essence of ayoba branding while <bold>prioritizing accessibility</bold>. The exploration involved a thoughtful <bold>selection of colors that not only align with ayobas brand identity but also contribute to creating an accessible product</bold>. Striking a balance between aesthetics and inclusivity is key, ensuring that the new UI is visually appealing while catering to users with diverse needs."
+        },
+        "LEARNABILITY": {
+          "TITLE": "Learnability:",
+          "DESCRIPTION": "In this phase of the project, the primary goal is to optimize learnability by <bold>crafting a product that is both familiar and easy to use</bold>. The design should facilitate a seamless learning curve for users, ensuring that interacting with the product feels intuitive and requires minimal effort to grasp."
+        },
+        "PLATFORMS": {
+          "TITLE": "Platforms:",
+          "DESCRIPTION": "While developing the app, the main <bold>focus is based on Android users, giving them priority in terms of features and functionalities. However, post-project completion, there is a need to achieve parity for iOS and Progressive Web App (PWA) users.</bold>"
+        }
+      }
+    }
   }
 }

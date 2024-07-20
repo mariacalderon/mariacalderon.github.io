@@ -1,4 +1,4 @@
-import { m } from "framer-motion";
+import { Briefcase, Profile2User, Clock } from 'iconsax-react';
 
 export const NAV_SECTIONS = [
   {
@@ -13,11 +13,12 @@ export const NAV_SECTIONS = [
   },
 ];
 
+export const NAME = 'María Calderón Granda';
 export const CONTACT_EMAIL = 'mariacalderongranda@gmail.com';
 export const CONTACT_TEL = '+34 631 843 112';
 export const LINKEDIN_LINK = 'https://www.linkedin.com/in/mariacalderongranda/';
 
-export const PORTFOLIO_PATHS = ['ayoba', 'newitts'];
+export const PROJECTS = ['ayoba', 'newitts'];
 
 export const SKILLS_KEYS  = [
   'ABOUTME.SKILLS.DESIGN_THINKING',
@@ -54,3 +55,64 @@ export const TOOLS = [
   'Miro',
   'IA'
 ];
+
+export const PROJECT_DETAILS_BASIC = [
+  {
+    id: 'roles',
+    titleKey: "PROJECT_COMMON.INFO.ROLE",
+    icon: <Briefcase size={48} color='rgb(var(--blue))' />
+  },
+  {
+    id: 'team',
+    titleKey: "PROJECT_COMMON.INFO.TEAM",
+    icon: <Profile2User size={48} color='rgb(var(--blue))' />
+  },
+  {
+    id: 'tools',
+    titleKey: "PROJECT_COMMON.INFO.TOOLS",
+    iconPath: "/assets/icons/tools.png"
+  },
+  {
+    id: 'timing',
+    titleKey: "PROJECT_COMMON.INFO.TIMING",
+    icon: <Clock size={48} color='rgb(var(--blue))' />
+  },
+];
+
+export const PROJECT_DETAIL_PROCESS = {
+  titleKey: "PROJECT_COMMON.PROCESS.TITLE",
+  sections: [
+    {
+      id: 'audit',
+      titleKey: "PROJECT_COMMON.PROCESS.AUDIT",
+      iconPath: "/assets/icons/file-text.png"
+    },
+    {
+      id: 'emphatize',
+      titleKey: "PROJECT_COMMON.PROCESS.EMPHATIZE",
+      iconPath: "/assets/icons/heart.png"
+    },
+    {
+      id: 'specify',
+      titleKey: "PROJECT_COMMON.PROCESS.SPECIFY",
+      iconPath: "/assets/icons/specify.png"
+    },
+    {
+      id: 'ideate',
+      titleKey: "PROJECT_COMMON.PROCESS.IDEATE",
+      iconPath: "/assets/icons/edit.png"
+    },
+    {
+      id: 'handoff',
+      titleKey: "PROJECT_COMMON.PROCESS.HANDOFF",
+      iconPath: "/assets/icons/clipboard.png"
+    },
+    {
+      id: 'verify',
+      titleKey: "PROJECT_COMMON.PROCESS.VERIFY",
+      iconPath: "/assets/icons/check.png"
+    },
+  ]
+};
+
+export const AYOBA_LINK = "www.ayoba.me";

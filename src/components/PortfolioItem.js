@@ -1,10 +1,12 @@
 import { useTranslation } from "react-i18next";
 import { FormattingTranslation } from "../utils/translationHook";
 import { motion } from "framer-motion";
+import { useNavigate } from "react-router-dom";
 
 const PortfolioItem = (props) => {
 
   const { t } = useTranslation();
+  const navigate = useNavigate();
 
   return (
     <motion.div
@@ -15,6 +17,9 @@ const PortfolioItem = (props) => {
       }}
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1, duration: 2 }}
+      onClick={() => {
+        navigate(props.path)
+      }}
     >
       <div className="flex w-full max-w-72">
         <img src={props.image} alt={props.image_alt}/>

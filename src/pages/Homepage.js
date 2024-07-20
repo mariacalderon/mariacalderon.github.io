@@ -12,6 +12,7 @@ function Homepage() {
           image_alt='ayoba_messaging'
           titleKey='PORTFOLIO.AYOBA_REDESIGN.TITLE'
           descriptionKey='PORTFOLIO.AYOBA_REDESIGN.DESCRIPTION'
+          path='/ayoba/messaging'
         />
         <PortfolioItem
           imageOnRight={true}
@@ -19,6 +20,7 @@ function Homepage() {
           image_alt='ayoba_userprofile'
           titleKey='PORTFOLIO.AYOBA_USERPROFILE.TITLE'
           descriptionKey='PORTFOLIO.AYOBA_USERPROFILE.DESCRIPTION'
+          path='/ayoba'
         />
         <PortfolioItem
           imageOnRight={false}
@@ -26,6 +28,7 @@ function Homepage() {
           image_alt='ayoba_games'
           titleKey='PORTFOLIO.AYOBA_GAMES.TITLE'
           descriptionKey='PORTFOLIO.AYOBA_GAMES.DESCRIPTION'
+          path='/ayoba'
         />
         <PortfolioItem
           imageOnRight={true}
@@ -33,6 +36,7 @@ function Homepage() {
           image_alt='ayoba_music'
           titleKey='PORTFOLIO.AYOBA_MUSIC.TITLE'
           descriptionKey='PORTFOLIO.AYOBA_MUSIC.DESCRIPTION'
+          path='/ayoba'
         />
         <PortfolioItem
           imageOnRight={false}
@@ -40,6 +44,7 @@ function Homepage() {
           image_alt='newitts_ecommerce'
           titleKey='PORTFOLIO.NEWITTS_ECOMMERCE.TITLE'
           descriptionKey='PORTFOLIO.NEWITTS_ECOMMERCE.DESCRIPTION'
+          path='/newitts'
         />
       </div>
     </div>

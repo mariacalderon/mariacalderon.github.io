@@ -36,7 +36,13 @@
   --secondary-color: 241 241 241;
   --primary-text: 26 25 25;
   --body-text: 74 74 74;
-  --icon-color: 34 134 252;
+  --blue: 34 134 252;
+  --gray: 144 144 144;
+  --ayoba-blue: 0 142 224;
+  --ayoba-light-blue: 192 233 255;
+  --ayoba-red: 229 65 99;
+  --ayoba-purple: 100 33 151;
+  --newitts-gray: 42 44 57;
 }
 
 body {

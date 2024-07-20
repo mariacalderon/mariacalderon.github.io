@@ -16,7 +16,13 @@ module.exports = {
           40: 'rgb(var(--primary-text) / .40)',
           30: 'rgb(var(--primary-text) / .30)',
         },
-        'body': 'rgb(var(--body-text))'
+        'body': 'rgb(var(--body-text))',
+        'gray': 'rgb(var(--gray))',
+        'ayoba-blue': 'rgb(var(--ayoba-blue))',
+        'ayoba-light-blue': 'rgb(var(--ayoba-light-blue))',
+        'ayoba-red': 'rgb(var(--ayoba-red))',
+        'ayoba-purple': 'rgb(var(--ayoba-purple))',
+        'newitts-gray': 'rgb(var(--newitts-gray))',
       },
       fontFamily: {
         gilroy: 'Gilroy',

@@ -3,6 +3,7 @@ import Homepage from "./pages/Homepage";
 import Header from "./components/Header";
 import Aboutme from "./pages/Aboutme";
 import Footer from "./components/Footer";
+import AyobaMessaging from "./pages/AyobaMessaging";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           <Route path='*' element={<Homepage />} />
           <Route path='/' element={<Homepage />} />
           <Route path='/about' element={<Aboutme />} />
+          <Route path='/ayoba/messaging' element={<AyobaMessaging />} />
         </Routes>
       </div>
       <Footer />
