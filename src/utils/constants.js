@@ -13,6 +13,7 @@ export const NAV_SECTIONS = [
   },
 ];
 
+export const MCG_LOGO = "Maria Granda";
 export const NAME = 'María Calderón Granda';
 export const CONTACT_EMAIL = 'mariacalderongranda@gmail.com';
 export const CONTACT_TEL = '+34 631 843 112';

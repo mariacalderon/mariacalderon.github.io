@@ -23,7 +23,7 @@ const AyobaMessaging = () => {
         subtitleKey='AYOBA.MESSAGING.SUBTITLE'
         heroImage='ayoba-messaging/hero.png'
       />
-      <ProjectContentWithMargins styling='pt-40'>
+      <ProjectContentWithMargins styling='pt-40 sm:pt-16'>
         <ProjectDetails 
           projectTitle={t('AYOBA.MESSAGING.SUBTITLE')}
           roles={[
@@ -210,7 +210,7 @@ const AyobaMessaging = () => {
           <div>
             <ProjectSectionTitle type={H2} title='AYOBA.MESSAGING.UX_RESEARCH.DEMOGRAPHICS.TITLE' />
             <ProjectBodyText text='AYOBA.MESSAGING.UX_RESEARCH.DEMOGRAPHICS.DESCRIPTION' />
-            <div className="flex flex-row justify-center items-center p-10 gap-64">
+            <div className="flex flex-row justify-center items-center p-10 gap-64 sm:flex-col sm:gap-4">
               <img src="/assets/imgs/ayoba-messaging/demographic-1.png" alt="demographic-1" />
               <img src="/assets/imgs/ayoba-messaging/demographic-2.png" alt="demographic-2" />
             </div>
@@ -349,7 +349,7 @@ const AyobaMessaging = () => {
         <ProjectSectionTitle type={H1} title='AYOBA.MESSAGING.NEW_DESIGN.TOKENS' />
         <img className="w-full" src="/assets/imgs/ayoba-messaging/new-branding-tokens.png" alt="new-branding-tokens" />
         <ProjectSectionTitle type={H1} title='AYOBA.MESSAGING.NEW_DESIGN.NEW_DESIGN.TITLE' />
-        <div className="pr-16">
+        <div className="pr-16 flex flex-col gap-8">
           <div className="flex flex-col gap-4">
             <ProjectSectionTitle type={H2_BUBBLE} title='AYOBA.MESSAGING.NEW_DESIGN.NEW_DESIGN.FEED_CHAT.TITLE' />
             <ImageTextItem

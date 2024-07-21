@@ -1,5 +1,5 @@
 import HeaderSection from "./HeaderSection";
-import { NAME, NAV_SECTIONS, PROJECTS } from "../utils/constants";
+import { MCG_LOGO, NAV_SECTIONS, PROJECTS } from "../utils/constants";
 import { useCallback, useEffect } from "react";
 import { useLocation } from "react-router-dom";
 
@@ -17,7 +17,7 @@ const Header = () => {
       const projectName = currentPath.split('/')[1];
       return <img src={`/assets/icons/${projectName}.png`} alt={`${projectName}-logo`} />
     } else {
-      return NAME;
+      return MCG_LOGO;
     }
   }, []);
 
@@ -26,7 +26,7 @@ const Header = () => {
   }, [location, checkHeaderLogo]);
 
   return (
-    <div className="fixed top-8 left-12 right-12 bg-white h-fit py-5 px-7 rounded-lg shadow-lg flex flex-row justify-between items-center z-40">
+    <div className="fixed top-8 left-12 right-12 bg-white h-fit py-5 px-7 rounded-lg shadow-lg flex flex-row justify-between items-center z-40 sm:top-4 sm:left-6 sm:right-6">
       <div className="font-bold">
         {checkHeaderLogo()}
       </div>

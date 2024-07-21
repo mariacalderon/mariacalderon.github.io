@@ -11,6 +11,7 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import { fas } from '@fortawesome/free-solid-svg-icons';
 import { fab } from '@fortawesome/free-brands-svg-icons';
 import { far } from '@fortawesome/free-regular-svg-icons';
+import ScrollToTop from './utils/scrollToTop';
 library.add(fas, fab, far);
 
 const hist = createBrowserHistory();
@@ -19,6 +20,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <BrowserRouter history={hist}>
+      <ScrollToTop />
       <App />
     </BrowserRouter>
   </React.StrictMode>

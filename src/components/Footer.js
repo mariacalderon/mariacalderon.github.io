@@ -8,8 +8,8 @@ const Footer = () => {
   };
 
   return (
-    <div className="bg-primary w-screen h-fit py-16 px-16 flex flex-row justify-between items-center z-40 text-2xl">
-      <div className="flex font-bold">
+    <div className="bg-primary w-screen h-fit py-16 px-16 flex flex-row justify-between items-center z-40 text-2xl sm:flex-col sm:justify-center sm:gap-4">
+      <div className="flex font-bold sm:text-center">
         {NAME}
       </div>
       <div className="flex flex-col text-center gap-2 font-medium">

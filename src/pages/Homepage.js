@@ -10,7 +10,7 @@ function Homepage() {
   return (
     <div>
       <Hero />
-      <div className="py-40 px-60 flex flex-col gap-20">
+      <div className="py-40 px-60 flex flex-col gap-20 sm:py-20 sm:px-8">
         <ImageTextItem
           imageOnRight={false}
           image='/assets/imgs/homepage/ayoba-redesign_messaging.png'

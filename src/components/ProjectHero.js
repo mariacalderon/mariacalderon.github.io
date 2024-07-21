@@ -10,7 +10,7 @@ const ProjectHero = (props) => {
       <div className="absolute right-0 z-0">
         <img className="object-fit" src={`/assets/imgs/${props.heroImage}`} alt={`${t(props.subtitle)}-hero`} />
       </div>
-      <div className="flex flex-col w-screen gap-3 z-10 pt-80 px-12 pb-12">
+      <div className="flex flex-col w-screen gap-3 z-10 pt-80 px-12 pb-12 sm:pt-96">
         <motion.div initial={{ opacity: 0, y: -50 }} animate={{ opacity: 1, y: 0 }} transition={{duration: 0.5, delay: 0.5}} className="font-bold text-7xl text-white">
           {t(props.titleKey)}
         </motion.div>

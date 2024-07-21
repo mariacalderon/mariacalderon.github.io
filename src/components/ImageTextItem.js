@@ -7,7 +7,7 @@ const ImageTextItem = (props) => {
 
   return (
     <motion.div
-      className={`flex ${props.imageOnRight ? 'flex-row-reverse' : 'flex-row'} justify-center items-center gap-16 ${props.animated && 'cursor-pointer'} ${props.styling}`}
+      className={`flex ${props.imageOnRight ? 'flex-row-reverse' : 'flex-row'} justify-center items-center gap-16 ${props.animated && 'cursor-pointer'} ${props.styling} sm:flex-col-reverse`}
       whileHover={{
         scale: props.animated ? 1.03 : 1,
         transition: { duration: 0.4 },

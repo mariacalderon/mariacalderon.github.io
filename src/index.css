@@ -4,27 +4,27 @@
 
 @font-face {
   font-family: 'Gilroy';
-  src: url('../public/assets/fonts/Gilroy-Regular.otf') format('otf');
+  src: url('../public/assets/fonts/Gilroy-Regular.otf');
   font-weight: 400;
 }
 @font-face {
   font-family: 'Gilroy';
-  src: url('../public/assets/fonts/Gilroy-Medium.otf') format('otf');
+  src: url('../public/assets/fonts/Gilroy-Medium.otf');
   font-weight: 500;
 }
 @font-face {
   font-family: 'Gilroy';
-  src: url('../public/assets/fonts/Gilroy-Semibold.otf') format('otf');
+  src: url('../public/assets/fonts/Gilroy-Semibold.otf');
   font-weight: 600;
 }
 @font-face {
   font-family: 'Gilroy';
-  src: url('../public/assets/fonts/Gilroy-Bold.otf') format('otf');
+  src: url('../public/assets/fonts/Gilroy-Bold.otf');
   font-weight: 700;
 }
 @font-face {
   font-family: 'Gilroy';
-  src: url('../public/assets/fonts/Gilroy-Extrabold.otf') format('otf');
+  src: url('../public/assets/fonts/Gilroy-Extrabold.otf');
   font-weight: 800;
 }
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');

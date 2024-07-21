@@ -72,7 +72,7 @@ const ProjectDetails = (props) => {
     return props.process.map((proc, index) => {
       const item = PROJECT_DETAIL_PROCESS.sections.find(section => section.id === proc);
       return (
-        <div key={`${props.projectTitle}-${proc}`} className="flex flex-row">
+        <div key={`${props.projectTitle}-${proc}`} className="flex flex-row sm:flex-col sm:items-center">
           <div className="flex flex-col items-center">
             <div className="w-8">
               <img src={item.iconPath} alt={`proc-${props.projectTitle}-${item.id}`} />
@@ -83,7 +83,7 @@ const ProjectDetails = (props) => {
           </div>
           {
             index + 1 !== props.process.length &&
-            <div className="w-[95px] h-1/4 border-b-2 border-gray"></div>
+            <div className="w-[95px] h-1/4 border-b-2 border-gray sm:w-[2px] sm:h-[32px] sm:border-b-0 sm:border-l-2"></div>
           }
         </div>
       )
@@ -92,11 +92,11 @@ const ProjectDetails = (props) => {
 
   return (
     <div className="flex flex-col gap-4">
-      <div className="flex flex-row justify-between">
+      <div className="flex flex-row justify-between sm:flex-col sm:gap-4 sm:items-center">
         {
           PROJECT_DETAILS_BASIC.map((section) => {
             return (
-              <div key={`${props.projectTitle}-${section.id}`} className="flex flex-col gap-2">
+              <div key={`${props.projectTitle}-${section.id}`} className="flex flex-col w-full max-w-[70%] gap-2">
                 <div className="flex flex-row items-center gap-4">
                   <div className="w-12 flex items-start">
                     {
@@ -119,7 +119,7 @@ const ProjectDetails = (props) => {
         <div className="text-3xl font-bold">
           {t(PROJECT_DETAIL_PROCESS.titleKey)}
         </div>
-        <div className="flex flex-row">
+        <div className="flex flex-row sm:flex-col sm:items-center">
           {renderProcessData()}
         </div>
       </div>
