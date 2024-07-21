@@ -7,7 +7,6 @@ module.exports = {
     extend: {
       colors: {
         'primary': 'rgb(var(--primary-color))',
-        'secondary': 'rgb(var(--secondary-color))',
         'hero-title': {
           DEFAULT: 'rgb(var(--primary-text))',
           70: 'rgb(var(--primary-text) / .70)',
@@ -17,7 +16,13 @@ module.exports = {
           30: 'rgb(var(--primary-text) / .30)',
         },
         'body': 'rgb(var(--body-text))',
+        'light-gray': 'rgb(var(--light-gray))',
         'gray': 'rgb(var(--gray))',
+        'blue': 'rgb(var(--blue))',
+        'red': 'rgb(var(--red))',
+        'yellow': 'rgb(var(--yellow))',
+        'light-orange': 'rgb(var(--pale-orange))',
+        'green': 'rgb(var(--green))',
         'ayoba-blue': 'rgb(var(--ayoba-blue))',
         'ayoba-light-blue': 'rgb(var(--ayoba-light-blue))',
         'ayoba-red': 'rgb(var(--ayoba-red))',

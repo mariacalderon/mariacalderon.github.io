@@ -1,51 +1,86 @@
+import { useTranslation } from "react-i18next";
 import Hero from "../components/Hero";
-import PortfolioItem from "../components/PortfolioItem";
+import ImageTextItem from "../components/ImageTextItem";
+import { FormattingTranslation } from "../utils/translationHook";
 
 function Homepage() {
+
+  const { t } = useTranslation();
+
   return (
     <div>
       <Hero />
       <div className="py-40 px-60 flex flex-col gap-20">
-        <PortfolioItem
+        <ImageTextItem
           imageOnRight={false}
           image='/assets/imgs/homepage/ayoba-redesign_messaging.png'
           image_alt='ayoba_messaging'
-          titleKey='PORTFOLIO.AYOBA_REDESIGN.TITLE'
-          descriptionKey='PORTFOLIO.AYOBA_REDESIGN.DESCRIPTION'
           path='/ayoba/messaging'
-        />
-        <PortfolioItem
+          animated={true}
+        >
+          <div className="text-4xl font-bold">
+            {t('PORTFOLIO.AYOBA_REDESIGN.TITLE')}
+          </div>
+          <div className="text-lg font-sans text-body">
+            {FormattingTranslation('PORTFOLIO.AYOBA_REDESIGN.DESCRIPTION')}
+          </div>
+        </ImageTextItem>
+        <ImageTextItem
           imageOnRight={true}
           image='/assets/imgs/homepage/ayoba-userprofile.png'
           image_alt='ayoba_userprofile'
-          titleKey='PORTFOLIO.AYOBA_USERPROFILE.TITLE'
-          descriptionKey='PORTFOLIO.AYOBA_USERPROFILE.DESCRIPTION'
           path='/ayoba'
-        />
-        <PortfolioItem
+          animated={true}
+        >
+          <div className="text-4xl font-bold">
+            {t('PORTFOLIO.AYOBA_USERPROFILE.TITLE')}
+          </div>
+          <div className="text-lg font-sans text-body">
+            {FormattingTranslation('PORTFOLIO.AYOBA_USERPROFILE.DESCRIPTION')}
+          </div>
+        </ImageTextItem>
+        <ImageTextItem
           imageOnRight={false}
           image='/assets/imgs/homepage/ayoba-games.png'
           image_alt='ayoba_games'
-          titleKey='PORTFOLIO.AYOBA_GAMES.TITLE'
-          descriptionKey='PORTFOLIO.AYOBA_GAMES.DESCRIPTION'
           path='/ayoba'
-        />
-        <PortfolioItem
+          animated={true}
+        >
+          <div className="text-4xl font-bold">
+            {t('PORTFOLIO.AYOBA_GAMES.TITLE')}
+          </div>
+          <div className="text-lg font-sans text-body">
+            {FormattingTranslation('PORTFOLIO.AYOBA_GAMES.DESCRIPTION')}
+          </div>
+        </ImageTextItem>
+        <ImageTextItem
           imageOnRight={true}
           image='/assets/imgs/homepage/ayoba-music.png'
           image_alt='ayoba_music'
-          titleKey='PORTFOLIO.AYOBA_MUSIC.TITLE'
-          descriptionKey='PORTFOLIO.AYOBA_MUSIC.DESCRIPTION'
           path='/ayoba'
-        />
-        <PortfolioItem
+          animated={true}
+        >
+          <div className="text-4xl font-bold">
+            {t('PORTFOLIO.AYOBA_MUSIC.TITLE')}
+          </div>
+          <div className="text-lg font-sans text-body">
+            {FormattingTranslation('PORTFOLIO.AYOBA_MUSIC.DESCRIPTION')}
+          </div>
+        </ImageTextItem>
+        <ImageTextItem
           imageOnRight={false}
           image='/assets/imgs/homepage/newitts-ecommerce.png'
           image_alt='newitts_ecommerce'
-          titleKey='PORTFOLIO.NEWITTS_ECOMMERCE.TITLE'
-          descriptionKey='PORTFOLIO.NEWITTS_ECOMMERCE.DESCRIPTION'
           path='/newitts'
-        />
+          animated={true}
+        >
+          <div className="text-4xl font-bold">
+            {t('PORTFOLIO.NEWITTS_ECOMMERCE.TITLE')}
+          </div>
+          <div className="text-lg font-sans text-body">
+            {FormattingTranslation('PORTFOLIO.NEWITTS_ECOMMERCE.DESCRIPTION')}
+          </div>
+        </ImageTextItem>
       </div>
     </div>
   )

@@ -19,7 +19,7 @@ function Aboutme() {
           {FormattingTranslation('ABOUTME.DESCRIPTION')}
         </div>
       </div>
-      <div className="w-screen bg-secondary flex flex-row py-16 px-72 gap-11">
+      <div className="w-screen bg-light-gray flex flex-row py-16 px-72 gap-11">
         <div className="flex-2 font-bold text-3xl">
           {t('ABOUTME.SKILLS.TITLE')}
           <div className="border-b-2 border-body"></div>

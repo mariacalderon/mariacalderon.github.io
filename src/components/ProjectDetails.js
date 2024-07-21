@@ -13,7 +13,7 @@ const ProjectDetails = (props) => {
             {
               props.roles.map((role) => {
                 return (
-                  <div>
+                  <div key={`${props.projectTitle}-${role}`}>
                     {t(role)}
                   </div>
                 )
@@ -27,7 +27,7 @@ const ProjectDetails = (props) => {
             {
               props.team.map((teamItem) => {
                 return (
-                  <div>
+                  <div key={`${props.projectTitle}-${t(teamItem.role, {count: teamItem.count})}`}>
                     {t(teamItem.role, {count: teamItem.count})}
                   </div>
                 )
@@ -41,7 +41,7 @@ const ProjectDetails = (props) => {
             {
               props.tools.map((tool) => {
                 return (
-                  <div>
+                  <div key={`${props.projectTitle}-${tool}`}>
                     {tool}
                   </div>
                 )
@@ -55,7 +55,7 @@ const ProjectDetails = (props) => {
             {
               props.timing.map((time) => {
                 return (
-                  <div>
+                  <div key={`${props.projectTitle}-${t(time.timeUnit, {time: time.count})}`}>
                     {t(time.timeUnit, {time: time.count})}
                   </div>
                 )
@@ -72,7 +72,7 @@ const ProjectDetails = (props) => {
     return props.process.map((proc, index) => {
       const item = PROJECT_DETAIL_PROCESS.sections.find(section => section.id === proc);
       return (
-        <div className="flex flex-row">
+        <div key={`${props.projectTitle}-${proc}`} className="flex flex-row">
           <div className="flex flex-col items-center">
             <div className="w-8">
               <img src={item.iconPath} alt={`proc-${props.projectTitle}-${item.id}`} />

@@ -1,20 +1,18 @@
-import { useTranslation } from "react-i18next";
+import { FormattingTranslation } from "../utils/translationHook";
 
 const BulletList = (props) => {
-
-  const { t } = useTranslation();
   return (
-    <div className="text-lg">
+    <ul className={`pl-6 list-disc text-lg ${props.styling}`}>
       {
         props.list.map((item) => {
           return (
-            <div key={`bullet-${item}`} className="flex flex-row gap-2">
-              · {t(item)}
-            </div>
+            <li key={`bullet-${item}`} className="pl-2">
+              {FormattingTranslation(item)}
+            </li>
           )
         })
       }
-    </div>
+    </ul>
   )
 }
 

@@ -96,7 +96,8 @@
       "MONTHS": "{{time}} months",
       "WEEKS": "{{time}} weeks",
       "ITERATIONS": "+ Iterations"
-    }
+    },
+    "FOOTER": "If you would like to see more, don't hesitate to contact me!"
   },
   "AYOBA": {
     "TITLE": "ayoba",
@@ -131,6 +132,244 @@
         "PLATFORMS": {
           "TITLE": "Platforms:",
           "DESCRIPTION": "While developing the app, the main <bold>focus is based on Android users, giving them priority in terms of features and functionalities. However, post-project completion, there is a need to achieve parity for iOS and Progressive Web App (PWA) users.</bold>"
+        }
+      },
+      "APPROACH": {
+        "TITLE": "Approach",
+        "AUDIT": {
+          "TITLE": "UX/UI Audit",
+          "DESCRIPTION": "A comprehensive audit was conducted on the previous version to <bold>identify technical errors,  pain points, address accessibility issues, streamline user flows, and enhance visual design</bold>. This thorough examination aimed to identify and rectify any shortcomings or challenges present in the previous iteration, <bold>ensuring that the upcoming version delivers an improved and more seamless experience for users</bold>."
+        },
+        "RESEARCH": {
+          "TITLE": "UX Research",
+          "DESCRIPTION": "<bold>Analyzing both quantitative and qualitative data</bold> was a critical aspect of the UX research process.  The quantitative data provided insights, offering a broad view of user <bold>behaviours and patterns</bold>. On the other hand, qualitative data, derived from interviews and surveys, provided a <bold>clear vision upon user experiences, preferences, and perceptions</bold>."
+        },
+        "PRODUCT_PYRAMID": {
+          "TITLE": "Product Pyramid",
+          "DESCRIPTION": "Creating a product pyramid for the messaging platform, was <bold>essential to structure features into three distinct levels</bold> that progressively address user needs and elevate the platform features. Each level builds upon the foundation laid by the previous one, providing a roadmap for the project's advancement."
+        },
+        "WORKSHOP": {
+          "TITLE": "Workshops",
+          "DESCRIPTION": "Conducting two workshop sessions with the entire ayoba team proved invaluable in uncovering both <bold>pain points and generating ideas for new features for the app</bold>. These collaborative sessions provided a platform for collective insights and brainstorming, fostering a shared vision among team members."
+        },
+        "IDEATION": {
+          "TITLE": "Ideation and design work",
+          "DESCRIPTION": "UX/UI exploration of <bold>new ideas and concepts</bold>."
+        },
+        "PROTOTYPES": {
+          "TITLE": "Prototypes for Usability and A/B testing:",
+          "DESCRIPTION": "The primary goal was to gauge <bold>how effectively users could accomplish specific tasks</bold> within the new system and to <bold>pinpoint any pain points or challenges they encountered</bold>. \n\nA/B testing was employed to compare two or more versions of the design, aiming to identify which version performed better in terms of user engagement, conversion rates, or other relevant metrics."
+        },
+        "FINAL_ITERATION": {
+          "TITLE": "Final Iteration",
+          "DESCRIPTION": "The final UX/UI iteration for the messaging platform was done by the incorporation of all new features and the valuable insights obtained from user tests."
+        },
+        "SYSTEMS": {
+          "TITLE": "Design system",
+          "DESCRIPTION": "<bold>The old design system was scaled up with new components</bold> and a new design system for iOS was created."
+        },
+        "HANDOFF": {
+          "TITLE": "Handoffs",
+          "DESCRIPTION": "The delivery of high-fidelity deliverables marked a significant milestone, equipping developers and quality assurance (QA) teams with comprehensive resources for the implementation and testing phases. The deliverables included: User Stories, new UX/UI, interaction details, component specifications and usage guidelines."
+        },
+        "QA": {
+          "TITLE": "QA and Demos",
+          "DESCRIPTION": "The UX/UI team provided support in demos for the QA process and final deliverables."
+        },
+        "METRICS": {
+          "TITLE": "Metrics/KPIs",
+          "DESCRIPTION": "<bold>New events are created to track the results of the new UX/UI</bold>,  integrating analytics tools such firebase and google analytics."
+        }
+      },
+      "AUDIT": {
+        "TITLE": "Audit",
+        "DESCRIPTION": "A comprehensive audit was conducted to <bold>identify pain points and areas for improvement in both the user interface (UI) and user experience (UX)</bold> \n\nThe goal of this UX audit was to identify any potencial usability issues. \nRecommendations were based on:",
+        "BULLET_LIST": {
+          "USERPROFILE": "User profile",
+          "PRINCIPLES": "General UX principles",
+          "INTERACTION": "Interaction design",
+          "COGNITIVE": "Cognitive psychology",
+          "USABILITY": "Usability",
+          "ACCESSIBILITY": "Accessibility etc."
+        },
+        "LEGEND": {
+          "TITLE": "Audit Legend",
+          "CRITICAL": {
+            "TITLE": "Critical- Tech, UX, UI",
+            "DESCRIPTION": "Critical violation: Urgent issues/bugs that <bold>disturb the user experience</bold>"
+          },
+          "AVERAGE": {
+            "TITLE": "Average- Tech, UX,UI",
+            "DESCRIPTION": "Average violation: Issues that can <bold>disturb some of the users and can improve the UX</bold>"
+          },
+          "LOW": {
+            "TITLE": "Low- Tech, UX, UI",
+            "DESCRIPTION": "Low Violation: That might <bold>disturb a small percentage of users</bold>"
+          }
+        },
+        "KEY_INSIGHTS": {
+          "TITLE": "Key insights:",
+          "DESC": "We found that <bold>the app has significant issues in basic functionalities</bold>, fiixing these will greatly enhance  user satisfaction and usability.",
+          "DESC_2": "Prioritize <bold>fixing critical bugs</bold> and enhancing key functionalities to <bold>improve immediate user experience</bold>.",
+          "DESC_3": "<bold>Integrating more robust functionalities</bold> and enhancing media sharing capabilities (e.g., video editing, large file handling) can make the app more competitive and appealing to users.",
+          "DESC_4": "The app's <bold>user interface requires significant updates</bold> to align with <bold>modern design principles, improve accessibility, and provide a consistent user experience</bold> across different devices.",
+          "DESC_5": "Addressing issues like <bold>button visibility, contrast, and the clarity of interactive elements</bold> will improve accesibility.",
+          "DESC_6": "Ayoba's unique offerings, such as <bold>free data for messaging</bold> and entertainment features, are strong selling points. <bold>Enhancing and promoting these features</bold> can differentiate Ayoba from competitors.",
+          "DESC_7": "Improving the <bold>transparency of privacy settings</bold> and making them more accessible can reassure users about their data security."
+        }
+      },
+      "ARCHITECTURE": {
+        "TITLE": "Information architecture",
+        "SITE_MAP": {
+          "TITLE": "Site map",
+          "DESCRIPTION": "The site map helped us to facilitates the <bold>evaluation of the messaging structure to identify potential vulnerabilitie or areas that could be exploited</bold>."
+        }
+      },
+      "UX_RESEARCH": {
+        "TITLE": "UX research",
+        "DESCRIPTION": "<bold>Interviews and surveys</bold> were conducted by the UX researcher team, who played a pivotal role in gathering valuable insights.\n\nThe findings presented here offer merely a surface-level glimpse into the profound depth of this extensive investigation.\n\nMe as a Owner of the project and with the support of the UX/UI team, I used this information to make <bold>important decisions, detected pain points, create new ideas features and improvements</bold>.",
+        "DEMOGRAPHICS": {
+          "TITLE": "Demographics:",
+          "DESCRIPTION": "<bold>Africa</bold> has the world's <bold>youngest</bold> and <bold>fastest growing population</bold>.\n\n<bold>Young people</bold> are generally more optimistic about the future, are more likely to believe that they can positively impact their country's governance, and are more likely to start their <bold>own busines</bold>.",
+          "DESCRIPTION_2": "<bold>1.3 billion people already live in Africa - more people than in Europe and North America combined</bold>."
+        },
+        "FEATURES": {
+          "TITLE": "Most features used in ayoba by Countries"
+        },
+        "BEHAVIOUR": {
+          "TITLE": "Browsing behaviour, technical competency:",
+          "DESCRIPTION": "Our users all <bold>“Browse Facebook or Instagram or TikTok or Snapchat”</bold> \n\nIn terms of <bold>messsaging platforms</bold> they use <bold>whatssap, messaging, instagram,telegram and moya</bold>."
+        },
+        "MEDIA_BEHAVIOUR": {
+          "TITLE": "Text, image, video messaging behaviour:",
+          "DESC": "Users tend to send <bold>text messages to check in</bold> with their <bold>friends or family</bold>.",
+          "DESC_2": "Sometimes they send  text messages if there is an urgency but is usually they use SMS for this scenario as they think it is faster and more trustworthy.",
+          "DESC_3": "They feel more comfortable sending <bold>text messages in work enviroments</bold> than voice messages.",
+          "DESC_4": "Regards to the messages of <bold>video an image</bold> they <bold>don't like the automatic download</bold> as they <bold>don't have a lot of space in their devices</bold>. They want to decide if they want to download these media"
+        },
+        "VOICE_MESSAGING": {
+          "TITLE": "Voice messaging behaviour:",
+          "DESC": "Some of our users have <bold>illiteracy Issues</bold>, so they use a lot the voice messages thats why it is an oportunity to have improvements in this area.",
+          "DESC_2": "Other users are <bold>lazy to type</bold>, prefer voice messages.",
+          "DESC_3": "Some users consider voice messages <bold>faster than typing</bold>",
+          "DESC_4": "They love the option <bold>handsfree</bold>.",
+          "DESC_5": "When they receive a voice messages <bold>they don't like others can hear it</bold>."
+        },
+        "ACCESSIBILITY": {
+          "TITLE": "Accesibility",
+          "DESCRIPTION": "<bold>Approximately 26.3 million</bold> people in the African Region are reported to have a form of <bold>visual impairment</bold>, according to the World Health Organization (WHO). \n\n<bold>Among them, 20.4 million individuals experience low vision</bold>, while an estimated <bold>5.9 million are considered blind</bold>."
+        },
+        "OTHERS": {
+          "TITLE": "What users don't know about ayoba",
+          "SUBTITLE": "Features",
+          "DESC": "SMS through ayoba",
+          "DESC_2": "Invite to ayoba through ayoba",
+          "DESC_3": "Doesn't know that one can create groups",
+          "DESC_4": "Doesn't know that one can post stories"
+        }
+      },
+      "COMPETITORS": {
+        "TITLE": "Competitors Benchmark",
+        "APPS": {
+          "TITLE": "Most popular apps in Africa",
+          "DESCRIPTION": "Most popular apps in <bold>Africa</bold> are <bold>Whatsapp, Messenger, Telegram and other direct competitors are Moya and Sasai</bold>"
+        }
+      },
+      "INSIGHTS": {
+        "TITLE": "Insight & key-Findings",
+        "DESCRIPTION": "The <bold>insights</bold> gained from the <bold>audit, site map, UX research, the benchmark and quantitative data from Firebase and Google Analytics</bold>, led to the following founds:",
+        "PAIN_POINTS": {
+          "TITLE": "Pain points:",
+          "DESC": "Unfortunately, <bold>ayoba doesn't cover the bases of a platform messaging</bold>, it has a lot of <bold>wrong user flows, some basic features don't exist and also has features with technical problems</bold>.",
+          "DESC_2": "As we saw in the research <bold>Africans</bold> have a lot of <bold>vision problems</bold> and Ayoba has to face significant accessibility challenges, primarily stemming from a <bold>low contrast between elements in the chat interface</bold>. Additionally, the font used is too light, <bold>compromising readability for users</bold>.",
+          "DESC_3": "On our research, <bold>we identified literacy challenges</bold>, but <bold>Ayoba is not currently prioritizing accessibility</bold> measures for these users.",
+          "DESC_4": "Still some <bold>inconsistency throughout the app UI, iconography, buttons, etc</bold> (can make the user feel confused)",
+          "DESC_5": "<bold>Very old look & feel.</bold>",
+          "DESC_6": "<bold>Contacts do not sincronyze correctly with native device</bold>.",
+          "DESC_7": "Some <bold>features don't work correctly between platforms Androdi-iOS and PWA</bold>.",
+          "DESC_8": "Some basic <bold>features</bold> are very <bold>difficult for our users to find them</bold>, (create a group, invite friends, archive chat etc). (Bad AI)",
+          "DESC_9": "There is a <bold>high percentage of churn because users feel don't have enough contacts on ayoba</bold>.",
+          "DESC_10": "Users <bold>would love to invite their friends and family to use ayoba but they don't know how to do it</bold>.",
+          "DESC_11": "<bold>Ayoba is very far away from its competitors</bold> in terms of good user experience and offers nice features in messaging ."
+        },
+        "INSIGHTS": {
+          "TITLE": "Insights:",
+          "DESC": "Despite all the problems we found in Ayoba messaging, users use the app because <bold>most of the features in ayoba come with Free Data</bold>.",
+          "DESC_2": "<bold>Free data is the big value</bold> of ayoba against our competitors .",
+          "DESC_3": "Even though our users complain that they would like to have more contacts, <bold>messaging is the most used feature in ayoba</bold>.",
+          "DESC_4": "Users would like to express themselves on chat with new features as reactions.",
+          "DESC_5": "Users would like to be able to <bold>browse the app while they have voice calls on</bold>.",
+          "DESC_6": "For users is important to <bold>have social features on messaging</bold>."
+        },
+        "SOLUTIONS": {
+          "TITLE": "Solutions:",
+          "DESC": "Based on the research, audit and benchmark the <bold>priority is to cover the core of a messaging platform with a good experience</bold>.",
+          "DESC_2": "<bold>Accessibility for people with vision problems is a must</bold>, ayoba has to work in better contrast and better readability. (WCAG)",
+          "DESC_3": "<bold>For users who may face challenges with reading and writing ayoba has to improve on the feature of voice notes</bold> as come up with <bold>new solutions as subtitles, voice command etc</bold> ( 3rd level feature) ",
+          "DESC_4": "Improve layouts for better readability and an intuitive navigation.",
+          "DESC_5": "Address the clutter on the messaging feature having <bold>consistency in the UI.</bold>",
+          "DESC_6": "Relocate options that users are looking for and cannot find with a <bold>better information architecture (Invite friends)</bold>",
+          "DESC_7": "Once the bases cover the team can start working to land the ideas for high features which means specific features for our users."
+        }
+      },
+      "PRODUCT_PYRAMID": {
+        "TITLE": "Product Pyramid",
+        "DESCRIPTION": "The <bold>product strategy pyramid</bold> was established to visualize the product build strategy.\n\nThe strategy is divided into three levels, each addressing specific aspects and progressively advancing the project to where we want to go. <bold>Defining the foundation/basis</bold> covers the basics of the messaging app and <bold>when moving up the pyramid</bold> we address high and specific features for our users."
+      },
+      "WORKSHOP": {
+        "TITLE": "Workshop",
+        "DESCRIPTION": "Conducting two workshop sessions with the entire Ayoba team proved invaluable in uncovering both pain points and generating ideas for new features for the app. \nThese collaborative sessions provided a platform for collective insights and brainstorming, fostering a shared vision among team members."
+      },
+      "NEW_DESIGN": {
+        "DISCLAIMER": "***Be aware that you are only seeing 5% of all the work that was done.",
+        "TOKENS": "New Branding Tokens",
+        "NEW_DESIGN": {
+          "TITLE": "New Design messaging for ayoba",
+          "FEED_CHAT": {
+            "TITLE": "Feed Chat",
+            "DESC": "Definition of contact cards with different elements",
+            "DESC_2": "Cleaner design",
+            "DESC_3": "Intuitive design",
+            "DESC_4": "New AI (profile",
+            "DESC_5": "New bottom Nav"
+          },
+          "P2P_CHAT": {
+            "TITLE": "P2P Chat",
+            "DESC": "Definition of Message Speech Bubble. (Open, Middle, Close).",
+            "DESC_2": "Definition of spacings between (sender and receiver) bubbles.",
+            "DESC_3": "Definition of border radius.",
+            "DESC_4": "Definition of spacings between same P2P bubbles.",
+            "DESC_5": "Definition of animation.",
+            "DESC_6": "Improvement in tappable areas.",
+            "DESC_7": "Definition of timestamp placement.",
+            "DESC_8": "Accessibility and readability improvements.",
+            "DESC_9": "The contrast between bubble background and text, passed the contrast checker from WCAG 3.0 guidelines."
+          },
+          "REACTIONS": {
+            "TITLE": "Reactions in chat",
+            "DESC": "New feature in ayoba",
+            "DESC_2": "Reactions in p2p chat",
+            "DESC_3": "Reactions in groups",
+            "DESC_4": "Intuitive design",
+            "DESC_5": "Clean design"
+          },
+          "STORIES": {
+            "TITLE": "Stories",
+            "DESC": "New feature in ayoba",
+            "DESC_2": "Intuitive design",
+            "DESC_3": "Editing tools",
+            "DESC_4": "Video stories",
+            "DESC_5": "Pictures stories",
+            "DESC_6": "Text stories"
+          }
+        },
+        "ELEMENTS": {
+          "CHAT_LIST": "Chat List elements",
+          "TEXT_BUBBLES": "Design text bubbles",
+          "BEHAVIOUR_BUBBLES": "Behaviour text bubbles",
+          "DATA_STATES": "Registration data states",
+          "VIDEO_STATES": "Video bubbles states",
+          "CARDS_CHAT": "Some Cards Chat"
         }
       }
     }

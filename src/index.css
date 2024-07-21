@@ -33,11 +33,15 @@
   --foreground-rgb: 0, 0, 0;
   --background-rgb: 249 249 249;
   --primary-color: 224 224 219;
-  --secondary-color: 241 241 241;
   --primary-text: 26 25 25;
   --body-text: 74 74 74;
   --blue: 34 134 252;
+  --light-gray: 241 241 241;
   --gray: 144 144 144;
+  --red: 240 95 56;
+  --yellow: 253 185 51;
+  --pale-orange: 250 233 208;
+  --green: 93 176 117;
   --ayoba-blue: 0 142 224;
   --ayoba-light-blue: 192 233 255;
   --ayoba-red: 229 65 99;
