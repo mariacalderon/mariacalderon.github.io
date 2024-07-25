@@ -114,23 +114,23 @@
       "CHALLENGE": {
         "TITLE": "The Challenge",
         "PRIMARY_CHALLENGE": {
-          "TITLE": "Primary Challenge:",
+          "TITLE": "Primary Challenge",
           "DESCRIPTION": "The <bold>central challenge revolved around identifying the key features in messaging</bold> that were crucial for redesign. Given that messaging constitutes the <bold>core feature in Ayoba</bold>, the objective was to enhance these features with the aim of boosting user retention and engagement."
         },
         "TEAM_COLLABORATION": {
-          "TITLE": "Team Collaboration:",
+          "TITLE": "Team Collaboration",
           "DESCRIPTION": "Messaging serves as the cornerstone feature in Ayoba, making it a substantial project. Another <bold>challenge was to collaborate closely with other teams, ensuring alignment and motivation across the board to collectively tackle this epic task.</bold>"
         },
         "ACCESSIBILITY": {
-          "TITLE": "Accessibility/Inclusivity:",
+          "TITLE": "Accessibility/Inclusivity",
           "DESCRIPTION": "Embarking on a <bold>fresh UI design</bold>, the paramount objective is to maintain the essence of ayoba branding while <bold>prioritizing accessibility</bold>. The exploration involved a thoughtful <bold>selection of colors that not only align with ayobas brand identity but also contribute to creating an accessible product</bold>. Striking a balance between aesthetics and inclusivity is key, ensuring that the new UI is visually appealing while catering to users with diverse needs."
         },
         "LEARNABILITY": {
-          "TITLE": "Learnability:",
+          "TITLE": "Learnability",
           "DESCRIPTION": "In this phase of the project, the primary goal is to optimize learnability by <bold>crafting a product that is both familiar and easy to use</bold>. The design should facilitate a seamless learning curve for users, ensuring that interacting with the product feels intuitive and requires minimal effort to grasp."
         },
         "PLATFORMS": {
-          "TITLE": "Platforms:",
+          "TITLE": "Platforms",
           "DESCRIPTION": "While developing the app, the main <bold>focus is based on Android users, giving them priority in terms of features and functionalities. However, post-project completion, there is a need to achieve parity for iOS and Progressive Web App (PWA) users.</bold>"
         }
       },
@@ -157,7 +157,7 @@
           "DESCRIPTION": "UX/UI exploration of <bold>new ideas and concepts</bold>."
         },
         "PROTOTYPES": {
-          "TITLE": "Prototypes for Usability and A/B testing:",
+          "TITLE": "Prototypes for Usability and A/B testing",
           "DESCRIPTION": "The primary goal was to gauge <bold>how effectively users could accomplish specific tasks</bold> within the new system and to <bold>pinpoint any pain points or challenges they encountered</bold>. \n\nA/B testing was employed to compare two or more versions of the design, aiming to identify which version performed better in terms of user engagement, conversion rates, or other relevant metrics."
         },
         "FINAL_ITERATION": {
@@ -183,7 +183,7 @@
       },
       "AUDIT": {
         "TITLE": "Audit",
-        "DESCRIPTION": "A comprehensive audit was conducted to <bold>identify pain points and areas for improvement in both the user interface (UI) and user experience (UX)</bold> \n\nThe goal of this UX audit was to identify any potencial usability issues. \nRecommendations were based on:",
+        "DESCRIPTION": "A comprehensive audit was conducted to <bold>identify pain points and areas for improvement in both the user interface (UI) and user experience (UX)</bold> \n\nThe goal of this UX audit was to identify any potencial usability issues. \nRecommendations were based on",
         "BULLET_LIST": {
           "USERPROFILE": "User profile",
           "PRINCIPLES": "General UX principles",
@@ -208,7 +208,7 @@
           }
         },
         "KEY_INSIGHTS": {
-          "TITLE": "Key insights:",
+          "TITLE": "Key insights",
           "DESC": "We found that <bold>the app has significant issues in basic functionalities</bold>, fiixing these will greatly enhance  user satisfaction and usability.",
           "DESC_2": "Prioritize <bold>fixing critical bugs</bold> and enhancing key functionalities to <bold>improve immediate user experience</bold>.",
           "DESC_3": "<bold>Integrating more robust functionalities</bold> and enhancing media sharing capabilities (e.g., video editing, large file handling) can make the app more competitive and appealing to users.",
@@ -229,7 +229,7 @@
         "TITLE": "UX research",
         "DESCRIPTION": "<bold>Interviews and surveys</bold> were conducted by the UX researcher team, who played a pivotal role in gathering valuable insights.\n\nThe findings presented here offer merely a surface-level glimpse into the profound depth of this extensive investigation.\n\nMe as a Owner of the project and with the support of the UX/UI team, I used this information to make <bold>important decisions, detected pain points, create new ideas features and improvements</bold>.",
         "DEMOGRAPHICS": {
-          "TITLE": "Demographics:",
+          "TITLE": "Demographics",
           "DESCRIPTION": "<bold>Africa</bold> has the world's <bold>youngest</bold> and <bold>fastest growing population</bold>.\n\n<bold>Young people</bold> are generally more optimistic about the future, are more likely to believe that they can positively impact their country's governance, and are more likely to start their <bold>own busines</bold>.",
           "DESCRIPTION_2": "<bold>1.3 billion people already live in Africa - more people than in Europe and North America combined</bold>."
         },
@@ -237,18 +237,18 @@
           "TITLE": "Most features used in ayoba by Countries"
         },
         "BEHAVIOUR": {
-          "TITLE": "Browsing behaviour, technical competency:",
+          "TITLE": "Browsing behaviour, technical competency",
           "DESCRIPTION": "Our users all <bold>“Browse Facebook or Instagram or TikTok or Snapchat”</bold> \n\nIn terms of <bold>messsaging platforms</bold> they use <bold>whatssap, messaging, instagram,telegram and moya</bold>."
         },
         "MEDIA_BEHAVIOUR": {
-          "TITLE": "Text, image, video messaging behaviour:",
+          "TITLE": "Text, image, video messaging behaviour",
           "DESC": "Users tend to send <bold>text messages to check in</bold> with their <bold>friends or family</bold>.",
           "DESC_2": "Sometimes they send  text messages if there is an urgency but is usually they use SMS for this scenario as they think it is faster and more trustworthy.",
           "DESC_3": "They feel more comfortable sending <bold>text messages in work enviroments</bold> than voice messages.",
           "DESC_4": "Regards to the messages of <bold>video an image</bold> they <bold>don't like the automatic download</bold> as they <bold>don't have a lot of space in their devices</bold>. They want to decide if they want to download these media"
         },
         "VOICE_MESSAGING": {
-          "TITLE": "Voice messaging behaviour:",
+          "TITLE": "Voice messaging behaviour",
           "DESC": "Some of our users have <bold>illiteracy Issues</bold>, so they use a lot the voice messages thats why it is an oportunity to have improvements in this area.",
           "DESC_2": "Other users are <bold>lazy to type</bold>, prefer voice messages.",
           "DESC_3": "Some users consider voice messages <bold>faster than typing</bold>",
@@ -277,9 +277,9 @@
       },
       "INSIGHTS": {
         "TITLE": "Insight & key-Findings",
-        "DESCRIPTION": "The <bold>insights</bold> gained from the <bold>audit, site map, UX research, the benchmark and quantitative data from Firebase and Google Analytics</bold>, led to the following founds:",
+        "DESCRIPTION": "The <bold>insights</bold> gained from the <bold>audit, site map, UX research, the benchmark and quantitative data from Firebase and Google Analytics</bold>, led to the following founds",
         "PAIN_POINTS": {
-          "TITLE": "Pain points:",
+          "TITLE": "Pain points",
           "DESC": "Unfortunately, <bold>ayoba doesn't cover the bases of a platform messaging</bold>, it has a lot of <bold>wrong user flows, some basic features don't exist and also has features with technical problems</bold>.",
           "DESC_2": "As we saw in the research <bold>Africans</bold> have a lot of <bold>vision problems</bold> and Ayoba has to face significant accessibility challenges, primarily stemming from a <bold>low contrast between elements in the chat interface</bold>. Additionally, the font used is too light, <bold>compromising readability for users</bold>.",
           "DESC_3": "On our research, <bold>we identified literacy challenges</bold>, but <bold>Ayoba is not currently prioritizing accessibility</bold> measures for these users.",
@@ -293,7 +293,7 @@
           "DESC_11": "<bold>Ayoba is very far away from its competitors</bold> in terms of good user experience and offers nice features in messaging ."
         },
         "INSIGHTS": {
-          "TITLE": "Insights:",
+          "TITLE": "Insights",
           "DESC": "Despite all the problems we found in Ayoba messaging, users use the app because <bold>most of the features in ayoba come with Free Data</bold>.",
           "DESC_2": "<bold>Free data is the big value</bold> of ayoba against our competitors .",
           "DESC_3": "Even though our users complain that they would like to have more contacts, <bold>messaging is the most used feature in ayoba</bold>.",
@@ -302,7 +302,7 @@
           "DESC_6": "For users is important to <bold>have social features on messaging</bold>."
         },
         "SOLUTIONS": {
-          "TITLE": "Solutions:",
+          "TITLE": "Solutions",
           "DESC": "Based on the research, audit and benchmark the <bold>priority is to cover the core of a messaging platform with a good experience</bold>.",
           "DESC_2": "<bold>Accessibility for people with vision problems is a must</bold>, ayoba has to work in better contrast and better readability. (WCAG)",
           "DESC_3": "<bold>For users who may face challenges with reading and writing ayoba has to improve on the feature of voice notes</bold> as come up with <bold>new solutions as subtitles, voice command etc</bold> ( 3rd level feature) ",
@@ -370,6 +370,87 @@
           "DATA_STATES": "Registration data states",
           "VIDEO_STATES": "Video bubbles states",
           "CARDS_CHAT": "Some Cards Chat"
+        }
+      }
+    },
+    "PROFILE": {
+      "SUBTITLE": "Profile AND-iOS",
+      "CONTEXT": {
+        "TITLE": "Context of the problem",
+        "DESCRIPTION": "The main functionality in ayoba is <bold>messaging and our goal is to improve different functionalities in this field</bold>.\n\nWe notice that <bold>profile users</bold> are significant as it offers our <bold>users the feeling that has a space</bold> and they are <bold>part of our ayoba community</bold>. To get our users the feeling of being part of our app we need to <bold>improve</bold> in areas such as <bold>discoverability, shared interest, customization, content sharing, discovering, privacy and security</bold>."
+      },
+      "BENCHMARK": {
+        "TITLE": "Benchmark",
+        "DESCRIPTION": "A benchmark of our competitors helps us to detect <bold>what we are doing badly in this feature</bold> and allow us to discover <bold>patterns in user profiles that follow different apps</bold> such as architecture information, ways of edition information, shortcuts etc \n\n<bold>This Benchmark aimed to identify and rectify pain points present in the current design</bold>.",
+        "FINDINGS": {
+          "TITLE": "Benchmark findings",
+          "PERSONALIZATION": {
+            "TITLE": "Personalization and customization",
+            "DESC": "We found that personalization or customization appear in various apps that we studied. Depending on the app's focus, the priority is to highlight the personalization or customization.\n<bold>Social networking apps like Facebook and Telegram have more customization in their user profiles, while apps like WhatsApp and Gojek may focus more on personalisation (basic info of their users)</bold>."
+          },
+          "PRIVACY": {
+            "TITLE": "Privacy Considerations",
+            "DESC": "<bold>All platforms place importance on user privacy</bold> and provide different levels of control over profile visibility. \nPrivacy controls are <bold>essential for maintaining user trust</bold> and ensuring a positive user experience."
+          },
+          "DISCOVERABILITY": {
+            "TITLE": "Discoverability and Engagement: ",
+            "DESC": "<bold>Facebook and Telegram prioritize the discoverability</bold> of user profiles to encourage connections and community engagement within their platforms. <bold>While WhatsApp has a stronger emphasis on privacy</bold> and direct communication, resulting in less discoverability of user profiles.\n\nOn the other side, we can find a lot of design patterns such as profile picture thumbnails, profile picture cropping, privacy settings (visibility for pictures and number phone) and good resolution and quality of the image."
+          }
+        },
+        "AUDIT": {
+          "TITLE": "Audit Profile"
+        },
+        "BUSINESS": {
+          "TITLE": "Business strategy"
+        },
+        "PRODUCT": {
+          "TITLE": "Product",
+          "STAKEHOLDERS": "Stakeholders interviews, defining"
+        }
+      },
+      "UX_RESEARCH": {
+        "TITLE": "UX research",
+        "OBJECTIVES": {
+          "TITLE": "Define Objectives",
+          "DESCRIPTION": "The <bold>intention</bold> behind this <bold>research is to view the profile and settings of business requirements holistically</bold> and to tap into each stakeholder's knowledge and vision so that business requirements are aligned. \nAs is important to also detect pain points through usability testing on the current profile with ayoba users \nThis foundation will be built upon and prototypes or designs will be shown to users to see whether we align with their needs"
+        },
+        "CURRENT_PROFILE": {
+          "TITLE": "What ayoba users think about current profile",
+          "DESCRIPTION": "<bold>Limited Customization:</bold>\n\"I wish there were more options to customise my profile, like adding a status message or a bio\"\n\n<bold>Profile Picture Issues:</bold>\n\"The profile picture has very bad quality when you upload it\"\n\n<bold>Navigation Difficulties:</bold>\n\"Finding certain profile settings can be confusing; they're not very intuitive\"\n\n<bold>Edition Difficulties:</bold>\n\"It's very complex to understand how I can change my nickname or add more personal information, also to update my image\"\n\n<bold>Privacy Concers:</bold>\n\"I'm not sure how my information is used and who can see my profile details\"\n\n<bold>Lack of Social Features:</bold>\n\"It would be nice if the profile section included social media links such as Facebook, Instagram, etc\""
+        },
+        "INSIGHTS": {
+          "TITLE": "Insights & key-Findings",
+          "DESCRIPTION": "The <bold>insights</bold> gained from the <bold>audit, site map, UX research, the benchmark and quantitative data from Firebase and Google Analytics</bold>, led to the following founds",
+          "PAIN_POINTS": {
+            "TITLE": "Pain points",
+            "DESC": "The user profile screen doesn't cover some basic features; unfortunately, the features that Ayoba has suffer from poor usability and accessibility.",
+            "DESC_2": "Inconsistency throughout the app UI, iconography, buttons, etc",
+            "DESC_3": "Few options in the user profile, which makes it difficult to users feeling is their space to show themselves to the ayoba world.",
+            "DESC_4": "Very old look & feel.",
+            "DESC_5": "Inconsistency design between platforms AND & IOS.",
+            "DESC_6": "Ayoba is very far away from its competitors in terms of good user experience and offers nice features such personalization, customization and privacy considerations for the user profile."
+          },
+          "INSIGHTS": {
+            "TITLE": "Insights",
+            "DESC": "Users would like a space to show themselves and see others, just not with a picture profile, they want to show their favourite games, music history, stories, etc",
+            "DESC_2": "Users would like to express themselves.",
+            "DESC_3": "Users would like to know what have in common with others users such as chat groups or entertainment interests.",
+            "DESC_4": "After some interviews using the current design, users would like to have a space where they can share their social media as Instagram, Facebook, etc"
+          },
+          "SOLUTIONS": {
+            "TITLE": "Solutions",
+            "DESC": "Based on the research, audit and benchmark the priority is to cover the bases of a user profile.",
+            "DESC_2": "Fix accessibility and consistency is mandatory.",
+            "DESC_3": "Update the look and feel.",
+            "DESC_4": "Improve layouts for better readability and an intuitive navigation.",
+            "DESC_5": "Improve the architecture of information in order to have clarity with the different sections on user profile.",
+            "DESC_6": "Once the bases cover the team can start working to land the ideas for high features which means specific features for our users. "
+          }
+        },
+        "DESIGNS": {
+          "TITLE": "Design work user profile",
+          "USERPROFILE_PLATFORM": "User profile - {{platform}}",
+          "GROUPPROFILE_PLATFORM": "Group profile - {{platform}}"
         }
       }
     }

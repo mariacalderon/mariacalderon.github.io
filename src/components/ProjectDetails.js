@@ -75,7 +75,9 @@ const ProjectDetails = (props) => {
         <div key={`${props.projectTitle}-${proc}`} className="flex flex-row sm:flex-col sm:items-center">
           <div className="flex flex-col items-center">
             <div className="w-8">
-              <img src={item.iconPath} alt={`proc-${props.projectTitle}-${item.id}`} />
+              {
+                item.icon ?? <img src={item.iconPath} alt={`icon-${item.id}`} />
+              }
             </div>
             <div className="text-2xl font-bold pt-1">
               {t(item.titleKey)}

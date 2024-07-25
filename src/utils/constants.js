@@ -1,4 +1,11 @@
 import { Briefcase, Profile2User, Clock } from 'iconsax-react';
+import { ReactComponent as Tools } from '../assets/icons/tools.svg';
+import { ReactComponent as FileText } from '../assets/icons/file-text.svg';
+import { ReactComponent as Heart } from '../assets/icons/heart.svg';
+import { ReactComponent as Specify } from '../assets/icons/specify.svg';
+import { ReactComponent as Edit } from '../assets/icons/edit.svg';
+import { ReactComponent as Clipboard } from '../assets/icons/clipboard.svg';
+import { ReactComponent as Check } from '../assets/icons/check.svg';
 
 export const NAV_SECTIONS = [
   {
@@ -71,7 +78,7 @@ export const PROJECT_DETAILS_BASIC = [
   {
     id: 'tools',
     titleKey: "PROJECT_COMMON.INFO.TOOLS",
-    iconPath: "/assets/icons/tools.png"
+    icon: <Tools size={48} color='rgb(var(--blue))' />
   },
   {
     id: 'timing',
@@ -86,32 +93,32 @@ export const PROJECT_DETAIL_PROCESS = {
     {
       id: 'audit',
       titleKey: "PROJECT_COMMON.PROCESS.AUDIT",
-      iconPath: "/assets/icons/file-text.png"
+      icon: <FileText size={48} color='rgb(var(--blue))' />
     },
     {
       id: 'emphatize',
       titleKey: "PROJECT_COMMON.PROCESS.EMPHATIZE",
-      iconPath: "/assets/icons/heart.png"
+      icon: <Heart size={48} color='rgb(var(--blue))' />
     },
     {
       id: 'specify',
       titleKey: "PROJECT_COMMON.PROCESS.SPECIFY",
-      iconPath: "/assets/icons/specify.png"
+      icon: <Specify size={48} color='rgb(var(--blue))' />
     },
     {
       id: 'ideate',
       titleKey: "PROJECT_COMMON.PROCESS.IDEATE",
-      iconPath: "/assets/icons/edit.png"
+      icon: <Edit size={48} color='rgb(var(--blue))' />
     },
     {
       id: 'handoff',
       titleKey: "PROJECT_COMMON.PROCESS.HANDOFF",
-      iconPath: "/assets/icons/clipboard.png"
+      icon: <Clipboard size={48} color='rgb(var(--blue))' />
     },
     {
       id: 'verify',
       titleKey: "PROJECT_COMMON.PROCESS.VERIFY",
-      iconPath: "/assets/icons/check.png"
+      icon: <Check size={48} color='rgb(var(--blue))' />
     },
   ]
 };

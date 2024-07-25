@@ -51,7 +51,7 @@ function App() {
               returnToTop()
             }}
           >
-            <ArrowCircleUp size={64} color="rgb(var(--blue))" variant="Bulk" />
+            <ArrowCircleUp size={64} color="rgb(var(--gray))" variant="Bulk" />
           </motion.div>
       }
       </AnimatePresence>

@@ -157,19 +157,19 @@ const AyobaMessaging = () => {
         <div className="flex flex-col gap-8">
           <ProjectSectionTitle type={H2} title='AYOBA.MESSAGING.AUDIT.LEGEND.TITLE' />
           <div className="flex flex-col gap-4">
-            <div className="flex flex-row gap-3 items-center text-center">
+            <div className="flex flex-row gap-3 items-center text-center sm:flex-col">
               <div className="w-56 text-white bg-red py-2 px-8 rounded-full">
                 {t('AYOBA.MESSAGING.AUDIT.LEGEND.CRITICAL.TITLE')}
               </div>
               <ProjectBodyText text='AYOBA.MESSAGING.AUDIT.LEGEND.CRITICAL.DESCRIPTION' />
             </div>
-            <div className="flex flex-row gap-3 items-center text-center">
+            <div className="flex flex-row gap-3 items-center text-center sm:flex-col">
               <div className="w-56 text-white bg-yellow py-2 px-8 rounded-full">
                 {t('AYOBA.MESSAGING.AUDIT.LEGEND.AVERAGE.TITLE')}
               </div>
               <ProjectBodyText text='AYOBA.MESSAGING.AUDIT.LEGEND.AVERAGE.DESCRIPTION' />
             </div>
-            <div className="flex flex-row gap-3 items-center text-center">
+            <div className="flex flex-row gap-3 items-center text-center sm:flex-col">
               <div className="w-56 text-white bg-green py-2 px-8 rounded-full">
                 {t('AYOBA.MESSAGING.AUDIT.LEGEND.LOW.TITLE')}
               </div>
@@ -211,8 +211,8 @@ const AyobaMessaging = () => {
             <ProjectSectionTitle type={H2} title='AYOBA.MESSAGING.UX_RESEARCH.DEMOGRAPHICS.TITLE' />
             <ProjectBodyText text='AYOBA.MESSAGING.UX_RESEARCH.DEMOGRAPHICS.DESCRIPTION' />
             <div className="flex flex-row justify-center items-center p-10 gap-64 sm:flex-col sm:gap-4">
-              <img src="/assets/imgs/ayoba-messaging/demographic-1.png" alt="demographic-1" />
-              <img src="/assets/imgs/ayoba-messaging/demographic-2.png" alt="demographic-2" />
+              <img className="w-[20%]" src="/assets/imgs/ayoba-messaging/demographic-1.png" alt="demographic-1" />
+              <img className="w-[20%]" src="/assets/imgs/ayoba-messaging/demographic-2.png" alt="demographic-2" />
             </div>
             <ProjectBodyText text='AYOBA.MESSAGING.UX_RESEARCH.DEMOGRAPHICS.DESCRIPTION_2' />
           </div>
@@ -275,6 +275,7 @@ const AyobaMessaging = () => {
             <ProjectSectionTitle type={H1} title='AYOBA.MESSAGING.COMPETITORS.TITLE' />
             <ProjectSectionTitle type={H2} title='AYOBA.MESSAGING.COMPETITORS.APPS.TITLE' />
             <ProjectBodyText text='AYOBA.MESSAGING.COMPETITORS.APPS.DESCRIPTION' />
+            <img className="w-full" src="/assets/imgs/ayoba-messaging/most-apps.png" alt="most-popular-apps-africa" />
             <img className="w-full" src="/assets/imgs/ayoba-messaging/competitors-whatsapp.png" alt="competitors-whatsapp" />
             <img className="w-full" src="/assets/imgs/ayoba-messaging/competitors-messaging.png" alt="competitors-messaging" />
             <img className="w-full" src="/assets/imgs/ayoba-messaging/competitors-telegram.png" alt="competitors-telegram" />
