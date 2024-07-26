@@ -43,7 +43,7 @@ function Homepage() {
           imageOnRight={false}
           image='/assets/imgs/homepage/ayoba-games.png'
           image_alt='ayoba_games'
-          path='/ayoba'
+          path='/ayoba/games'
           animated={true}
         >
           <div className="text-4xl font-bold">

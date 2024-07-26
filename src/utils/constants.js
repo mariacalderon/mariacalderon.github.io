@@ -128,6 +128,7 @@ export const AYOBA_LINK = "www.ayoba.me";
 export const H1 = "h1";
 export const H2 = "h2";
 export const H3 = "h3";
+export const H4 = "h4";
 export const BLUE_H3 = "blue_h3";
 export const H2_BUBBLE = "h2_bubble";
 export const H2_UNDERLINE = "h2_underline";

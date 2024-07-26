@@ -412,7 +412,7 @@
         "TITLE": "UX research",
         "OBJECTIVES": {
           "TITLE": "Define Objectives",
-          "DESCRIPTION": "The <bold>intention</bold> behind this <bold>research is to view the profile and settings of business requirements holistically</bold> and to tap into each stakeholder's knowledge and vision so that business requirements are aligned. \nAs is important to also detect pain points through usability testing on the current profile with ayoba users \nThis foundation will be built upon and prototypes or designs will be shown to users to see whether we align with their needs"
+          "DESCRIPTION": "The <bold>intention</bold> behind this <bold>research is to view the profile and settings of business requirements holistically</bold> and to tap into each stakeholder's knowledge and vision so that business requirements are aligned.\nAs is important to also detect pain points through usability testing on the current profile with ayoba users\nThis foundation will be built upon and prototypes or designs will be shown to users to see whether we align with their needs"
         },
         "CURRENT_PROFILE": {
           "TITLE": "What ayoba users think about current profile",
@@ -453,6 +453,64 @@
           "GROUPPROFILE_PLATFORM": "Group profile - {{platform}}",
           "GROUPPROFILE": "Group profile"
         }
+      }
+    },
+    "GAMES": {
+      "SUBTITLE": "Games",
+      "CONTEXT": {
+        "TITLE": "Context of the problem",
+        "DESCRIPTION": "One of the <bold>most important things for Ayoba is offering its users the best entertainment with free data</bold> to provide the population with digital inclusion. (Many parts of Africa have limited access to the internet due to high data costs and limited infrastructure.)\n\n<bold>Free data allows users to access essential digital services such as communication and entertainment.</bold>\n\nAyoba is always looking to offer its users the best content within the app. Therefore, <bold>Ayoba wanted to update the content games and would add more than 64 new games to its games section.</bold> However, <bold>the overall monthly report showed us that games were in a disadvantageous position compared to other features such as music, chat, and news.</bold> Considering that we were going to include new modern games, and in the long term maybe to have paid games business decided to give more care to this section and do a complete redesign aligned with other sections within the app.\n\n<bold>The main goal of this project is to enhance and redesign the games section within the Ayoba app to improve its user experience and alignment with other app features, in preparation for the inclusion of new modern games and the potential introduction of paid games in the future.</bold>"
+      },
+      "CHALLENGE": {
+        "TITLE": "The Challenge",
+        "PRIMARY": {
+          "TITLE": "Primary Challenge",
+          "DESCRIPTION": "The central challenge to redesigning the games section in the Ayoba app was to <bold>provide a perfect integration of the new design with the existing app infrastructure</bold> while maintaining a <bold>consistent user experience across all features within the app.</bold> This involves coordinating with various teams (such as development, content, design, project managers, owners, QA and UX/UI) to update the games section without disrupting other functionalities like music, chat, and news."
+        },
+        "TEAM": {
+          "TITLE": "Team Collaboration",
+          "DESCRIPTION": "Another challenge was to collaborate closely with other teams, <bold>this involves coordinating with various teams (such as development, content, design, project managers, owners, QA and UX/UI)</bold> to update the games section without disrupting other functionalities like music, chat, and news."
+        },
+        "PLATFORMS": {
+          "TITLE": "Platforms",
+          "DESCRIPTION": "While developing the app, the main focus is based on <bold>Android and iOS</bold> users, giving them priority in terms of features and functionalities. However, post-project completion, there is a need to achieve parity for Progressive Web App (PWA) users."
+        }
+      },
+      "AUDIT": {
+        "TITLE": "UX-UI Audit",
+        "DESCRIPTION": "An <bold>audit was conducted with the previous version</bold> of the redesign of games to identify <bold>critical, average and low issues</bold> regards the UX/UI. with the goal of identifying and rectifying any problems found, offering our users the best user experience.",
+        "INSIGHTS": {
+          "TITLE": "Key insights",
+          "DESCRIPTION": "We found that the section games have the following issues:",
+          "HIERARCHY": {
+            "TITLE": "Visual Hierarchy",
+            "DESC": "The <bold>old layout lacks a clear visual hierarchy</bold>. All <bold>content</bold> is at the <bold>same level</bold>, which means there is no important content or content that we can suggest to the user to open to have an engagement with the games section."
+          },
+          "APPEAL": {
+            "TITLE": "Visual Appeal",
+            "DESC": "The design is <bold>too simple and might not be visually appealing</bold> to all users. It might benefit from more engaging pics of games or a more dynamic and modern layout.\n\nThe screen <bold>does not provide detailed information</bold> about individual games up front. Users need to navigate further to get details about specific games."
+          },
+          "NAVIGATION": {
+            "TITLE": "Navigation",
+            "DESC": "The navigation <bold>doesn't allow the user at first sight to get encouraged to play a game</bold>, the user is <bold>not provided detailed information</bold> about individual games up front or next-screen permissions. Users need to navigate further to get details about specific games.\n<bold>There is no place to find the games I played and my favourites.</bold>\nAnd more seriously the <bold>user can not start playing straight forward the game</bold> from the main screen of the games."
+          },
+          "ACCESSIBILITY": {
+            "TITLE": "Accessibility",
+            "DESC": "The <bold>old design's red background might be too attention-grabbing, and distracting</bold>, and could overwhelm the user and give a sensation of clutter."
+          },
+          "PERMISSION": {
+            "TITLE": "Content Permission",
+            "DESC": "The screen <bold>provides unclear information</bold> about the permissions required by the game, <bold>which is essential for user trust and transparency.</bold>"
+          }
+        }
+      },
+      "UX_RESEARCH": {
+        "TITLE": "UX research",
+        "DESCRIPTION": "<bold>Through data from Firebase</bold>, we realized how many users use the game section. with this data, we realized users use it very little compared with messaging, music etc. The results were scary as <bold>only 7% of our active users used games</bold>. In interviews with users we found:\n\n<bold>Content</bold>\nUsers <bold>expressed dissatisfaction with the game content</bold>, describing it as <bold>\"old\" and \"boring\"</bold> fortunately the part of ayoba business was working on <bold>diversifying the game offerings by adding new, engaging games</bold>. And <bold>having in mind regularly update the game library</bold> to keep users interested.\n\n<bold>Look& feel</bold>\nReferring to the appearance users mentioned that games \"feel super old\" and that they \"don't understand the illustrations\"\n\n<bold>Updating the game UI</bold>\nModernize the design, improve graphics, and ensure a consistent visual style.\n\n<bold>User Engagement</bold>\nHaving the data from <bold>Firebase and metrics</bold> such;\nHow many times user open games per day?, How long do users spend playing games?, Do they complete levels or abandon them quickly?, Are there specific game types that perform better?. <bold>We had the result that the low usage rate is only 7% of active users. It indicates an urgent need for improvement.</bold>"
+      },
+      "DESIGN": {
+        "TITLE": "Design games for ayoba",
+        "GAMES_PLATFORM": "Games for ayoba - {{platform}}"
       }
     }
   }

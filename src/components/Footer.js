@@ -12,7 +12,7 @@ const Footer = () => {
       <div className="flex min-w-16 w-full font-bold sm:text-center">
         {NAME}
       </div>
-      <div className="flex flex-col min-w-16 w-full text-center gap-2 font-medium">
+      <div className="flex flex-col min-w-16 w-full items-center gap-2 font-medium">
         <div className="cursor-pointer" onClick={() => {
           openWindow(`mailto: ${CONTACT_EMAIL}`);
         }}>
@@ -22,7 +22,7 @@ const Footer = () => {
           {CONTACT_TEL}
         </div>
       </div>
-      <div className="flex flex-row justify-end min-w-16 w-full gap-1 cursor-pointer" onClick={() => {
+      <div className="flex flex-row justify-end min-w-16 w-full gap-1 cursor-pointer  sm:justify-center" onClick={() => {
         openWindow(LINKEDIN_LINK);
       }}>
         <div className="text-xl font-medium">
