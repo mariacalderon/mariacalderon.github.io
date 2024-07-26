@@ -213,7 +213,7 @@
           "DESC_2": "Prioritize <bold>fixing critical bugs</bold> and enhancing key functionalities to <bold>improve immediate user experience</bold>.",
           "DESC_3": "<bold>Integrating more robust functionalities</bold> and enhancing media sharing capabilities (e.g., video editing, large file handling) can make the app more competitive and appealing to users.",
           "DESC_4": "The app's <bold>user interface requires significant updates</bold> to align with <bold>modern design principles, improve accessibility, and provide a consistent user experience</bold> across different devices.",
-          "DESC_5": "Addressing issues like <bold>button visibility, contrast, and the clarity of interactive elements</bold> will improve accesibility.",
+          "DESC_5": "Addressing issues like <bold>button visibility, contrast, and the clarity of interactive elements</bold> will improve accessibility.",
           "DESC_6": "Ayoba's unique offerings, such as <bold>free data for messaging</bold> and entertainment features, are strong selling points. <bold>Enhancing and promoting these features</bold> can differentiate Ayoba from competitors.",
           "DESC_7": "Improving the <bold>transparency of privacy settings</bold> and making them more accessible can reassure users about their data security."
         }
@@ -256,7 +256,7 @@
           "DESC_5": "When they receive a voice messages <bold>they don't like others can hear it</bold>."
         },
         "ACCESSIBILITY": {
-          "TITLE": "Accesibility",
+          "TITLE": "Accessibility",
           "DESCRIPTION": "<bold>Approximately 26.3 million</bold> people in the African Region are reported to have a form of <bold>visual impairment</bold>, according to the World Health Organization (WHO). \n\n<bold>Among them, 20.4 million individuals experience low vision</bold>, while an estimated <bold>5.9 million are considered blind</bold>."
         },
         "OTHERS": {
@@ -511,6 +511,102 @@
       "DESIGN": {
         "TITLE": "Design games for ayoba",
         "GAMES_PLATFORM": "Games for ayoba - {{platform}}"
+      }
+    },
+    "MUSIC": {
+      "SUBTITLE": "Music-Podcast",
+      "CONTEXT": {
+        "TITLE": "Context of the problem",
+        "DESCRIPTION": "Ayoba has recognized the growing demand for diverse audio content. To stay competitive and satisfy its users, Ayoba is exploring ways to expand its content offering podcasts.\n\n<bold>The addition of podcasts to the music section is seen as a strategic move to increase engagement and enhance the platform.</bold>\n\nWhile <bold>Ayoba has a strong user base for music</bold>, it lacks the diverse audio content that is so popular right now. The <bold>absence of podcasts on the platform limits Ayoba's ability to fully engage its audience</bold>, to stay relevant in the competitive landscape, Ayoba needs to implement a podcast feature within its music section.\n\n<bold>This new feature allows users to access high-quality, multiple content new experiences within the app</bold>, increasing their satisfaction, retention, and overall platform usage."
+      },
+      "CHALLENGE": {
+        "TITLE": "The Challenge",
+        "PRIMARY": {
+          "TITLE": "Primary Challenge",
+          "DESCRIPTION": "The <bold>primary objective is to discover how to integrate podcasts into Ayoba's music</bold> section and <bold>guarantee a seamless and intuitive user experience</bold> while also improving and updating the UI."
+        },
+        "TEAM": {
+          "TITLE": "Team Collaboration",
+          "DESCRIPTION": "Working <bold>very closely with the UX researcher</bold> expert was crucial as the design team and business didn't know if our users were ready for this podcast implementation."
+        },
+        "ACCESSIBILITY": {
+          "TITLE": "Accessibility",
+          "DESCRIPTION": "As Ayoba aimed to introduce the podcast feature to the music section, the team saw an <bold>opportunity to address several accessibility issues.</bold> One key area of focus was <bold>improving the contrast colors of the miniplayer</bold>, which appears across various sections such as messaging, games, news, and more. This enhancement ensures a consistent and accessible user experience throughout the entire platform."
+        },
+        "PLATFORMS": {
+          "TITLE": "Platforms",
+          "DESCRIPTION": "The main focus is based on <bold>Android</bold> users."
+        }
+      },
+      "BENCHMARK": {
+        "TITLE": "Benchmark",
+        "INSIGHTS": {
+          "TITLE": "Key Insights from Benchmark Analysis",
+          "CONTENT": {
+            "TITLE": "Content",
+            "DESC": "<bold>Most of the apps</bold> studied <bold>provide a diverse and extensive library of podcasts</bold> covering various genres and interests."
+          },
+          "PERSONALIZATION": {
+            "TITLE": "Personalization",
+            "DESC": "Other apps <bold>offers personalized podcast recommendations</bold> based on listening habits."
+          },
+          "COLLECTIONS": {
+            "TITLE": "Curated Collections",
+            "DESC": "Features curated lists and collections of popular podcasts."
+          },
+          "UI": {
+            "TITLE": "User Interface",
+            "DESC": "<bold>Design a clean, intuitive interface</bold> that is <bold>easy to navigate</bold> and visually appealing."
+          },
+          "MONETIZATION": {
+            "TITLE": "Monetization",
+            "DESC": "<bold>Explore multiple monetization strategies including ads, sponsored content</bold>, and subscription models for premium content."
+          },
+          "OFFLINE": {
+            "TITLE": "Download and Offline Listening",
+            "DESC": "Almost all platforms supports downloading episodes for offline playback."
+          }
+        }
+      },
+      "UX_RESEARCH": {
+        "TITLE": "UX research",
+        "DESCRIPTION": "To successfully implement a podcast feature in Ayoba's music section, it's essential to conduct comprehensive UX research. This will help understand user needs, preferences, and pain points.\n\n<bold>Its important to define research objectives, in this case for this project we will need to identify if our users are ready to understand what is a podcast, what kind of content they are interested</bold> etc. as <bold>studying our competitors, look for patterns</bold> they share, <bold>understand strengths and weaknesses of competitors' podcast</bold> features."
+      },
+      "SURVEYS": {
+        "TITLE": "Survey podcast with ayoba users",
+        "DEMOGRAPHICS": {
+          "TITLE": "Demographics",
+          "DESC_1": "The survey was primarily conducted in <bold>English-speaking countries, with Nigeria, Uganda, South Africa, and Ghana accounting for 84% of the responses.",
+          "DESC_2": "<bold>The dominant age groups were 25-34, followed by 18-24 and 35-44. The majority of respondents were male and either still in school or had a high school diploma."
+        },
+        "AWARENESS": {
+          "TITLE": "Podcast Awareness and Preferences",
+          "DESC_1": "<bold>56% of participants understood the term \"podcast\",</bold> and of those, only 14% did not listen to podcasts at all.",
+          "DESC_2": "There is a <bold>preference</bold> for a <bold>mix of local and international podcasts</bold>, with a slight bias towards local content.",
+          "DESC_3": "Those with <bold>higher education levels</bold> are more <bold>inclined to listen to podcasts</bold>, suggesting that educating users could increase engagement."
+        },
+        "CONTENT": {
+          "TITLE": "Content and Topics",
+          "DESC_1": "<bold>Users favour</bold> podcasts that focus on <bold> local topics, particularly those concerning government and organizations.</bold>",
+          "DESC_2": "There is a <bold>significant interest in categorizing podcasts based on geographical context</bold>, with clear distinctions between local and international content."
+        },
+        "LOCAL_CONTENT": {
+          "TITLE": "Local Content",
+          "DESC_1": "12% of respondents mentioned that they could not relate to international podcasts, and 8% cited language barriers as a reason for not listening to podcasts.",
+          "DESC_2": "<bold>There is a clear demand for hyperlocal podcasts</bold> that resonate with the local audience's experiences and language preferences."
+        }
+      },
+      "PODCAST_TOPICS": {
+        "TITLE": "What topics should be focused on in podcasts?"
+      },
+      "WHY_PODCASTS": {
+        "TITLE": "Why do people listen to podcast?",
+        "DESCRIPTION": "The successful integration of podcasts into Ayoba's music section will require a strategic approach focusing on user education, content localization, and seamless user experience. Ayoba can enhance its value proposition and significantly increase user engagement with the music vertical."
+      },
+      "DESIGN": {
+        "TITLE": "Design music for ayoba",
+        "MUSIC": "Music for ayoba",
+        "PODCAST": "Podcast for ayoba"
       }
     }
   }

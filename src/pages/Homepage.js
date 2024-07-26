@@ -57,7 +57,7 @@ function Homepage() {
           imageOnRight={true}
           image='/assets/imgs/homepage/ayoba-music.png'
           image_alt='ayoba_music'
-          path='/ayoba'
+          path='/ayoba/music'
           animated={true}
         >
           <div className="text-4xl font-bold">
