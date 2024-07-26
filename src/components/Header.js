@@ -6,6 +6,9 @@ import { useAnimationControls } from "framer-motion";
 import { motion } from "framer-motion";
 import ConfettiExplosion from 'react-confetti-explosion';
 
+import { ReactComponent as AyobaLogo } from "../assets/icons/ayoba.svg";
+import { ReactComponent as Newitts } from "../assets/icons/newitts.svg";
+
 const Header = () => {
 
   const location = useLocation();
@@ -21,7 +24,14 @@ const Header = () => {
     const currentPath = window.location.pathname;
     if (checkIfIsProjectPath(currentPath)) {
       const projectName = currentPath.split('/')[1];
-      return <img src={`/assets/icons/${projectName}.png`} alt={`${projectName}-logo`} />
+      switch(projectName) {
+        case 'ayoba': 
+          return <AyobaLogo />
+        case 'newitts':
+          return <Newitts className="w-4/5" />
+        default:
+          return MCG_LOGO;
+      }
     } else {
       return MCG_LOGO;
     }
@@ -49,12 +59,12 @@ const Header = () => {
   }, [location, checkHeaderLogo]);
 
   return (
-    <div className="fixed top-8 left-12 right-12 bg-white h-fit py-5 px-7 rounded-lg shadow-lg flex flex-row justify-between items-center z-40 sm:top-4 sm:left-6 sm:right-6">
+    <div className="fixed top-8 left-12 right-12 bg-white max-h-16 h-fit py-5 px-7 rounded-lg shadow-lg flex flex-row justify-between items-center z-40 sm:top-4 sm:left-6 sm:right-6">
       <motion.div
         animate={animationControls}
         variants={variants}
         transition={{ type: 'spring', bounce: 0.5, duration: 0.5, repeat: 3, repeatType: 'mirror' }}
-        className="font-bold cursor-pointer"
+        className="font-bold cursor-pointer h-fit"
         onClick={() => onLogoClick()}
       >
         {showConfetti && 
