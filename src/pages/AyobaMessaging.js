@@ -15,6 +15,8 @@ const AyobaMessaging = () => {
 
   const { t } = useTranslation();
 
+  const imgPathBase = "/assets/imgs/ayoba-messaging/";
+
   return (
     <div className="bg-white">
       <ProjectHero
@@ -177,7 +179,7 @@ const AyobaMessaging = () => {
             </div>
           </div>
           <div>
-            <img className="w-full" src="/assets/imgs/ayoba-messaging/audit-legend.png" alt="audit-legend" />
+            <img className="w-full" src={`${imgPathBase}audit-legend.png`} alt="audit-legend" />
           </div>
           <ProjectBubble title='AYOBA.MESSAGING.AUDIT.KEY_INSIGHTS.TITLE'>
             <BulletList
@@ -200,7 +202,7 @@ const AyobaMessaging = () => {
           <ProjectBodyText text='AYOBA.MESSAGING.ARCHITECTURE.SITE_MAP.DESCRIPTION' />
         </div>
       </ProjectContentWithMargins>
-      <img className="w-full" src="/assets/imgs/ayoba-messaging/information-architecture.png" alt="information-architecture" />
+      <img className="w-full" src={`${imgPathBase}information-architecture.png`} alt="information-architecture" />
       <ProjectContentWithMargins styling='pb-16'>
         <div className="flex flex-col gap-6">
           <div>
@@ -211,14 +213,14 @@ const AyobaMessaging = () => {
             <ProjectSectionTitle type={H2} title='AYOBA.MESSAGING.UX_RESEARCH.DEMOGRAPHICS.TITLE' />
             <ProjectBodyText text='AYOBA.MESSAGING.UX_RESEARCH.DEMOGRAPHICS.DESCRIPTION' />
             <div className="flex flex-row justify-center items-center p-10 gap-64 sm:flex-col sm:gap-4">
-              <img className="w-[20%]" src="/assets/imgs/ayoba-messaging/demographic-1.png" alt="demographic-1" />
-              <img className="w-[20%]" src="/assets/imgs/ayoba-messaging/demographic-2.png" alt="demographic-2" />
+              <img className="w-[20%]" src={`${imgPathBase}demographic-1.png`} alt="demographic-1" />
+              <img className="w-[20%]" src={`${imgPathBase}demographic-2.png`} alt="demographic-2" />
             </div>
             <ProjectBodyText text='AYOBA.MESSAGING.UX_RESEARCH.DEMOGRAPHICS.DESCRIPTION_2' />
           </div>
           <div className="flex flex-col gap-4">
             <ProjectSectionTitle type={H2} title='AYOBA.MESSAGING.UX_RESEARCH.FEATURES.TITLE' />
-            <img className="w-full" src="/assets/imgs/ayoba-messaging/most-used-features.png" alt="most-used-features-by-country" />
+            <img className="w-full" src={`${imgPathBase}most-used-features,png`} alt="most-used-features-by-country" />
           </div>
           <div className="flex flex-col gap-4">
             <ProjectSectionTitle type={H2} title='AYOBA.MESSAGING.UX_RESEARCH.BEHAVIOUR.TITLE' />
@@ -275,11 +277,11 @@ const AyobaMessaging = () => {
             <ProjectSectionTitle type={H1} title='AYOBA.MESSAGING.COMPETITORS.TITLE' />
             <ProjectSectionTitle type={H2} title='AYOBA.MESSAGING.COMPETITORS.APPS.TITLE' />
             <ProjectBodyText text='AYOBA.MESSAGING.COMPETITORS.APPS.DESCRIPTION' />
-            <img className="w-full" src="/assets/imgs/ayoba-messaging/most-apps.png" alt="most-popular-apps-africa" />
-            <img className="w-full" src="/assets/imgs/ayoba-messaging/competitors-whatsapp.png" alt="competitors-whatsapp" />
-            <img className="w-full" src="/assets/imgs/ayoba-messaging/competitors-messaging.png" alt="competitors-messaging" />
-            <img className="w-full" src="/assets/imgs/ayoba-messaging/competitors-telegram.png" alt="competitors-telegram" />
-            <img className="w-full" src="/assets/imgs/ayoba-messaging/competitors-moya.png" alt="competitors-moya" />
+            <img className="w-full" src={`${imgPathBase}most-apps.png`} alt="most-popular-apps-africa" />
+            <img className="w-full" src={`${imgPathBase}competitors-whatsapp.png`} alt="competitors-whatsapp" />
+            <img className="w-full" src={`${imgPathBase}competitors-messaging.png`} alt="competitors-messaging" />
+            <img className="w-full" src={`${imgPathBase}competitors-telegram.png`} alt="competitors-telegram" />
+            <img className="w-full" src={`${imgPathBase}competitors-moya.png`} alt="competitors-moya" />
           </div>
           <div className="flex flex-col gap-4">
             <ProjectSectionTitle type={H1} title='AYOBA.MESSAGING.INSIGHTS.TITLE' />
@@ -332,30 +334,30 @@ const AyobaMessaging = () => {
           </div>
           <div className="flex flex-col gap-4">
             <ProjectSectionTitle type={H1} title='AYOBA.MESSAGING.PRODUCT_PYRAMID.TITLE' />
-            <img className="w-full" src="/assets/imgs/ayoba-messaging/pyramid.png" alt="product-pyramid" />
+            <img className="w-full" src={`${imgPathBase}pyramid.png`} alt="product-pyramid" />
             <ProjectBodyText text='AYOBA.MESSAGING.PRODUCT_PYRAMID.DESCRIPTION' />
-            <img className="w-full" src="/assets/imgs/ayoba-messaging/pyramid-steps.png" alt="product-pyramid-steps" />
+            <img className="w-full" src={`${imgPathBase}pyramid-steps.png`} alt="product-pyramid-steps" />
           </div>
           <div className="flex flex-col gap-4">
             <ProjectSectionTitle type={H1} title='AYOBA.MESSAGING.WORKSHOP.TITLE' />
             <ProjectBodyText text='AYOBA.MESSAGING.WORKSHOP.DESCRIPTION' />
-            <img className="w-full" src="/assets/imgs/ayoba-messaging/workshop-intro.png" alt="workshop" />
-            <img className="w-full" src="/assets/imgs/ayoba-messaging/workshop-innovations.png" alt="workshop-innovations" />
+            <img className="w-full" src={`${imgPathBase}workshop-intro.png`} alt="workshop" />
+            <img className="w-full" src={`${imgPathBase}workshop-innovations.png`} alt="workshop-innovations" />
           </div>
         </div>
       </ProjectContentWithMargins>
-      <img className="w-full" src="/assets/imgs/ayoba-messaging/messaging-design-header.png" alt="new-messaging-design" />
+      <img className="w-full" src={`${imgPathBase}messaging-design-header.png`} alt="new-messaging-design" />
       <ProjectContentWithMargins styling="py-10 gap-4">
         <ProjectBodyText text='AYOBA.MESSAGING.NEW_DESIGN.DISCLAIMER' />
         <ProjectSectionTitle type={H1} title='AYOBA.MESSAGING.NEW_DESIGN.TOKENS' />
-        <img className="w-full" src="/assets/imgs/ayoba-messaging/new-branding-tokens.png" alt="new-branding-tokens" />
+        <img className="w-full" src={`${imgPathBase}new-branding-tokens.png`} alt="new-branding-tokens" />
         <ProjectSectionTitle type={H1} title='AYOBA.MESSAGING.NEW_DESIGN.NEW_DESIGN.TITLE' />
         <div className="pr-16 flex flex-col gap-8">
           <div className="flex flex-col gap-4">
             <ProjectSectionTitle type={H2_BUBBLE} title='AYOBA.MESSAGING.NEW_DESIGN.NEW_DESIGN.FEED_CHAT.TITLE' />
             <ImageTextItem
               imageOnRight={false}
-              image='/assets/imgs/ayoba-messaging/new-design-feedchat.png'
+              image={`${imgPathBase}new-design-feedchat.png`}
               image_alt='new-design-feedchat'
               styling='justify-between'
             >
@@ -379,7 +381,7 @@ const AyobaMessaging = () => {
             </div>
             <ImageTextItem
               imageOnRight={true}
-              image='/assets/imgs/ayoba-messaging/new-design-p2pchat.png'
+              image={`${imgPathBase}new-design-p2pchat.png`}
               image_alt='new-design-p2pchat'
               styling='justify-between'
             >
@@ -405,7 +407,7 @@ const AyobaMessaging = () => {
             </div>
             <ImageTextItem
               imageOnRight={false}
-              image='/assets/imgs/ayoba-messaging/new-design-reactions.png'
+              image={`${imgPathBase}new-design-reactions.png`}
               image_alt='new-design-reactions'
               styling='justify-between'
             >
@@ -429,7 +431,7 @@ const AyobaMessaging = () => {
             </div>
             <ImageTextItem
               imageOnRight={true}
-              image='/assets/imgs/ayoba-messaging/new-design-stories.png'
+              image={`${imgPathBase}new-design-stories.png`}
               image_alt='new-design-stories'
               styling='justify-between'
             >
@@ -450,31 +452,31 @@ const AyobaMessaging = () => {
         <div className="flex flex-col gap-8">
           <div className="flex flex-col gap-4">
             <ProjectSectionTitle type={H2_UNDERLINE} title='AYOBA.MESSAGING.NEW_DESIGN.ELEMENTS.CHAT_LIST' />
-            <img className="w-full" src="/assets/imgs/ayoba-messaging/new-design-elements-chatlist.png" alt="chat-list-design" />
+            <img className="w-full" src={`${imgPathBase}new-design-elements-chatlist.png`} alt="chat-list-design" />
           </div>
           <div className="flex flex-col gap-4">
             <ProjectSectionTitle type={H2_UNDERLINE} title='AYOBA.MESSAGING.NEW_DESIGN.ELEMENTS.TEXT_BUBBLES' />
-            <img className="w-full" src="/assets/imgs/ayoba-messaging/new-design-elements-textbubbles.png" alt="text-bubbles-design" />
+            <img className="w-full" src={`${imgPathBase}new-design-elements-textbubbles.png`} alt="text-bubbles-design" />
           </div>
           <div className="flex flex-col gap-4">
             <ProjectSectionTitle type={H2_UNDERLINE} title='AYOBA.MESSAGING.NEW_DESIGN.ELEMENTS.BEHAVIOUR_BUBBLES' />
-            <img className="w-full" src="/assets/imgs/ayoba-messaging/new-design-elements-behaviourbubbles.png" alt="behaviour-bubbles-design" />
+            <img className="w-full" src={`${imgPathBase}new-design-elements-behaviourbubbles.png`} alt="behaviour-bubbles-design" />
           </div>
           <div className="flex flex-col gap-4">
             <ProjectSectionTitle type={H2_UNDERLINE} title='AYOBA.MESSAGING.NEW_DESIGN.ELEMENTS.DATA_STATES' />
-            <img className="w-full" src="/assets/imgs/ayoba-messaging/new-design-elements-datastates.png" alt="data-states-design" />
+            <img className="w-full" src={`${imgPathBase}new-design-elements-datastates.png`} alt="data-states-design" />
           </div>
           <div className="flex flex-col gap-4">
             <ProjectSectionTitle type={H2_UNDERLINE} title='AYOBA.MESSAGING.NEW_DESIGN.ELEMENTS.VIDEO_STATES' />
-            <img className="w-full" src="/assets/imgs/ayoba-messaging/new-design-elements-videobubbles.png" alt="video-states-design" />
+            <img className="w-full" src={`${imgPathBase}new-design-elements-videobubbles.png`} alt="video-states-design" />
           </div>
           <div className="flex flex-col gap-4">
             <ProjectSectionTitle type={H2_UNDERLINE} title='AYOBA.MESSAGING.NEW_DESIGN.ELEMENTS.CARDS_CHAT' />
-            <img className="w-full" src="/assets/imgs/ayoba-messaging/new-design-elements-cardschat.png" alt="cards-chat-design" />
+            <img className="w-full" src={`${imgPathBase}new-design-elements-cardschat.png`} alt="cards-chat-design" />
           </div>
         </div>
       </ProjectContentWithMargins>
-      <img className="w-full" src="/assets/imgs/ayoba-messaging/messaging-flows.png" alt="messaging-flows" />
+      <img className="w-full" src={`${imgPathBase}messaging-flows.png`} alt="messaging-flows" />
       <ProjectFooter />
     </div>
   )

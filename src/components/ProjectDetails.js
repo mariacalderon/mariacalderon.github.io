@@ -109,7 +109,7 @@ const ProjectDetails = (props) => {
                     {t(section.titleKey)}
                   </div>
                 </div>
-                <div className="text-gray pl-16">
+                <div className="font-medium text-gray pl-16">
                   {renderSectionData(section.id)}
                 </div>
               </div>
