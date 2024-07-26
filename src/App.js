@@ -7,6 +7,7 @@ import AyobaMessaging from "./pages/AyobaMessaging";
 import { useEffect, useState } from "react";
 import { ArrowCircleUp } from "iconsax-react";
 import { AnimatePresence, motion } from "framer-motion";
+import AyobaProfile from "./pages/AyobaProfile";
 
 function App() {
 
@@ -37,6 +38,7 @@ function App() {
           <Route path='/' element={<Homepage />} />
           <Route path='/about' element={<Aboutme />} />
           <Route path='/ayoba/messaging' element={<AyobaMessaging />} />
+          <Route path='/ayoba/profile' element={<AyobaProfile />} />
         </Routes>
       </div>
       <AnimatePresence>

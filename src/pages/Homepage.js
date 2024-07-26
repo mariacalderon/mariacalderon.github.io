@@ -29,7 +29,7 @@ function Homepage() {
           imageOnRight={true}
           image='/assets/imgs/homepage/ayoba-userprofile.png'
           image_alt='ayoba_userprofile'
-          path='/ayoba'
+          path='/ayoba/profile'
           animated={true}
         >
           <div className="text-4xl font-bold">

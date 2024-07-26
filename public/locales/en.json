@@ -420,7 +420,7 @@
         },
         "INSIGHTS": {
           "TITLE": "Insights & key-Findings",
-          "DESCRIPTION": "The <bold>insights</bold> gained from the <bold>audit, site map, UX research, the benchmark and quantitative data from Firebase and Google Analytics</bold>, led to the following founds",
+          "DESCRIPTION": "The <bold>insights</bold> gained from the <bold>audit, site map, UX research, the benchmark and quantitative data from Firebase and Google Analytics</bold>, led to the following founds:",
           "PAIN_POINTS": {
             "TITLE": "Pain points",
             "DESC": "The user profile screen doesn't cover some basic features; unfortunately, the features that Ayoba has suffer from poor usability and accessibility.",
@@ -450,7 +450,8 @@
         "DESIGNS": {
           "TITLE": "Design work user profile",
           "USERPROFILE_PLATFORM": "User profile - {{platform}}",
-          "GROUPPROFILE_PLATFORM": "Group profile - {{platform}}"
+          "GROUPPROFILE_PLATFORM": "Group profile - {{platform}}",
+          "GROUPPROFILE": "Group profile"
         }
       }
     }

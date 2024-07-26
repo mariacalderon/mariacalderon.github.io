@@ -26,7 +26,7 @@ const ProjectSectionTitle = (props) => {
 
   return (
     <div className={`${getTitleType()} ${props.styling}`}>
-      {t(props.title)}
+      {t(props.title, props.variables)}
     </div>
   )
 }
