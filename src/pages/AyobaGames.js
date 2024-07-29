@@ -50,7 +50,7 @@ const AyobaGames = () => {
           timing={[
             {
               count: 2,
-              timeUnit: 'PROJECT_COMMON.TIMING.MONTHS'
+              timeUnit: 'PROJECT_COMMON.TIMING.WEEKS'
             },
             {
               count: 0,

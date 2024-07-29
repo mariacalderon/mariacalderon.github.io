@@ -20,6 +20,7 @@ module.exports = {
       },
       colors: {
         'primary': 'rgb(var(--primary-color))',
+        'link': 'rgb(var(--link-text))',
         'hero-title': {
           DEFAULT: 'rgb(var(--primary-text))',
           70: 'rgb(var(--primary-text) / .70)',

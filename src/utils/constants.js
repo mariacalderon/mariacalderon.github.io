@@ -124,11 +124,18 @@ export const PROJECT_DETAIL_PROCESS = {
 };
 
 export const AYOBA_LINK = "www.ayoba.me";
+export const NEWITTS_LINK = "www.newitts.com";
+export const SPORTSDIRECT_LINK = "www.sportsdirect.es";
+export const NIKE_LINK = "www.nike.com";
+export const TARGET_LINK = "www.target.com";
+export const NEWITTS_FIGMA_LINK = "www.figma.com/file/MH1IAmCjMMBzg517Fd7uPt/Newitts-Final?type=design&node-id=517%3A12028&mode=design&t=qHc7QMPoo8HWFyNQ-1&fuid=778349307597781360";
+
 
 export const H1 = "h1";
 export const H2 = "h2";
 export const H3 = "h3";
 export const H4 = "h4";
+export const SUBTITLE = "subtitle";
 export const BLUE_H3 = "blue_h3";
 export const H2_BUBBLE = "h2_bubble";
 export const H2_UNDERLINE = "h2_underline";

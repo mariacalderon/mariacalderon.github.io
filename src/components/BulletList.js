@@ -1,18 +1,21 @@
 import { FormattingTranslation } from "../utils/translationHook";
 
 const BulletList = (props) => {
+
+  const renderListItem = () => {
+    return props.list.map((item) => {
+      return (
+        <li key={`bullet-${item}`} className="pl-2 pb-4">
+          {FormattingTranslation(item)}
+        </li>
+      )
+    })
+  }
+
   return (
-    <ul className={`pl-6 list-disc text-lg ${props.styling}`}>
-      {
-        props.list.map((item) => {
-          return (
-            <li key={`bullet-${item}`} className="pl-2">
-              {FormattingTranslation(item)}
-            </li>
-          )
-        })
-      }
-    </ul>
+    <ol className={`pl-6 marker:font-bold ${props.ordered ? 'list-decimal':'list-disc'} text-lg ${props.styling}`}>
+      {renderListItem()}
+    </ol>
   )
 }
 

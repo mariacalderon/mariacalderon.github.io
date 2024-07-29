@@ -9,10 +9,10 @@ const Footer = () => {
 
   return (
     <div className="bg-primary w-screen h-fit py-16 px-16 flex flex-row justify-between items-center z-40 text-2xl sm:flex-col sm:justify-center sm:gap-4">
-      <div className="flex min-w-16 w-full font-bold sm:text-center">
+      <div className="flex sm:justify-center min-w-16 w-full font-bold sm:text-center sm:text-xl">
         {NAME}
       </div>
-      <div className="flex flex-col min-w-16 w-full items-center gap-2 font-medium">
+      <div className="flex flex-col min-w-16 w-full items-center gap-2 font-medium sm:text-xl">
         <div className="cursor-pointer" onClick={() => {
           openWindow(`mailto: ${CONTACT_EMAIL}`);
         }}>

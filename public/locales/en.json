@@ -2,7 +2,9 @@
   "COMMENT": {
     "DESCRIPTION": "KEYS USED FOR TEXT FORMATTING",
     "BOLD": "<bold>",
-    "BREAK_LINE": "\n"
+    "BREAK_LINE": "\n",
+    "UNDERLINE": "<underline>",
+    "BLUE LINK": "<link>"
   },
   "HEADER": {
     "MARIA": "Maria Granda"
@@ -608,6 +610,177 @@
         "MUSIC": "Music for ayoba",
         "PODCAST": "Podcast for ayoba"
       }
+    }
+  },
+  "NEWITTS": {
+    "TITLE": "Newitts",
+    "OVERVIEW": {
+      "TITLE": "OVERVIEW",
+      "DESCRIPTION": "Newitts.com, is <bold>one of the largest online sports wholesaler</bold> e-shops in the UK with a <bold>primary focus on catering to the UK market</bold>. The predominant segment of its e-commerce sales is <bold>centered around sports equipment and sportswear, serving Schools, Sports Clubs, Organizations, and administration. The e-store accounts for 70% of the total gross income.</bold>"
+    },
+    "PROJECT": {
+      "TITLE": "Project / Overview",
+      "MOBILE_FIRST": {
+        "TITLE": "Mobile-First Approach",
+        "DESCRIPTION": "Our design approach prioritizes a mobile-first strategy, ensuring a seamless and user-friendly experience on smartphones and tablets. The interface will be responsive, optimizing content for various screen sizes and resolutions."
+      },
+      "NAVIGATION": {
+        "TITLE": "Main Navigation",
+        "DESCRIPTION": "Simplify the main navigation to enchance user experience. Implement a clean and intuitive menu structure with easily recognizable symbols and concise labels. Streamline categories for easy access to products, ensuring a hassle-free browsing experience."
+      },
+      "ARCHITECTURE": {
+        "TITLE": "Information Architecture",
+        "DESCRIPTION": "Revise the information architecture to provide a logical and intuitive flow, Group related products and categories, making it effortless for users to find what they need, suggest a search bar with auto-suggestions to expedite the navigation process."
+      },
+      "CHECKOUT": {
+        "TITLE": "Streamlined Checkout Process",
+        "DESCRIPTION": "Optimize the checkout process for efficiency and user satisfaction. Implement a multi-step checkout with progress indicators to keep users informed about their current stage. Include guest checkout options for a seamless transaction experience."
+      },
+      "BRANDING": {
+        "TITLE": "Branding Enhancement",
+        "DESCRIPTION": "Refine the branding elements to create a cohesive and memorable visual identifiy. Utilize a modern color palette, new typography, and high-quality imagery that aligns with the brand image."
+      },
+      "UX": {
+        "TITLE": "General UX Improvements",
+        "DESCRIPTION": "Address general UX issues by enchancing page loading speed, minimizing pop-ups, and ensuring a clutter-free design. Prioritize readability with clear font choices and appropriate text sizes. Implement user feedback where necessary to continually refine the user experience."
+      },
+      "UI": {
+        "TITLE": "Modern and Clutter-Free UI",
+        "DESCRIPTION": "Create a modern and visually appealing UI that focuses on showcasing products and categories. Utilize high-resolution images, prominent call-to-action buttons, and subtle animations to engage users. Prioritize a minimalist design to reduce visual clutter and ailing with industry and target standards."
+      }
+    },
+    "CHALLENGE": {
+      "TITLE": "The Challenge",
+      "PRIMARY": {
+        "DESCRIPTION": "<bold>The primary challenge</bold> of this project is to collaborate effectively with the tech team and accomodate the existing CMS capabilities and limitations. The initial stage involves the development of a (MVP) with minimal backend modifications. The key objectives include improving site navigation and Information Architecture (IA) without altering the current backend architecture. The proposed solutions aims to address existing frontend issues while laying the foundation for a scalable structure that accommodates future functionalities and features.\n\n• <bold>Tech Team Collaboration:</bold> Work closely with the tech team to implement frontend changes that align with the current backend architecture.\n\n• <bold>Scalability:</bold> Develop a scalable solution that allows for easy integration of new functionalities and features in the future."
+      },
+      "SECONDARY": {
+        "DESCRIPTION": "The challenge for the visual design and re-branding, this strategy aims to strike a balance between industry standards, brand consistency, and practical considerations, fostering a visually appealing and trustworthy online presence within the initial budget for this MVP. A new Brand typography was also selected.\n\n• <bold>Brand Style Guide:</bold> Create a comprehensive brand style guide outlining design principles, color schemes, and image treatments. This guide will serve as a reference for maintaining visual consistency.\n\n• <bold>Strategic Brand Photography:</bold> Allocate budget strategically for key product categories. Prioritize high-impact areas (categories) where professional photography can significantly enhance brand perception."
+      }
+    },
+    "PROCESS": {
+      "TITLE": "Process",
+      "DESCRIPTION": "We used a double-diamond methodology for the project encompassing Discovery, Definition, Development, and Delivery stages. Currently in the developmental phase, the portal is undergoing construction. Upon completion, A/B testing will be conducted to validate certain assumptions made during the project.",
+      "RESEARCH": {
+        "TITLE": "Qualitative Research",
+        "DESCRIPTION": "In-depth interviews with the CEOs and the Chief Technology Officer (CTO) of the company to uncover product insights and requirements."
+      },
+      "WEB_AUDIT": {
+        "TITLE": "Web Site Audit",
+        "DESCRIPTION": "A website audit was conducted to identify pain points and areas for improvement."
+      },
+      "BENCHMARK": {
+        "TITLE": "Benchmark",
+        "DESCRIPTION": "The benchmarking process involved analyzing and comparing key industry competitors."
+      },
+      "WIREFRAMES": {
+        "TITLE": "Wireframes",
+        "DESCRIPTION": "Wireframes were crafted to define the new User Experience (UX)."
+      }
+    },
+    "INTERVIEWS": {
+      "TITLE": "Interviews",
+      "SUBTITLE": "The initial phase of the project involved in-depth interviews with the CEOs and the Chief Technology Officer (CTO) of the company. The primary goals of these interviews were to gain insights into the new product requirements, focusing on both the branding and technical aspects.",
+      "DESCRIPTION": "Additionally, the interviews aimed to identify pain points in the current situation to establish the project's direction."
+    },
+    "AUDIT": {
+      "TITLE": "Website Audit",
+      "SUBTITLE": "A comprehensive website audit was conducted to identify pain points and areas for improvement in both the user interface (UI) and user experience (UX) across all main pages of the online store.",
+      "DESCRIPTION": "This thorough exercise aimed to provide valuable insights, address existing issues, and explore opportunities for innovation.",
+      "ANALYSIS": "<bold>Page-by-Page Analysis:</bold> A detailed examination of each main page, including the homepage, product pages, categories pages, and checkout process, was conducted to identify specific pain points.",
+      "JOURNEY": "<bold>User Journey Assessment:</bold> The audit focused on evaluating the user journey, from landing on the site to completing a purchase. This involved analyzing navigation, page load times, and overall user flow.",
+      "COMPATIBILITY": "<bold>Cross-Device Compatibility:</bold> The audit considered the website's performance and usability across various devices, ensuring a seamless experience for users on desktops, tablets, and mobile devices."
+    },
+    "INSIGHTS": {
+      "TITLE": "Insights",
+      "SUBTITLE": "The insights gained from the website audit, validated by client discussions and cross-referenced with quantitative data from Google Analytics, led to the following key recommendations:",
+      "HOMEPAGE": {
+        "TITLE": "Homepage",
+        "DESC_1": "Focus on a versatile Homepage Information Architecture (IA) that aims to introduce a dynamic and modular structure that aligns with seasonal campaigns, new marketing initiatives, product launches, brand promotions, and special offers. The goal is to create a scalable IA that adapts to evolving product requirements and allows for diverse tracking events to enchance conversion rates.",
+        "DESC_2": "Address the clutter on the homepage, proposing a cleaner design that prioritizes key product categories and highlights special offers.",
+        "DESC_3": "Implement SEO-generated content blocks to enchance organiz search placement.",
+        "DESC_4": "The enhanced Homepage IA, should embrace versatility and modularity, to deliver a dynamic and engaging experience for users while providing the flexibility needed to adapt to evolving marketing and product requirements."
+      },
+      "FEATURES": {
+        "TITLE": "Key Features",
+        "DESC_1": "Modular Block Design",
+        "DESC_2": "Seasonal Campaign Sections",
+        "DESC_3": "New Product Showcases",
+        "DESC_4": "Brand-Specific Promotions",
+        "DESC_5": "Customizable Marketing Campaign / SEO Blocks",
+        "DESC_6": "Tracking Event Integration",
+        "DESC_7": "Increased Conversion Opportunities"
+      },
+      "PRODUCT": {
+        "TITLE": "Product Pages",
+        "DESC_1": "Improve product page layouts for better readability and an intuitive display of product information for mobile devices.",
+        "DESC_2": "Introduce quick view options and enhanced product imagery for a more engaging user experience."
+      },
+      "CATEGORY": {
+        "TITLE": "Category Pages",
+        "DESC_1": "Streamlined category navigation and filters to simplify the browsing experience.",
+        "DESC_2": "Incorporate visual cues in main nav to guide users through different product categories.",
+        "DESC_3": "The top-level category pages, / Sports section, have presented challenges in terms of user navigation, especially on mobile devices. The extensive list of anchors has proven to be cumbersome, leading to low user engagement based on both testing results (Analytics) and stakeholder feedback.",
+        "DESC_4": "Prioritize a mobile-first approach to ensure a seamless and user-friendly experience on smaller screens.",
+        "DESC_5": "Address the low user engagement observed on these pages by creating a more compelling and user-centric layout."
+      },
+      "CHECKOUT": {
+        "TITLE": "Checkout Process",
+        "DESC_1": "Optimize the checkout process with clear progress indicators and a simplified, user-friendly interface.",
+        "DESC_2": "Introduce guest checkout options to streamline the purchase journey."
+      },
+      "RESPONSIVE": {
+        "TITLE": "Responsive Design",
+        "DESC_1": "Ensure responsive design across all devices, emphasizing a mobile-first approach to accommodate users on various platforms seamlessly."
+      }
+    },
+    "BENCHMARK": {
+      "TITLE": "Benchmarking",
+      "SUBTITLE": "The benchmarking process involved analyzing and comparing the online commerce strategies of two key industry competitors ",
+      "SUBTITLE_2": " and ",
+      "SUBTITLE_3": ", alongside a non-direct competitor, ",
+      "DESCRIPTION": "The goal was to identify best practices, gather insights, and explore innovative approaches to enhance the online store's performance.",
+      "KEY_FINDINGS": {
+        "TITLE": "Key-Findings",
+        "DESC_1": "Incorporate elements of visual storytelling on the homepage for higher engagement",
+        "DESC_2": "Mobile First hero section",
+        "DESC_3": "Mega menu and a sticky navigation bar, a crucial factor for rapid e-commerce browsing and increased conversions",
+        "DESC_4": "Emphasis on simplicity and quick navigation",
+        "DESC_5": "Clean and intuitive design, reflecting brand aesthetics",
+        "DESC_6": "Filter Chips / Categories / Curated Content (Mobile First)",
+        "DESC_7": "PRominent display of deals and discounts for user engagement",
+        "DESC_8": "Robust search and filtering options for a smoother user journey",
+        "DESC_9": "Dynamic displays of seasonal promotions and discounts",
+        "DESC_10": "Quick access to popular categories and featured products",
+        "DESC_11": "Detailed product descriptions and reviews",
+        "DESC_12": "Sticky CTA on product mobile pages for higher conversion rates",
+        "DESC_13": "Comprehensive product information and customer reviews",
+        "DESC_14": "Cross-selling strategies and related product recommendations"
+      }
+    },
+    "WIREFRAMES": {
+      "TITLE": "Wireframes",
+      "DESCRIPTION": "Wireframes were crafted to define the new User Experience (UX) and Information Architecture for the upcoming webiste. In alignment with insights from interviews, the research, and google analytics data, a Mobile-First approach was adopted, given that approximately 70% of users interact with the website through handled devices.\n\nFurthermore, a functional prototype of both the homepage and category page was developed to showcase the client the envisioned UI enhancements and key features of the upcoming site."
+    },
+    "IDEATION": {
+      "TITLE": "Ideation",
+      "SUBTITLE": "Upon consolidating product requirements, insights, and addressing pain points, the new product underwernt iterative exploration for its UX/UI. In parallel, a fresh visual language was developed for the branding, encompassing a new photography style and typography definition.",
+      "DESCRIPTION": "The suggestion is to adopt lifestyle photography, a dynamic style focused on capturing portraits of individuals in authentic situations, real-life events, or significant milestones. This approach aims to artistically enhance the brand's image. A more engaging copy is algo suggested.",
+      "HERO_EXAMPLES": "Hero Section Examples",
+      "CATEGORY_EXAMPLES": {
+        "TITLE": "Category Examples",
+        "DESCRIPTION": "Lifestyle photography, with a dynamic style focused on capturing portraits of individuals/products in authentic situations."
+      }
+    },
+    "TYPOGRAPHY": {
+      "TITLE": "Typography",
+      "SUBTITLE": "The Gilroy Family was selected for the new brand typography. Gilroy is a modern sans serif with a geometric touch."
+    },
+    "UXUI": {
+      "TITLE": "UX/UI Definition",
+      "SUBTITLE": "The final deliverables were provided in a ",
+      "SUBTITLE_2": "Figma File",
+      "SUBTITLE_3": " including the research and all main screens requested by client in desktop and mobile format."
     }
   }
 }

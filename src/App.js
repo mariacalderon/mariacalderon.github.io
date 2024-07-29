@@ -10,6 +10,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import AyobaProfile from "./pages/AyobaProfile";
 import AyobaGames from "./pages/AyobaGames";
 import AyobaMusic from "./pages/AyobaMusic";
+import Newitts from "./pages/Newitts";
 
 function App() {
 
@@ -43,6 +44,7 @@ function App() {
           <Route path='/ayoba/profile' element={<AyobaProfile />} />
           <Route path='/ayoba/games' element={<AyobaGames />} />
           <Route path='/ayoba/music' element={<AyobaMusic />} />
+          <Route path='/newitts' element={<Newitts />} />
         </Routes>
       </div>
       <AnimatePresence>

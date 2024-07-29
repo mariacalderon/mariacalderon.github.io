@@ -1,17 +1,15 @@
 import HeaderSection from "./HeaderSection";
 import { MCG_LOGO, NAV_SECTIONS, PROJECTS } from "../utils/constants";
-import { useCallback, useEffect, useState } from "react";
-import { useLocation } from "react-router-dom";
+import { useCallback, useState } from "react";
 import { useAnimationControls } from "framer-motion";
 import { motion } from "framer-motion";
 import ConfettiExplosion from 'react-confetti-explosion';
 
 import { ReactComponent as AyobaLogo } from "../assets/icons/ayoba.svg";
 import { ReactComponent as Newitts } from "../assets/icons/newitts.svg";
+import { useLocationChange } from "../utils/locationTracking";
 
 const Header = () => {
-
-  const location = useLocation();
   const animationControls = useAnimationControls();
 
   const [showConfetti, setShowConfetti] = useState(false);
@@ -37,14 +35,22 @@ const Header = () => {
     }
   }, []);
 
+  const [headerLogo, setHeaderLogo] = useState(checkHeaderLogo());
+
+  useLocationChange((location, prevLocation) => {
+    if (prevLocation.pathname !== location.pathname) {
+      setHeaderLogo(checkHeaderLogo());
+    }
+  })
+
+
   const variants = {
-    still: { y: 0 },
-    bouncing: (i) => ({
+    bouncing: {
       scale: [1, 1.2, 1],
       transition: {
         duration: 0.5,
       }
-    })
+    }
   };
 
   const onLogoClick = () => {
@@ -54,9 +60,9 @@ const Header = () => {
     }
   };
 
-  useEffect(() => {
-    checkHeaderLogo();
-  }, [location, checkHeaderLogo]);
+  // useEffect(() => {
+  //   checkHeaderLogo();
+  // }, [location, checkHeaderLogo]);
 
   return (
     <div className="fixed top-8 left-12 right-12 bg-white max-h-16 h-fit py-5 px-7 rounded-lg shadow-lg flex flex-row justify-between items-center z-40 sm:top-4 sm:left-6 sm:right-6">
@@ -69,9 +75,9 @@ const Header = () => {
       >
         {showConfetti && 
           <div className="pl-12">
-            <ConfettiExplosion onComplete={() => setShowConfetti(false)} zIndex={50} force={0.4} particleCount={30} />
+            <ConfettiExplosion onComplete={() => setShowConfetti(false)} zIndex={50} force={0.4} particleCount={50} />
           </div>}
-        {checkHeaderLogo()}
+        {headerLogo}
       </motion.div>
       <div className="flex flex-row">
         {

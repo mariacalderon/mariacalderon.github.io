@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import { BLUE_H3, H1, H2, H2_BUBBLE, H2_UNDERLINE, H3, H4 } from "../utils/constants";
+import { BLUE_H3, H1, H2, H2_BUBBLE, H2_UNDERLINE, H3, H4, SUBTITLE } from "../utils/constants";
 
 const ProjectSectionTitle = (props) => {
 
@@ -15,6 +15,8 @@ const ProjectSectionTitle = (props) => {
         return 'font-bold text-2xl pb-4 sm:text-xl';
       case H4:
         return 'font-bold text-xl sm:text-lg';
+      case SUBTITLE:
+        return 'inline font-medium text-xl sm:text-lg';
       case BLUE_H3:
         return 'font-bold text-lg text-blue pb-4';
       case H2_BUBBLE:
