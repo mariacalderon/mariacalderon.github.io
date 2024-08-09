@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import './utils/i18next';
+import './utils/firebase';
 import { BrowserRouter } from 'react-router-dom';
 import { createBrowserHistory } from "history";
 
