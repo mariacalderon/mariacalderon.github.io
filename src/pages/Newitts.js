@@ -334,17 +334,6 @@ const Newitts = () => {
           <div className="flex flex-row items-center gap-4 pb-8 sm:w-full sm:flex-col">
             <div className="w-3/5 sm:w-full">
               <ProjectSectionTitle type={SUBTITLE} title='NEWITTS.UXUI.SUBTITLE' />
-              <span className="cursor-pointer underline font-medium text-xl sm:text-lg" onClick={() => {
-                navigateTo(NEWITTS_FIGMA_LINK)
-              }}>
-                {t('NEWITTS.UXUI.SUBTITLE_2')}
-              </span>
-              <ProjectSectionTitle type={SUBTITLE} title='NEWITTS.UXUI.SUBTITLE_3' />
-            </div>
-            <div className="w-2/5 flex justify-center cursor-pointer" onClick={() => {
-              navigateTo(NEWITTS_FIGMA_LINK)
-            }}>
-              <ExternalLinkIcon />
             </div>
           </div>
           <img className="w-full" src={`${imgPathBase}design.png`} alt="design" />

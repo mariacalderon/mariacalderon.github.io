@@ -128,7 +128,6 @@ export const NEWITTS_LINK = "www.newitts.com";
 export const SPORTSDIRECT_LINK = "www.sportsdirect.es";
 export const NIKE_LINK = "www.nike.com";
 export const TARGET_LINK = "www.target.com";
-export const NEWITTS_FIGMA_LINK = "www.figma.com/file/MH1IAmCjMMBzg517Fd7uPt/Newitts-Final?type=design&node-id=517%3A12028&mode=design&t=qHc7QMPoo8HWFyNQ-1&fuid=778349307597781360";
 
 
 export const H1 = "h1";

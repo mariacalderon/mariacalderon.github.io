@@ -778,9 +778,7 @@
     },
     "UXUI": {
       "TITLE": "UX/UI Definition",
-      "SUBTITLE": "The final deliverables were provided in a ",
-      "SUBTITLE_2": "Figma File",
-      "SUBTITLE_3": " including the research and all main screens requested by client in desktop and mobile format."
+      "SUBTITLE": "The final deliverables were provided in a Figma File including the research and all main screens requested by client in desktop and mobile format."
     }
   }
 }
