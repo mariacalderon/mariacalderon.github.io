@@ -38,7 +38,7 @@ const Header = () => {
   const [headerLogo, setHeaderLogo] = useState(checkHeaderLogo());
 
   useLocationChange((location, prevLocation) => {
-    if (prevLocation.pathname !== location.pathname) {
+    if (prevLocation?.pathname !== location.pathname) {
       setHeaderLogo(checkHeaderLogo());
     }
   })
