@@ -1,9 +1,10 @@
 import { motion } from "framer-motion";
-import { useNavigate } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 
 const ImageTextItem = (props) => {
 
   const navigate = useNavigate();
+  const location = useLocation();
 
   return (
     <motion.div
@@ -15,7 +16,7 @@ const ImageTextItem = (props) => {
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1, duration: 2 }}
       onClick={() => {
-        if (props.path) navigate(props.path)
+        if (props.path) navigate(props.path, {state: {from: location}})
       }}
     >
       <div className="flex w-full max-w-72">

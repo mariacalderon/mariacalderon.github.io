@@ -60,10 +60,6 @@ const Header = () => {
     }
   };
 
-  // useEffect(() => {
-  //   checkHeaderLogo();
-  // }, [location, checkHeaderLogo]);
-
   return (
     <div className="fixed top-8 left-12 right-12 bg-white max-h-16 h-fit py-5 px-7 rounded-lg shadow-lg flex flex-row justify-between items-center z-40 sm:top-4 sm:left-6 sm:right-6">
       <motion.div

@@ -11,6 +11,7 @@ import AyobaProfile from "./pages/AyobaProfile";
 import AyobaGames from "./pages/AyobaGames";
 import AyobaMusic from "./pages/AyobaMusic";
 import Newitts from "./pages/Newitts";
+import AyobaGeneral from "./pages/AyobaGeneral";
 
 function App() {
 
@@ -40,6 +41,7 @@ function App() {
           <Route path='*' element={<Homepage />} />
           <Route path='/' element={<Homepage />} />
           <Route path='/about' element={<Aboutme />} />
+          <Route path='/ayoba' element={<AyobaGeneral />} />
           <Route path='/ayoba/messaging' element={<AyobaMessaging />} />
           <Route path='/ayoba/profile' element={<AyobaProfile />} />
           <Route path='/ayoba/games' element={<AyobaGames />} />

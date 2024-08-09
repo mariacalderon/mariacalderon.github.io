@@ -17,7 +17,7 @@ const Hero = () => {
             transition={{
               duration: 1.25,
               type: "spring",
-              bounce: 0.2
+              bounce: 0.1
             }}
           >
             <img

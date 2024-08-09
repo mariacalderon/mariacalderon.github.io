@@ -20,6 +20,10 @@
       "HAPPY": "Happy",
       "BRAVE": "Brave"
     },
+    "AYOBA_GENERAL": {
+      "TITLE": "Ayoba - South Africa",
+      "DESCRIPTION": "Ayoba is a <bold>SuperApp with 30 million</bold> monthly <bold>active users</bold> in more than <bold>15 African countries</bold> with 23 languages, including more than 8 African languages. <bold>MTN</bold> is the key investor, and one of the major telecommunications companies in Africa. \n\nAyoba is a cross platform app (Android, iOS, PWA) and offers a range of services such as <bold>Chat, Voip, Music, Games, News, Microapps, Payments, Gifting and more.</bold> \n\nOne of the key obstacles faced in Africa revolves around restrictes internet access, primarily attributed to high data costs and infrastructure challenges. \nAyoba addresses this issue by providing complimentary data, aiming to foster digital inclusion and broaden access to digital communication for a larger population."
+    },
     "AYOBA_REDESIGN": {
       "TITLE": "Redesign messaging for ayoba",
       "DESCRIPTION": "Ayoba is a <bold>SuperApp with 30 million</bold> monthly <bold>active users</bold> in more than <bold>15 African countries</bold> with 23 languages, including more than 8 African languages. <bold>MTN</bold> is the key investor, and one of the major telecommunications companies in Africa. \n\nAyoba is a cross platform app (Android, iOS, PWA) and offers a range of services such as <bold>Chat, Voip, Music, Games, News, Microapps, Payments, Gifting and more.</bold> \n\nThe <bold>central challenge revolved around identifying the key features in messaging</bold> that were crucial for redesign. Given that messaging constitutes the <bold>core feature in Ayoba</bold>, the objective was to enhance these features with the aim of boosting user retention and engagement."
@@ -39,6 +43,14 @@
     "NEWITTS_ECOMMERCE": {
       "TITLE": "E-commerce for Newitts",
       "DESCRIPTION": "Newitts.com,  is one of the largest online sports wholesale r e-shops in the UK with a primary focus on catering to the UK market. The predominant segment of its e-commerce sales is centered around sports equipment and sportswear, serving Schools, Sports Clubs, Organizations, and administration. The e-store accounts for 70% of the total gross income."
+    },
+    "GLASSES": {
+      "TITLE": "Try on Glasses",
+      "DESCRIPTION": "Try on glasses is an <bold>app for tablet</bold>, aimed at people who visit the physical stores of Optica Universitaria. \n\nOptica Universitaria stores face high customer traffic during peak times, leading to long wait times and dissatisfaction. The challenge was to enhance the in-store experience by <bold>providing a solution that allows customers to engage with products independently</bold> while waiting for sales assistance."
+    },
+    "FLATMILY": {
+      "TITLE": "Flatmily",
+      "DESCRIPTION": ""
     }
   },
   "ABOUTME": {
@@ -780,5 +792,13 @@
       "TITLE": "UX/UI Definition",
       "SUBTITLE": "The final deliverables were provided in a Figma File including the research and all main screens requested by client in desktop and mobile format."
     }
+  },
+  "AUTHORIZATION": {
+    "TITLE": "Password required",
+    "DESCRIPTION": "You need a password to access the project",
+    "PWD_PLACEHOLDER": "Enter password",
+    "CONTINUE": "Continue",
+    "ERROR_400": "Please enter a valid password",
+    "ERROR_500": "Something went wrong... please try again later"
   }
 }

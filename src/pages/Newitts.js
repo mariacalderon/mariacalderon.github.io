@@ -3,13 +3,11 @@ import ProjectHero from "../components/ProjectHero";
 import ProjectContentWithMargins from "../components/ProjectContentWithMargin";
 import ProjectDetails from "../components/ProjectDetails";
 import ProjectLink from "../components/ProjectLink";
-import { BLUE_H3, H1, H4, NEWITTS_FIGMA_LINK, NEWITTS_LINK, NIKE_LINK, SPORTSDIRECT_LINK, SUBTITLE, TARGET_LINK } from "../utils/constants";
+import { BLUE_H3, H1, H4, NEWITTS_LINK, NIKE_LINK, SPORTSDIRECT_LINK, SUBTITLE, TARGET_LINK } from "../utils/constants";
 import ProjectSectionTitle from "../components/ProjectSectionTitle";
 import ProjectBodyText from "../components/ProjectBodyText";
 import ProjectBubble from "../components/ProjectBubble";
 import BulletList from "../components/BulletList";
-
-import { ReactComponent as ExternalLinkIcon } from '../assets/icons/external-link.svg';
 
 const Newitts = () => {
 
