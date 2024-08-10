@@ -12,6 +12,7 @@ import AyobaGames from "./pages/AyobaGames";
 import AyobaMusic from "./pages/AyobaMusic";
 import Newitts from "./pages/Newitts";
 import AyobaGeneral from "./pages/AyobaGeneral";
+import OpticaUniversitaria from "./pages/OpticaUniversitaria";
 
 function App() {
 
@@ -47,6 +48,7 @@ function App() {
           <Route path='/ayoba/games' element={<AyobaGames />} />
           <Route path='/ayoba/music' element={<AyobaMusic />} />
           <Route path='/newitts' element={<Newitts />} />
+          <Route path='/optica-universitaria' element={<OpticaUniversitaria />} />
         </Routes>
       </div>
       <AnimatePresence>

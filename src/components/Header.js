@@ -7,6 +7,7 @@ import ConfettiExplosion from 'react-confetti-explosion';
 
 import { ReactComponent as AyobaLogo } from "../assets/icons/ayoba.svg";
 import { ReactComponent as Newitts } from "../assets/icons/newitts.svg";
+import { ReactComponent as Optica } from "../assets/icons/universitaria.svg";
 import { useLocationChange } from "../utils/locationTracking";
 
 const Header = () => {
@@ -27,6 +28,8 @@ const Header = () => {
           return <AyobaLogo />
         case 'newitts':
           return <Newitts className="w-4/5" />
+        case 'optica-universitaria':
+          return <Optica className="sm:w-full" />
         default:
           return MCG_LOGO;
       }

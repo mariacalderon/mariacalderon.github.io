@@ -97,6 +97,7 @@ const ProjectDetails = (props) => {
       <div className="flex flex-row justify-between sm:flex-col sm:gap-4 sm:items-center">
         {
           PROJECT_DETAILS_BASIC.map((section) => {
+            if (props[section.id].length === 0) return (<div key={`${props.projectTitle}-${section.id}`}></div>)
             return (
               <div key={`${props.projectTitle}-${section.id}`} className="flex flex-col w-full max-w-[70%] gap-2">
                 <div className="flex flex-row items-center gap-4">

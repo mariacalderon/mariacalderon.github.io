@@ -19,7 +19,7 @@ const ImageTextItem = (props) => {
         if (props.path) navigate(props.path, {state: {from: location}})
       }}
     >
-      <div className="flex w-full max-w-72">
+      <div className="flex w-full max-w-md">
         <img src={props.image} alt={props.image_alt}/>
       </div>
       <div className="flex flex-col gap-12 w-full max-w-md">

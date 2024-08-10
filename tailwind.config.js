@@ -43,6 +43,9 @@ module.exports = {
         'ayoba-red': 'rgb(var(--ayoba-red))',
         'ayoba-purple': 'rgb(var(--ayoba-purple))',
         'newitts-gray': 'rgb(var(--newitts-gray))',
+        'optica-yellow': 'rgb(var(--optica-yellow))',
+        'optica-salmon': 'rgb(var(--optica-salmon))',
+        'optica-gray': 'rgb(var(--optica-gray))',
       },
       fontFamily: {
         gilroy: 'Gilroy',

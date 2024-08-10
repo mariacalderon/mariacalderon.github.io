@@ -39,6 +39,20 @@ function Homepage() {
             {FormattingTranslation('PORTFOLIO.NEWITTS_ECOMMERCE.DESCRIPTION')}
           </div>
         </ImageTextItem>
+        <ImageTextItem
+          imageOnRight={false}
+          image='/assets/imgs/homepage/optica-universitaria.png'
+          image_alt='try-on-glasses'
+          path='/optica-universitaria'
+          animated={true}
+        >
+          <div className="text-4xl font-bold">
+            {t('PORTFOLIO.OPTICA.TITLE')}
+          </div>
+          <div className="text-lg font-sans text-body">
+            {FormattingTranslation('PORTFOLIO.OPTICA.DESCRIPTION')}
+          </div>
+        </ImageTextItem>
       </div>
     </div>
   )

@@ -44,7 +44,7 @@
       "TITLE": "E-commerce for Newitts",
       "DESCRIPTION": "Newitts.com,  is one of the largest online sports wholesale r e-shops in the UK with a primary focus on catering to the UK market. The predominant segment of its e-commerce sales is centered around sports equipment and sportswear, serving Schools, Sports Clubs, Organizations, and administration. The e-store accounts for 70% of the total gross income."
     },
-    "GLASSES": {
+    "OPTICA": {
       "TITLE": "Try on Glasses",
       "DESCRIPTION": "Try on glasses is an <bold>app for tablet</bold>, aimed at people who visit the physical stores of Optica Universitaria. \n\nOptica Universitaria stores face high customer traffic during peak times, leading to long wait times and dissatisfaction. The challenge was to enhance the in-store experience by <bold>providing a solution that allows customers to engage with products independently</bold> while waiting for sales assistance."
     },
@@ -800,5 +800,77 @@
     "CONTINUE": "Continue",
     "ERROR_400": "Please enter a valid password",
     "ERROR_500": "Something went wrong... please try again later"
+  },
+  "OPTICA": {
+    "TITLE": "Óptica Universitaria",
+    "SUBTITLE": "Try on Glasses",
+    "CONTEXT": {
+      "TITLE": "Context of the problem",
+      "DESCRIPTION": "Optica Universitaria stores <bold>face high customer traffic during peak times</bold>, leading to long wait times and dissatisfaction. The challenge was to <bold>enhance the in-store experience by providing a solution that allows customers to engage with products independently while waiting for sales assistance.</bold>"
+    },
+    "BUSINESS": {
+      "TITLE": "Business Strategy",
+      "DESCRIPTION": "The strategy <bold>focused on leveraging digital technology to improve customer experience</bold> and operational efficiency. Key goals included:",
+      "KEY_GOALS": {
+        "KG_1": "<bold>Reduce wait times by providing a self-service tool</bold> to engage customers during peak hours.",
+        "KG_2": "<bold>Increase Sales by enhancing product discovery</bold> and ease of purchase.",
+        "KG_3": "<bold>Customer Engagement, using AR</bold> to create an interactive and personalized shopping experience.",
+        "KG_4": "Data Collection, <bold>capturing customer information for targeted marketing</bold> and follow-up."
+      }
+    },
+    "UX_RESEARCH": {
+      "TITLE": "UX Research",
+      "DESCRIPTION": "To design an effective solution, comprehensive UX research was conducted:",
+      "RESEARCH": {
+        "RESEARCH_1": "<bold>Customer interviews</bold> where we get insights about their in-store experiences and frustrations.",
+        "RESEARCH_2": "<bold>Surveys</bold> to collect <bold>quantitative data</bold> on customer preferences and behaviours.",
+        "RESEARCH_3": "<bold>Observation of customer interactions</bold> and pain <bold>points during peak store hours.</bold>",
+        "RESEARCH_4": "Reviewed similar solutions in the <bold>market to identify best practices and opportunities.</bold>"
+      },
+      "KEY_INSIGHTS": {
+        "TITLE": "Key insights",
+        "DESC": "<bold>High Drop-off Rates:</bold> Many customers left the store due to long wait times.",
+        "DESC_2": "<bold>Interest in AR:</bold> Customers showed a strong interest in using augmented reality to try on glasses virtually.",
+        "DESC_3": "<bold>Need for Guidance:</bold> Customers wanted more information and personalized recommendations to make informed purchasing decisions.",
+        "DESC_4": "<bold>Preference for Convenience:</bold> A significant number of customers preferred an easy self-service purchase process."
+      }
+    },
+    "DESIGN_PROCESS": {
+      "TITLE": "Design Process",
+      "DESC": "Developed low-difelity wireframes to outline the app's structure and flow.",
+      "DESC_2": "Created high-fidelity prototypes in Figma, incorporating user feedback and iterative improvements.",
+      "DESC_3": "Conducted usability tests to refine the design and ensure ease of use.",
+      "DESC_4": "Delivered a polished design that met user needs and business objectives."
+    },
+    "VISUAL_DESIGN": {
+      "TITLE": "Visual Design",
+      "DESC": "The visual design emphasized a clean and modern aesthetic, using:",
+      "DESC_2": "<bold>Consistent Branding:</bold> Aligned with Optica Universitaria's brand identity.",
+      "DESC_3": "<bold>Intuitive Layouts:</bold> Simplified navigation to enhance user experience.",
+      "DESC_4": "<bold>Engaging Elements:</bold> Used high-quality images and AR to create an immersive experience."
+    },
+    "ADDITIONAL_FEATURES": {
+      "TITLE": "Additional Features",
+      "DESC": "<bold>Personalized Recommendations:</bold> The app recommends glasses based on the user's face shape.",
+      "DESC_2": "<bold>AR Technology:</bold> The AR feature attracts users by allowing them to try on glasses virtually.",
+      "DESC_3": "<bold>Email Collection and Registration:</bold> Users can register and provide their email for marketing campaigns and personalized follow-ups."
+    },
+    "FACE_SHAPE": {
+      "TITLE": "Know your face shape",
+      "DESC": "The app will take a photo of the user to detect what type of face they have and give them suggestions on the glasses that best suit their face type"
+    },
+    "SUGGESTION": {
+      "TITLE": "Glasses suggestion",
+      "DESC": "Taking into account the result of the user's face type, the app suggests different glasses so the user can try on them through AR"
+    },
+    "SHOP": {
+      "TITLE": "Shop Online",
+      "DESC": "Users must register with their email to be able to enter the online shop, see more glasses and try on them.\n\nThe app will show them recommended glasses, specifically for each user but they can also filter by different characteristics and buy them.\n\nThis register is important for Optica Universitaria because it will allow to extend its database to do targeted advertising."
+    },
+    "PURCHASE_FLOW": {
+      "TITLE": "Purchase Flow",
+      "DESC": "When users tap on a pair of glasses on the home, the app takes them to the fitting room from where they can find out more details about the glasses, follow the purchase process, and receive their glasses immediately in the store."
+    },
+    "PROTOTYPE": "Prototype"
   }
 }
