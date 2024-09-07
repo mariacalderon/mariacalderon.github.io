@@ -9,6 +9,10 @@
   "HEADER": {
     "MARIA": "Maria Granda"
   },
+  "NOT_FOUND": {
+    "TITLE": "Oooops you seem lost!",
+    "BACK_HOME": "Return to homepage"
+  },
   "PORTFOLIO": {
     "TITLE": "Portfolio",
     "HERO": {

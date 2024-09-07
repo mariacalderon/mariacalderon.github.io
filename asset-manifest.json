@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.e245e233.css",
-    "main.js": "/static/js/main.aad8970e.js",
+    "main.css": "/static/css/main.7e21763a.css",
+    "main.js": "/static/js/main.d388ecc2.js",
     "static/js/453.a8b9ec8f.chunk.js": "/static/js/453.a8b9ec8f.chunk.js",
     "static/media/Gilroy-Bold.otf": "/static/media/Gilroy-Bold.26e59eb7761ea9f4e60f.otf",
     "static/media/Gilroy-Extrabold.otf": "/static/media/Gilroy-Extrabold.af427ae84b09ef1fdb21.otf",
@@ -13,19 +13,19 @@
     "static/media/universitaria.svg": "/static/media/universitaria.6956e40d6f12a383e111cc30135b19f2.svg",
     "static/media/tools.svg": "/static/media/tools.3f0c87dbe84e2ec1a40e3f5a51b38886.svg",
     "static/media/file-text.svg": "/static/media/file-text.199b41567d3291a3b0d2c5d1b40e68f4.svg",
+    "index.html": "/index.html",
     "static/media/clipboard.svg": "/static/media/clipboard.886b956e1942810fde878d03692f2bce.svg",
     "static/media/heart.svg": "/static/media/heart.a334747e596c8a905b6c46abf78d9caf.svg",
     "static/media/edit.svg": "/static/media/edit.5e665fecd7fedacf7e8d4403e303f3f3.svg",
     "static/media/specify.svg": "/static/media/specify.7b490f5ea041b1f30ee1503b464caf0a.svg",
     "static/media/check.svg": "/static/media/check.63f5b355131dc38de73719a509f0cdc2.svg",
-    "index.html": "/index.html",
     "static/media/getFetch.cjs": "/static/media/getFetch.c4cca45e22bc1b2c7d0d.cjs",
-    "main.e245e233.css.map": "/static/css/main.e245e233.css.map",
-    "main.aad8970e.js.map": "/static/js/main.aad8970e.js.map",
+    "main.7e21763a.css.map": "/static/css/main.7e21763a.css.map",
+    "main.d388ecc2.js.map": "/static/js/main.d388ecc2.js.map",
     "453.a8b9ec8f.chunk.js.map": "/static/js/453.a8b9ec8f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e245e233.css",
-    "static/js/main.aad8970e.js"
+    "static/css/main.7e21763a.css",
+    "static/js/main.d388ecc2.js"
   ]
 }
