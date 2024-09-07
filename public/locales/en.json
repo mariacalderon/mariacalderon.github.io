@@ -1,0 +1,876 @@
+{
+  "COMMENT": {
+    "DESCRIPTION": "KEYS USED FOR TEXT FORMATTING",
+    "BOLD": "<bold>",
+    "BREAK_LINE": "\n",
+    "UNDERLINE": "<underline>",
+    "BLUE LINK": "<link>"
+  },
+  "HEADER": {
+    "MARIA": "Maria Granda"
+  },
+  "PORTFOLIO": {
+    "TITLE": "Portfolio",
+    "HERO": {
+      "TITLE": "UX/UI Designer",
+      "TEAMPLAYER": "Team Player",
+      "ADVENTUROUS": "Adventurous",
+      "CATLOVER": "Cat Lover",
+      "CURIOUS": "Curious",
+      "HAPPY": "Happy",
+      "BRAVE": "Brave"
+    },
+    "AYOBA_GENERAL": {
+      "TITLE": "Ayoba - South Africa",
+      "DESCRIPTION": "Ayoba is a <bold>SuperApp with 30 million</bold> monthly <bold>active users</bold> in more than <bold>15 African countries</bold> with 23 languages, including more than 8 African languages. <bold>MTN</bold> is the key investor, and one of the major telecommunications companies in Africa. \n\nAyoba is a cross platform app (Android, iOS, PWA) and offers a range of services such as <bold>Chat, Voip, Music, Games, News, Microapps, Payments, Gifting and more.</bold> \n\nOne of the key obstacles faced in Africa revolves around restrictes internet access, primarily attributed to high data costs and infrastructure challenges. \nAyoba addresses this issue by providing complimentary data, aiming to foster digital inclusion and broaden access to digital communication for a larger population."
+    },
+    "AYOBA_REDESIGN": {
+      "TITLE": "Redesign messaging for ayoba",
+      "DESCRIPTION": "Ayoba is a <bold>SuperApp with 30 million</bold> monthly <bold>active users</bold> in more than <bold>15 African countries</bold> with 23 languages, including more than 8 African languages. <bold>MTN</bold> is the key investor, and one of the major telecommunications companies in Africa. \n\nAyoba is a cross platform app (Android, iOS, PWA) and offers a range of services such as <bold>Chat, Voip, Music, Games, News, Microapps, Payments, Gifting and more.</bold> \n\nThe <bold>central challenge revolved around identifying the key features in messaging</bold> that were crucial for redesign. Given that messaging constitutes the <bold>core feature in Ayoba</bold>, the objective was to enhance these features with the aim of boosting user retention and engagement."
+    },
+    "AYOBA_USERPROFILE": {
+      "TITLE": "User Profile for ayoba",
+      "DESCRIPTION": "Ayoba is a super app, cross platform app (Android, iOS, PWA) and offers a range of services such as <bold>Chat, Voip, Music, Games, News, Microapps, Payments, Gifting and more.</bold> \n\n <bold>Profile users</bold> are significant as it offers <bold>users the feeling that has a space</bold> and they are <bold>part of our ayoba community</bold>. To get our users the feeling of being part of our app we need to <bold>improve</bold> in areas such as <bold>discoverability, shared interest, customization, content sharing, discovering, privacy and security.</bold>"
+    },
+    "AYOBA_GAMES": {
+      "TITLE": "Games for ayoba",
+      "DESCRIPTION": "<bold>Ayoba want to provide a perfect integration of a new design with the existing app infrastructure</bold> while maintaining a <bold>consistent user experience across all features within the app.</bold> This involves coordinating with various teams (such as development, content, design, project managers, owners, QA and UX/UI) to update the games section without disrupting other functionalities like music, chat, and news."
+    },
+    "AYOBA_MUSIC": {
+      "TITLE": "Music for ayoba",
+      "DESCRIPTION": "While <bold>Ayoba has a strong user base for music</bold>, it lacks the diverse audio content that is so popular right now. The <bold>absence of podcasts on the platform limits Ayoba's ability to fully engage its audience</bold>, to stay relevant in the competitive landscape, Ayoba needs to implement a podcast feature within its music section."
+    },
+    "NEWITTS_ECOMMERCE": {
+      "TITLE": "E-commerce for Newitts",
+      "DESCRIPTION": "Newitts.com,  is one of the largest online sports wholesale r e-shops in the UK with a primary focus on catering to the UK market. The predominant segment of its e-commerce sales is centered around sports equipment and sportswear, serving Schools, Sports Clubs, Organizations, and administration. The e-store accounts for 70% of the total gross income."
+    },
+    "OPTICA": {
+      "TITLE": "Try on Glasses",
+      "DESCRIPTION": "Try on glasses is an <bold>app for tablet</bold>, aimed at people who visit the physical stores of Optica Universitaria. \n\nOptica Universitaria stores face high customer traffic during peak times, leading to long wait times and dissatisfaction. The challenge was to enhance the in-store experience by <bold>providing a solution that allows customers to engage with products independently</bold> while waiting for sales assistance."
+    },
+    "FLATMILY": {
+      "TITLE": "Flatmily",
+      "DESCRIPTION": ""
+    }
+  },
+  "ABOUTME": {
+    "TITLE": "About",
+    "PAGE_TITLE": "About Me",
+    "DESCRIPTION": "Hello! I'm María, <bold>UX-UI designer with five years of experience</bold> in crafting engaging digital experiences for international projects. \n\n<bold>Currently based in Barcelona</bold>, my design journey has taken me across different countries, enriching my approach with diverse cultural perspectives. \n\nI have had the privilege of working with some of the <bold>world's leading companies, collaborating with global teams</bold> to deliver innovative solutions that meet user needs and business goals. <bold>My expertise is in understanding complex user journeys, creating intuitive interfaces, and ensuring seamless user interactions.</bold> \n\nI am passionate about every step of the design process—from research and ideation to prototyping and testing. Listening to users, uncovering their needs, and transforming insights into impactful designs is what drives me. \n\nI am dedicated to continuous learning and staying at the forefront of design trends and technologies. \n\nI am also highly skilled in <bold>teamwork, communication, and problem-solving. I do well in collaborative environments and thrive when working with diverse teams to achieve common goals. \n\nMy adaptability and empathy allow me to connect with users and stakeholders effectively, ensuring that their needs are always at the forefront of my design solutions.</bold> \n\nIn my portfolio, you'll find a selection of projects that showcase my ability to adapt to various challenges and deliver high-quality design solutions. Each project represents a unique story of collaboration, creativity, and problem-solving. I look forward to the opportunity to bring my experience and passion for design to new and exciting projects. Thank you for visiting my portfolio.",
+    "SKILLS": {
+      "TITLE": "Skills",
+      "DESIGN_THINKING": "Design thinking",
+      "DESIGN_SPRINT": "Design sprint",
+      "LEAN_STARTUP": "Lean Startup",
+      "UX": "UX research",
+      "PROTOTYPE": "Prototyping",
+      "WIREFRAME": "Wireframing",
+      "VISUAL_DESIGN": "Visual Design",
+      "USER_PERSONAS": "User Personas",
+      "USER_JOURNEY": "User Journey Mapping",
+      "INFO_ARCH": "Information Architecture",
+      "INTER_DESIGN": "Interaction Design",
+      "USABILITY": "Usability Testing",
+      "AB_TEST": "A/B Testing",
+      "UI": "User Interface (UI) Design",
+      "RESPONSIVE": "Responsive Design",
+      "A11Y": "Accessibility (a11y) Design",
+      "HEURISTIC": "Heuristic Evaluation",
+      "TASK": "Task Flows",
+      "AGILE": "Agile Methodologies",
+      "DESIGN_SYSTEMS": "Design Systems"
+    },
+    "TOOLS": "Tools"
+  },
+  "PROJECT_COMMON": {
+    "INFO": {
+      "ROLE": "My Role",
+      "TEAM": "The Team",
+      "TOOLS": "Tools",
+      "TIMING": "Timing"
+    },
+    "PROCESS": {
+      "TITLE": "Process",
+      "AUDIT": "Audit",
+      "EMPHATIZE": "Emphatize",
+      "SPECIFY": "Specify",
+      "IDEATE": "Ideate",
+      "HANDOFF": "Handoff",
+      "VERIFY": "Verify"
+    },
+    "ROLES": {
+      "PROD_DESIGN_LEAD": "Product Designer Lead",
+      "UXUI": "UX/UI"
+    },
+    "TEAM": {
+      "UX_RESEARCH": "{{count}} UX Research",
+      "UXUI_DESIGN": "{{count}} UX/UI Designer"
+    },
+    "TIMING": {
+      "MONTHS": "{{time}} months",
+      "WEEKS": "{{time}} weeks",
+      "ITERATIONS": "+ Iterations"
+    },
+    "FOOTER": "If you would like to see more, don't hesitate to contact me!"
+  },
+  "AYOBA": {
+    "TITLE": "ayoba",
+    "OVERVIEW": {
+      "TITLE": "OVERVIEW",
+      "DESCRIPTION": "Ayoba is a <bold>SuperApp with 30 million</bold> monthly <bold>active users</bold> in more than <bold>15 African countries</bold> with 23 languages, including more than 8 African languages. <bold>MTN</bold> is the key investor, and one of the major telecommunications companies in Africa. \n\nAyoba is a cross platform app (Android, iOS, PWA) and offers a range of services such as <bold>Chat, Voip, Music, Games, News, Microapps, Payments, Gifting and more.</bold> \n\nOne of the key obstacles faced in Africa revolves around restricted internet access, primarily attributed to high data costs and infrastructure challenges. Ayoba addresses this issue by providing complimentary data, aiming to foster digital inclusion and broaden access to digital communication for a larger population."
+    },
+    "MESSAGING": {
+      "SUBTITLE": "Redesign messaging",
+      "CONTEXT": {
+        "TITLE": "Context of the problem",
+        "DESCRIPTION": "Ayoba's primary emphasis lies in attracting new <bold>clients</bold> through comprehensive marketing strategies, <bold>user retention, and user registration on all platforms.</bold> \n\n<bold>The overarching goal is to elevate user engagement and maintain an active involvement on the platform.</bold> \n\nAcknowledging the pivotal role messaging plays in Ayoba's functionality, <bold>the company has strategically opted to enhance the messaging experience.</bold> This enhancement involves various facets, including improvements in technology, the visual design UI, new fueatures, user experience, and brand aesthetics."
+      },
+      "CHALLENGE": {
+        "TITLE": "The Challenge",
+        "PRIMARY_CHALLENGE": {
+          "TITLE": "Primary Challenge",
+          "DESCRIPTION": "The <bold>central challenge revolved around identifying the key features in messaging</bold> that were crucial for redesign. Given that messaging constitutes the <bold>core feature in Ayoba</bold>, the objective was to enhance these features with the aim of boosting user retention and engagement."
+        },
+        "TEAM_COLLABORATION": {
+          "TITLE": "Team Collaboration",
+          "DESCRIPTION": "Messaging serves as the cornerstone feature in Ayoba, making it a substantial project. Another <bold>challenge was to collaborate closely with other teams, ensuring alignment and motivation across the board to collectively tackle this epic task.</bold>"
+        },
+        "ACCESSIBILITY": {
+          "TITLE": "Accessibility/Inclusivity",
+          "DESCRIPTION": "Embarking on a <bold>fresh UI design</bold>, the paramount objective is to maintain the essence of ayoba branding while <bold>prioritizing accessibility</bold>. The exploration involved a thoughtful <bold>selection of colors that not only align with ayobas brand identity but also contribute to creating an accessible product</bold>. Striking a balance between aesthetics and inclusivity is key, ensuring that the new UI is visually appealing while catering to users with diverse needs."
+        },
+        "LEARNABILITY": {
+          "TITLE": "Learnability",
+          "DESCRIPTION": "In this phase of the project, the primary goal is to optimize learnability by <bold>crafting a product that is both familiar and easy to use</bold>. The design should facilitate a seamless learning curve for users, ensuring that interacting with the product feels intuitive and requires minimal effort to grasp."
+        },
+        "PLATFORMS": {
+          "TITLE": "Platforms",
+          "DESCRIPTION": "While developing the app, the main <bold>focus is based on Android users, giving them priority in terms of features and functionalities. However, post-project completion, there is a need to achieve parity for iOS and Progressive Web App (PWA) users.</bold>"
+        }
+      },
+      "APPROACH": {
+        "TITLE": "Approach",
+        "AUDIT": {
+          "TITLE": "UX/UI Audit",
+          "DESCRIPTION": "A comprehensive audit was conducted on the previous version to <bold>identify technical errors,  pain points, address accessibility issues, streamline user flows, and enhance visual design</bold>. This thorough examination aimed to identify and rectify any shortcomings or challenges present in the previous iteration, <bold>ensuring that the upcoming version delivers an improved and more seamless experience for users</bold>."
+        },
+        "RESEARCH": {
+          "TITLE": "UX Research",
+          "DESCRIPTION": "<bold>Analyzing both quantitative and qualitative data</bold> was a critical aspect of the UX research process.  The quantitative data provided insights, offering a broad view of user <bold>behaviours and patterns</bold>. On the other hand, qualitative data, derived from interviews and surveys, provided a <bold>clear vision upon user experiences, preferences, and perceptions</bold>."
+        },
+        "PRODUCT_PYRAMID": {
+          "TITLE": "Product Pyramid",
+          "DESCRIPTION": "Creating a product pyramid for the messaging platform, was <bold>essential to structure features into three distinct levels</bold> that progressively address user needs and elevate the platform features. Each level builds upon the foundation laid by the previous one, providing a roadmap for the project's advancement."
+        },
+        "WORKSHOP": {
+          "TITLE": "Workshops",
+          "DESCRIPTION": "Conducting two workshop sessions with the entire ayoba team proved invaluable in uncovering both <bold>pain points and generating ideas for new features for the app</bold>. These collaborative sessions provided a platform for collective insights and brainstorming, fostering a shared vision among team members."
+        },
+        "IDEATION": {
+          "TITLE": "Ideation and design work",
+          "DESCRIPTION": "UX/UI exploration of <bold>new ideas and concepts</bold>."
+        },
+        "PROTOTYPES": {
+          "TITLE": "Prototypes for Usability and A/B testing",
+          "DESCRIPTION": "The primary goal was to gauge <bold>how effectively users could accomplish specific tasks</bold> within the new system and to <bold>pinpoint any pain points or challenges they encountered</bold>. \n\nA/B testing was employed to compare two or more versions of the design, aiming to identify which version performed better in terms of user engagement, conversion rates, or other relevant metrics."
+        },
+        "FINAL_ITERATION": {
+          "TITLE": "Final Iteration",
+          "DESCRIPTION": "The final UX/UI iteration for the messaging platform was done by the incorporation of all new features and the valuable insights obtained from user tests."
+        },
+        "SYSTEMS": {
+          "TITLE": "Design system",
+          "DESCRIPTION": "<bold>The old design system was scaled up with new components</bold> and a new design system for iOS was created."
+        },
+        "HANDOFF": {
+          "TITLE": "Handoffs",
+          "DESCRIPTION": "The delivery of high-fidelity deliverables marked a significant milestone, equipping developers and quality assurance (QA) teams with comprehensive resources for the implementation and testing phases. The deliverables included: User Stories, new UX/UI, interaction details, component specifications and usage guidelines."
+        },
+        "QA": {
+          "TITLE": "QA and Demos",
+          "DESCRIPTION": "The UX/UI team provided support in demos for the QA process and final deliverables."
+        },
+        "METRICS": {
+          "TITLE": "Metrics/KPIs",
+          "DESCRIPTION": "<bold>New events are created to track the results of the new UX/UI</bold>,  integrating analytics tools such firebase and google analytics."
+        }
+      },
+      "AUDIT": {
+        "TITLE": "Audit",
+        "DESCRIPTION": "A comprehensive audit was conducted to <bold>identify pain points and areas for improvement in both the user interface (UI) and user experience (UX)</bold> \n\nThe goal of this UX audit was to identify any potencial usability issues. \nRecommendations were based on",
+        "BULLET_LIST": {
+          "USERPROFILE": "User profile",
+          "PRINCIPLES": "General UX principles",
+          "INTERACTION": "Interaction design",
+          "COGNITIVE": "Cognitive psychology",
+          "USABILITY": "Usability",
+          "ACCESSIBILITY": "Accessibility etc."
+        },
+        "LEGEND": {
+          "TITLE": "Audit Legend",
+          "CRITICAL": {
+            "TITLE": "Critical- Tech, UX, UI",
+            "DESCRIPTION": "Critical violation: Urgent issues/bugs that <bold>disturb the user experience</bold>"
+          },
+          "AVERAGE": {
+            "TITLE": "Average- Tech, UX,UI",
+            "DESCRIPTION": "Average violation: Issues that can <bold>disturb some of the users and can improve the UX</bold>"
+          },
+          "LOW": {
+            "TITLE": "Low- Tech, UX, UI",
+            "DESCRIPTION": "Low Violation: That might <bold>disturb a small percentage of users</bold>"
+          }
+        },
+        "KEY_INSIGHTS": {
+          "TITLE": "Key insights",
+          "DESC": "We found that <bold>the app has significant issues in basic functionalities</bold>, fiixing these will greatly enhance  user satisfaction and usability.",
+          "DESC_2": "Prioritize <bold>fixing critical bugs</bold> and enhancing key functionalities to <bold>improve immediate user experience</bold>.",
+          "DESC_3": "<bold>Integrating more robust functionalities</bold> and enhancing media sharing capabilities (e.g., video editing, large file handling) can make the app more competitive and appealing to users.",
+          "DESC_4": "The app's <bold>user interface requires significant updates</bold> to align with <bold>modern design principles, improve accessibility, and provide a consistent user experience</bold> across different devices.",
+          "DESC_5": "Addressing issues like <bold>button visibility, contrast, and the clarity of interactive elements</bold> will improve accessibility.",
+          "DESC_6": "Ayoba's unique offerings, such as <bold>free data for messaging</bold> and entertainment features, are strong selling points. <bold>Enhancing and promoting these features</bold> can differentiate Ayoba from competitors.",
+          "DESC_7": "Improving the <bold>transparency of privacy settings</bold> and making them more accessible can reassure users about their data security."
+        }
+      },
+      "ARCHITECTURE": {
+        "TITLE": "Information architecture",
+        "SITE_MAP": {
+          "TITLE": "Site map",
+          "DESCRIPTION": "The site map helped us to facilitates the <bold>evaluation of the messaging structure to identify potential vulnerabilitie or areas that could be exploited</bold>."
+        }
+      },
+      "UX_RESEARCH": {
+        "TITLE": "UX research",
+        "DESCRIPTION": "<bold>Interviews and surveys</bold> were conducted by the UX researcher team, who played a pivotal role in gathering valuable insights.\n\nThe findings presented here offer merely a surface-level glimpse into the profound depth of this extensive investigation.\n\nMe as a Owner of the project and with the support of the UX/UI team, I used this information to make <bold>important decisions, detected pain points, create new ideas features and improvements</bold>.",
+        "DEMOGRAPHICS": {
+          "TITLE": "Demographics",
+          "DESCRIPTION": "<bold>Africa</bold> has the world's <bold>youngest</bold> and <bold>fastest growing population</bold>.\n\n<bold>Young people</bold> are generally more optimistic about the future, are more likely to believe that they can positively impact their country's governance, and are more likely to start their <bold>own busines</bold>.",
+          "DESCRIPTION_2": "<bold>1.3 billion people already live in Africa - more people than in Europe and North America combined</bold>."
+        },
+        "FEATURES": {
+          "TITLE": "Most features used in ayoba by Countries"
+        },
+        "BEHAVIOUR": {
+          "TITLE": "Browsing behaviour, technical competency",
+          "DESCRIPTION": "Our users all <bold>“Browse Facebook or Instagram or TikTok or Snapchat”</bold> \n\nIn terms of <bold>messsaging platforms</bold> they use <bold>whatssap, messaging, instagram,telegram and moya</bold>."
+        },
+        "MEDIA_BEHAVIOUR": {
+          "TITLE": "Text, image, video messaging behaviour",
+          "DESC": "Users tend to send <bold>text messages to check in</bold> with their <bold>friends or family</bold>.",
+          "DESC_2": "Sometimes they send  text messages if there is an urgency but is usually they use SMS for this scenario as they think it is faster and more trustworthy.",
+          "DESC_3": "They feel more comfortable sending <bold>text messages in work enviroments</bold> than voice messages.",
+          "DESC_4": "Regards to the messages of <bold>video an image</bold> they <bold>don't like the automatic download</bold> as they <bold>don't have a lot of space in their devices</bold>. They want to decide if they want to download these media"
+        },
+        "VOICE_MESSAGING": {
+          "TITLE": "Voice messaging behaviour",
+          "DESC": "Some of our users have <bold>illiteracy Issues</bold>, so they use a lot the voice messages thats why it is an oportunity to have improvements in this area.",
+          "DESC_2": "Other users are <bold>lazy to type</bold>, prefer voice messages.",
+          "DESC_3": "Some users consider voice messages <bold>faster than typing</bold>",
+          "DESC_4": "They love the option <bold>handsfree</bold>.",
+          "DESC_5": "When they receive a voice messages <bold>they don't like others can hear it</bold>."
+        },
+        "ACCESSIBILITY": {
+          "TITLE": "Accessibility",
+          "DESCRIPTION": "<bold>Approximately 26.3 million</bold> people in the African Region are reported to have a form of <bold>visual impairment</bold>, according to the World Health Organization (WHO). \n\n<bold>Among them, 20.4 million individuals experience low vision</bold>, while an estimated <bold>5.9 million are considered blind</bold>."
+        },
+        "OTHERS": {
+          "TITLE": "What users don't know about ayoba",
+          "SUBTITLE": "Features",
+          "DESC": "SMS through ayoba",
+          "DESC_2": "Invite to ayoba through ayoba",
+          "DESC_3": "Doesn't know that one can create groups",
+          "DESC_4": "Doesn't know that one can post stories"
+        }
+      },
+      "COMPETITORS": {
+        "TITLE": "Competitors Benchmark",
+        "APPS": {
+          "TITLE": "Most popular apps in Africa",
+          "DESCRIPTION": "Most popular apps in <bold>Africa</bold> are <bold>Whatsapp, Messenger, Telegram and other direct competitors are Moya and Sasai</bold>"
+        }
+      },
+      "INSIGHTS": {
+        "TITLE": "Insight & key-Findings",
+        "DESCRIPTION": "The <bold>insights</bold> gained from the <bold>audit, site map, UX research, the benchmark and quantitative data from Firebase and Google Analytics</bold>, led to the following founds",
+        "PAIN_POINTS": {
+          "TITLE": "Pain points",
+          "DESC": "Unfortunately, <bold>ayoba doesn't cover the bases of a platform messaging</bold>, it has a lot of <bold>wrong user flows, some basic features don't exist and also has features with technical problems</bold>.",
+          "DESC_2": "As we saw in the research <bold>Africans</bold> have a lot of <bold>vision problems</bold> and Ayoba has to face significant accessibility challenges, primarily stemming from a <bold>low contrast between elements in the chat interface</bold>. Additionally, the font used is too light, <bold>compromising readability for users</bold>.",
+          "DESC_3": "On our research, <bold>we identified literacy challenges</bold>, but <bold>Ayoba is not currently prioritizing accessibility</bold> measures for these users.",
+          "DESC_4": "Still some <bold>inconsistency throughout the app UI, iconography, buttons, etc</bold> (can make the user feel confused)",
+          "DESC_5": "<bold>Very old look & feel.</bold>",
+          "DESC_6": "<bold>Contacts do not sincronyze correctly with native device</bold>.",
+          "DESC_7": "Some <bold>features don't work correctly between platforms Androdi-iOS and PWA</bold>.",
+          "DESC_8": "Some basic <bold>features</bold> are very <bold>difficult for our users to find them</bold>, (create a group, invite friends, archive chat etc). (Bad AI)",
+          "DESC_9": "There is a <bold>high percentage of churn because users feel don't have enough contacts on ayoba</bold>.",
+          "DESC_10": "Users <bold>would love to invite their friends and family to use ayoba but they don't know how to do it</bold>.",
+          "DESC_11": "<bold>Ayoba is very far away from its competitors</bold> in terms of good user experience and offers nice features in messaging ."
+        },
+        "INSIGHTS": {
+          "TITLE": "Insights",
+          "DESC": "Despite all the problems we found in Ayoba messaging, users use the app because <bold>most of the features in ayoba come with Free Data</bold>.",
+          "DESC_2": "<bold>Free data is the big value</bold> of ayoba against our competitors .",
+          "DESC_3": "Even though our users complain that they would like to have more contacts, <bold>messaging is the most used feature in ayoba</bold>.",
+          "DESC_4": "Users would like to express themselves on chat with new features as reactions.",
+          "DESC_5": "Users would like to be able to <bold>browse the app while they have voice calls on</bold>.",
+          "DESC_6": "For users is important to <bold>have social features on messaging</bold>."
+        },
+        "SOLUTIONS": {
+          "TITLE": "Solutions",
+          "DESC": "Based on the research, audit and benchmark the <bold>priority is to cover the core of a messaging platform with a good experience</bold>.",
+          "DESC_2": "<bold>Accessibility for people with vision problems is a must</bold>, ayoba has to work in better contrast and better readability. (WCAG)",
+          "DESC_3": "<bold>For users who may face challenges with reading and writing ayoba has to improve on the feature of voice notes</bold> as come up with <bold>new solutions as subtitles, voice command etc</bold> ( 3rd level feature) ",
+          "DESC_4": "Improve layouts for better readability and an intuitive navigation.",
+          "DESC_5": "Address the clutter on the messaging feature having <bold>consistency in the UI.</bold>",
+          "DESC_6": "Relocate options that users are looking for and cannot find with a <bold>better information architecture (Invite friends)</bold>",
+          "DESC_7": "Once the bases cover the team can start working to land the ideas for high features which means specific features for our users."
+        }
+      },
+      "PRODUCT_PYRAMID": {
+        "TITLE": "Product Pyramid",
+        "DESCRIPTION": "The <bold>product strategy pyramid</bold> was established to visualize the product build strategy.\n\nThe strategy is divided into three levels, each addressing specific aspects and progressively advancing the project to where we want to go. <bold>Defining the foundation/basis</bold> covers the basics of the messaging app and <bold>when moving up the pyramid</bold> we address high and specific features for our users."
+      },
+      "WORKSHOP": {
+        "TITLE": "Workshop",
+        "DESCRIPTION": "Conducting two workshop sessions with the entire Ayoba team proved invaluable in uncovering both pain points and generating ideas for new features for the app. \nThese collaborative sessions provided a platform for collective insights and brainstorming, fostering a shared vision among team members."
+      },
+      "NEW_DESIGN": {
+        "DISCLAIMER": "***Be aware that you are only seeing 5% of all the work that was done.",
+        "TOKENS": "New Branding Tokens",
+        "NEW_DESIGN": {
+          "TITLE": "New Design messaging for ayoba",
+          "FEED_CHAT": {
+            "TITLE": "Feed Chat",
+            "DESC": "Definition of contact cards with different elements",
+            "DESC_2": "Cleaner design",
+            "DESC_3": "Intuitive design",
+            "DESC_4": "New AI (profile",
+            "DESC_5": "New bottom Nav"
+          },
+          "P2P_CHAT": {
+            "TITLE": "P2P Chat",
+            "DESC": "Definition of Message Speech Bubble. (Open, Middle, Close).",
+            "DESC_2": "Definition of spacings between (sender and receiver) bubbles.",
+            "DESC_3": "Definition of border radius.",
+            "DESC_4": "Definition of spacings between same P2P bubbles.",
+            "DESC_5": "Definition of animation.",
+            "DESC_6": "Improvement in tappable areas.",
+            "DESC_7": "Definition of timestamp placement.",
+            "DESC_8": "Accessibility and readability improvements.",
+            "DESC_9": "The contrast between bubble background and text, passed the contrast checker from WCAG 3.0 guidelines."
+          },
+          "REACTIONS": {
+            "TITLE": "Reactions in chat",
+            "DESC": "New feature in ayoba",
+            "DESC_2": "Reactions in p2p chat",
+            "DESC_3": "Reactions in groups",
+            "DESC_4": "Intuitive design",
+            "DESC_5": "Clean design"
+          },
+          "STORIES": {
+            "TITLE": "Stories",
+            "DESC": "New feature in ayoba",
+            "DESC_2": "Intuitive design",
+            "DESC_3": "Editing tools",
+            "DESC_4": "Video stories",
+            "DESC_5": "Pictures stories",
+            "DESC_6": "Text stories"
+          }
+        },
+        "ELEMENTS": {
+          "CHAT_LIST": "Chat List elements",
+          "TEXT_BUBBLES": "Design text bubbles",
+          "BEHAVIOUR_BUBBLES": "Behaviour text bubbles",
+          "DATA_STATES": "Registration data states",
+          "VIDEO_STATES": "Video bubbles states",
+          "CARDS_CHAT": "Some Cards Chat"
+        }
+      }
+    },
+    "PROFILE": {
+      "SUBTITLE": "Profile AND-iOS",
+      "CONTEXT": {
+        "TITLE": "Context of the problem",
+        "DESCRIPTION": "The main functionality in ayoba is <bold>messaging and our goal is to improve different functionalities in this field</bold>.\n\nWe notice that <bold>profile users</bold> are significant as it offers our <bold>users the feeling that has a space</bold> and they are <bold>part of our ayoba community</bold>. To get our users the feeling of being part of our app we need to <bold>improve</bold> in areas such as <bold>discoverability, shared interest, customization, content sharing, discovering, privacy and security</bold>."
+      },
+      "BENCHMARK": {
+        "TITLE": "Benchmark",
+        "DESCRIPTION": "A benchmark of our competitors helps us to detect <bold>what we are doing badly in this feature</bold> and allow us to discover <bold>patterns in user profiles that follow different apps</bold> such as architecture information, ways of edition information, shortcuts etc \n\n<bold>This Benchmark aimed to identify and rectify pain points present in the current design</bold>.",
+        "FINDINGS": {
+          "TITLE": "Benchmark findings",
+          "PERSONALIZATION": {
+            "TITLE": "Personalization and customization",
+            "DESC": "We found that personalization or customization appear in various apps that we studied. Depending on the app's focus, the priority is to highlight the personalization or customization.\n<bold>Social networking apps like Facebook and Telegram have more customization in their user profiles, while apps like WhatsApp and Gojek may focus more on personalisation (basic info of their users)</bold>."
+          },
+          "PRIVACY": {
+            "TITLE": "Privacy Considerations",
+            "DESC": "<bold>All platforms place importance on user privacy</bold> and provide different levels of control over profile visibility. \nPrivacy controls are <bold>essential for maintaining user trust</bold> and ensuring a positive user experience."
+          },
+          "DISCOVERABILITY": {
+            "TITLE": "Discoverability and Engagement: ",
+            "DESC": "<bold>Facebook and Telegram prioritize the discoverability</bold> of user profiles to encourage connections and community engagement within their platforms. <bold>While WhatsApp has a stronger emphasis on privacy</bold> and direct communication, resulting in less discoverability of user profiles.\n\nOn the other side, we can find a lot of design patterns such as profile picture thumbnails, profile picture cropping, privacy settings (visibility for pictures and number phone) and good resolution and quality of the image."
+          }
+        },
+        "AUDIT": {
+          "TITLE": "Audit Profile"
+        },
+        "BUSINESS": {
+          "TITLE": "Business strategy"
+        },
+        "PRODUCT": {
+          "TITLE": "Product",
+          "STAKEHOLDERS": "Stakeholders interviews, defining"
+        }
+      },
+      "UX_RESEARCH": {
+        "TITLE": "UX research",
+        "OBJECTIVES": {
+          "TITLE": "Define Objectives",
+          "DESCRIPTION": "The <bold>intention</bold> behind this <bold>research is to view the profile and settings of business requirements holistically</bold> and to tap into each stakeholder's knowledge and vision so that business requirements are aligned.\nAs is important to also detect pain points through usability testing on the current profile with ayoba users\nThis foundation will be built upon and prototypes or designs will be shown to users to see whether we align with their needs"
+        },
+        "CURRENT_PROFILE": {
+          "TITLE": "What ayoba users think about current profile",
+          "DESCRIPTION": "<bold>Limited Customization:</bold>\n\"I wish there were more options to customise my profile, like adding a status message or a bio\"\n\n<bold>Profile Picture Issues:</bold>\n\"The profile picture has very bad quality when you upload it\"\n\n<bold>Navigation Difficulties:</bold>\n\"Finding certain profile settings can be confusing; they're not very intuitive\"\n\n<bold>Edition Difficulties:</bold>\n\"It's very complex to understand how I can change my nickname or add more personal information, also to update my image\"\n\n<bold>Privacy Concers:</bold>\n\"I'm not sure how my information is used and who can see my profile details\"\n\n<bold>Lack of Social Features:</bold>\n\"It would be nice if the profile section included social media links such as Facebook, Instagram, etc\""
+        },
+        "INSIGHTS": {
+          "TITLE": "Insights & key-Findings",
+          "DESCRIPTION": "The <bold>insights</bold> gained from the <bold>audit, site map, UX research, the benchmark and quantitative data from Firebase and Google Analytics</bold>, led to the following founds:",
+          "PAIN_POINTS": {
+            "TITLE": "Pain points",
+            "DESC": "The user profile screen doesn't cover some basic features; unfortunately, the features that Ayoba has suffer from poor usability and accessibility.",
+            "DESC_2": "Inconsistency throughout the app UI, iconography, buttons, etc",
+            "DESC_3": "Few options in the user profile, which makes it difficult to users feeling is their space to show themselves to the ayoba world.",
+            "DESC_4": "Very old look & feel.",
+            "DESC_5": "Inconsistency design between platforms AND & IOS.",
+            "DESC_6": "Ayoba is very far away from its competitors in terms of good user experience and offers nice features such personalization, customization and privacy considerations for the user profile."
+          },
+          "INSIGHTS": {
+            "TITLE": "Insights",
+            "DESC": "Users would like a space to show themselves and see others, just not with a picture profile, they want to show their favourite games, music history, stories, etc",
+            "DESC_2": "Users would like to express themselves.",
+            "DESC_3": "Users would like to know what have in common with others users such as chat groups or entertainment interests.",
+            "DESC_4": "After some interviews using the current design, users would like to have a space where they can share their social media as Instagram, Facebook, etc"
+          },
+          "SOLUTIONS": {
+            "TITLE": "Solutions",
+            "DESC": "Based on the research, audit and benchmark the priority is to cover the bases of a user profile.",
+            "DESC_2": "Fix accessibility and consistency is mandatory.",
+            "DESC_3": "Update the look and feel.",
+            "DESC_4": "Improve layouts for better readability and an intuitive navigation.",
+            "DESC_5": "Improve the architecture of information in order to have clarity with the different sections on user profile.",
+            "DESC_6": "Once the bases cover the team can start working to land the ideas for high features which means specific features for our users. "
+          }
+        },
+        "DESIGNS": {
+          "TITLE": "Design work user profile",
+          "USERPROFILE_PLATFORM": "User profile - {{platform}}",
+          "GROUPPROFILE_PLATFORM": "Group profile - {{platform}}",
+          "GROUPPROFILE": "Group profile"
+        }
+      }
+    },
+    "GAMES": {
+      "SUBTITLE": "Games",
+      "CONTEXT": {
+        "TITLE": "Context of the problem",
+        "DESCRIPTION": "One of the <bold>most important things for Ayoba is offering its users the best entertainment with free data</bold> to provide the population with digital inclusion. (Many parts of Africa have limited access to the internet due to high data costs and limited infrastructure.)\n\n<bold>Free data allows users to access essential digital services such as communication and entertainment.</bold>\n\nAyoba is always looking to offer its users the best content within the app. Therefore, <bold>Ayoba wanted to update the content games and would add more than 64 new games to its games section.</bold> However, <bold>the overall monthly report showed us that games were in a disadvantageous position compared to other features such as music, chat, and news.</bold> Considering that we were going to include new modern games, and in the long term maybe to have paid games business decided to give more care to this section and do a complete redesign aligned with other sections within the app.\n\n<bold>The main goal of this project is to enhance and redesign the games section within the Ayoba app to improve its user experience and alignment with other app features, in preparation for the inclusion of new modern games and the potential introduction of paid games in the future.</bold>"
+      },
+      "CHALLENGE": {
+        "TITLE": "The Challenge",
+        "PRIMARY": {
+          "TITLE": "Primary Challenge",
+          "DESCRIPTION": "The central challenge to redesigning the games section in the Ayoba app was to <bold>provide a perfect integration of the new design with the existing app infrastructure</bold> while maintaining a <bold>consistent user experience across all features within the app.</bold> This involves coordinating with various teams (such as development, content, design, project managers, owners, QA and UX/UI) to update the games section without disrupting other functionalities like music, chat, and news."
+        },
+        "TEAM": {
+          "TITLE": "Team Collaboration",
+          "DESCRIPTION": "Another challenge was to collaborate closely with other teams, <bold>this involves coordinating with various teams (such as development, content, design, project managers, owners, QA and UX/UI)</bold> to update the games section without disrupting other functionalities like music, chat, and news."
+        },
+        "PLATFORMS": {
+          "TITLE": "Platforms",
+          "DESCRIPTION": "While developing the app, the main focus is based on <bold>Android and iOS</bold> users, giving them priority in terms of features and functionalities. However, post-project completion, there is a need to achieve parity for Progressive Web App (PWA) users."
+        }
+      },
+      "AUDIT": {
+        "TITLE": "UX-UI Audit",
+        "DESCRIPTION": "An <bold>audit was conducted with the previous version</bold> of the redesign of games to identify <bold>critical, average and low issues</bold> regards the UX/UI. with the goal of identifying and rectifying any problems found, offering our users the best user experience.",
+        "INSIGHTS": {
+          "TITLE": "Key insights",
+          "DESCRIPTION": "We found that the section games have the following issues:",
+          "HIERARCHY": {
+            "TITLE": "Visual Hierarchy",
+            "DESC": "The <bold>old layout lacks a clear visual hierarchy</bold>. All <bold>content</bold> is at the <bold>same level</bold>, which means there is no important content or content that we can suggest to the user to open to have an engagement with the games section."
+          },
+          "APPEAL": {
+            "TITLE": "Visual Appeal",
+            "DESC": "The design is <bold>too simple and might not be visually appealing</bold> to all users. It might benefit from more engaging pics of games or a more dynamic and modern layout.\n\nThe screen <bold>does not provide detailed information</bold> about individual games up front. Users need to navigate further to get details about specific games."
+          },
+          "NAVIGATION": {
+            "TITLE": "Navigation",
+            "DESC": "The navigation <bold>doesn't allow the user at first sight to get encouraged to play a game</bold>, the user is <bold>not provided detailed information</bold> about individual games up front or next-screen permissions. Users need to navigate further to get details about specific games.\n<bold>There is no place to find the games I played and my favourites.</bold>\nAnd more seriously the <bold>user can not start playing straight forward the game</bold> from the main screen of the games."
+          },
+          "ACCESSIBILITY": {
+            "TITLE": "Accessibility",
+            "DESC": "The <bold>old design's red background might be too attention-grabbing, and distracting</bold>, and could overwhelm the user and give a sensation of clutter."
+          },
+          "PERMISSION": {
+            "TITLE": "Content Permission",
+            "DESC": "The screen <bold>provides unclear information</bold> about the permissions required by the game, <bold>which is essential for user trust and transparency.</bold>"
+          }
+        }
+      },
+      "UX_RESEARCH": {
+        "TITLE": "UX research",
+        "DESCRIPTION": "<bold>Through data from Firebase</bold>, we realized how many users use the game section. with this data, we realized users use it very little compared with messaging, music etc. The results were scary as <bold>only 7% of our active users used games</bold>. In interviews with users we found:\n\n<bold>Content</bold>\nUsers <bold>expressed dissatisfaction with the game content</bold>, describing it as <bold>\"old\" and \"boring\"</bold> fortunately the part of ayoba business was working on <bold>diversifying the game offerings by adding new, engaging games</bold>. And <bold>having in mind regularly update the game library</bold> to keep users interested.\n\n<bold>Look& feel</bold>\nReferring to the appearance users mentioned that games \"feel super old\" and that they \"don't understand the illustrations\"\n\n<bold>Updating the game UI</bold>\nModernize the design, improve graphics, and ensure a consistent visual style.\n\n<bold>User Engagement</bold>\nHaving the data from <bold>Firebase and metrics</bold> such;\nHow many times user open games per day?, How long do users spend playing games?, Do they complete levels or abandon them quickly?, Are there specific game types that perform better?. <bold>We had the result that the low usage rate is only 7% of active users. It indicates an urgent need for improvement.</bold>"
+      },
+      "DESIGN": {
+        "TITLE": "Design games for ayoba",
+        "GAMES_PLATFORM": "Games for ayoba - {{platform}}"
+      }
+    },
+    "MUSIC": {
+      "SUBTITLE": "Music-Podcast",
+      "CONTEXT": {
+        "TITLE": "Context of the problem",
+        "DESCRIPTION": "Ayoba has recognized the growing demand for diverse audio content. To stay competitive and satisfy its users, Ayoba is exploring ways to expand its content offering podcasts.\n\n<bold>The addition of podcasts to the music section is seen as a strategic move to increase engagement and enhance the platform.</bold>\n\nWhile <bold>Ayoba has a strong user base for music</bold>, it lacks the diverse audio content that is so popular right now. The <bold>absence of podcasts on the platform limits Ayoba's ability to fully engage its audience</bold>, to stay relevant in the competitive landscape, Ayoba needs to implement a podcast feature within its music section.\n\n<bold>This new feature allows users to access high-quality, multiple content new experiences within the app</bold>, increasing their satisfaction, retention, and overall platform usage."
+      },
+      "CHALLENGE": {
+        "TITLE": "The Challenge",
+        "PRIMARY": {
+          "TITLE": "Primary Challenge",
+          "DESCRIPTION": "The <bold>primary objective is to discover how to integrate podcasts into Ayoba's music</bold> section and <bold>guarantee a seamless and intuitive user experience</bold> while also improving and updating the UI."
+        },
+        "TEAM": {
+          "TITLE": "Team Collaboration",
+          "DESCRIPTION": "Working <bold>very closely with the UX researcher</bold> expert was crucial as the design team and business didn't know if our users were ready for this podcast implementation."
+        },
+        "ACCESSIBILITY": {
+          "TITLE": "Accessibility",
+          "DESCRIPTION": "As Ayoba aimed to introduce the podcast feature to the music section, the team saw an <bold>opportunity to address several accessibility issues.</bold> One key area of focus was <bold>improving the contrast colors of the miniplayer</bold>, which appears across various sections such as messaging, games, news, and more. This enhancement ensures a consistent and accessible user experience throughout the entire platform."
+        },
+        "PLATFORMS": {
+          "TITLE": "Platforms",
+          "DESCRIPTION": "The main focus is based on <bold>Android</bold> users."
+        }
+      },
+      "BENCHMARK": {
+        "TITLE": "Benchmark",
+        "INSIGHTS": {
+          "TITLE": "Key Insights from Benchmark Analysis",
+          "CONTENT": {
+            "TITLE": "Content",
+            "DESC": "<bold>Most of the apps</bold> studied <bold>provide a diverse and extensive library of podcasts</bold> covering various genres and interests."
+          },
+          "PERSONALIZATION": {
+            "TITLE": "Personalization",
+            "DESC": "Other apps <bold>offers personalized podcast recommendations</bold> based on listening habits."
+          },
+          "COLLECTIONS": {
+            "TITLE": "Curated Collections",
+            "DESC": "Features curated lists and collections of popular podcasts."
+          },
+          "UI": {
+            "TITLE": "User Interface",
+            "DESC": "<bold>Design a clean, intuitive interface</bold> that is <bold>easy to navigate</bold> and visually appealing."
+          },
+          "MONETIZATION": {
+            "TITLE": "Monetization",
+            "DESC": "<bold>Explore multiple monetization strategies including ads, sponsored content</bold>, and subscription models for premium content."
+          },
+          "OFFLINE": {
+            "TITLE": "Download and Offline Listening",
+            "DESC": "Almost all platforms supports downloading episodes for offline playback."
+          }
+        }
+      },
+      "UX_RESEARCH": {
+        "TITLE": "UX research",
+        "DESCRIPTION": "To successfully implement a podcast feature in Ayoba's music section, it's essential to conduct comprehensive UX research. This will help understand user needs, preferences, and pain points.\n\n<bold>Its important to define research objectives, in this case for this project we will need to identify if our users are ready to understand what is a podcast, what kind of content they are interested</bold> etc. as <bold>studying our competitors, look for patterns</bold> they share, <bold>understand strengths and weaknesses of competitors' podcast</bold> features."
+      },
+      "SURVEYS": {
+        "TITLE": "Survey podcast with ayoba users",
+        "DEMOGRAPHICS": {
+          "TITLE": "Demographics",
+          "DESC_1": "The survey was primarily conducted in <bold>English-speaking countries, with Nigeria, Uganda, South Africa, and Ghana accounting for 84% of the responses.",
+          "DESC_2": "<bold>The dominant age groups were 25-34, followed by 18-24 and 35-44. The majority of respondents were male and either still in school or had a high school diploma."
+        },
+        "AWARENESS": {
+          "TITLE": "Podcast Awareness and Preferences",
+          "DESC_1": "<bold>56% of participants understood the term \"podcast\",</bold> and of those, only 14% did not listen to podcasts at all.",
+          "DESC_2": "There is a <bold>preference</bold> for a <bold>mix of local and international podcasts</bold>, with a slight bias towards local content.",
+          "DESC_3": "Those with <bold>higher education levels</bold> are more <bold>inclined to listen to podcasts</bold>, suggesting that educating users could increase engagement."
+        },
+        "CONTENT": {
+          "TITLE": "Content and Topics",
+          "DESC_1": "<bold>Users favour</bold> podcasts that focus on <bold> local topics, particularly those concerning government and organizations.</bold>",
+          "DESC_2": "There is a <bold>significant interest in categorizing podcasts based on geographical context</bold>, with clear distinctions between local and international content."
+        },
+        "LOCAL_CONTENT": {
+          "TITLE": "Local Content",
+          "DESC_1": "12% of respondents mentioned that they could not relate to international podcasts, and 8% cited language barriers as a reason for not listening to podcasts.",
+          "DESC_2": "<bold>There is a clear demand for hyperlocal podcasts</bold> that resonate with the local audience's experiences and language preferences."
+        }
+      },
+      "PODCAST_TOPICS": {
+        "TITLE": "What topics should be focused on in podcasts?"
+      },
+      "WHY_PODCASTS": {
+        "TITLE": "Why do people listen to podcast?",
+        "DESCRIPTION": "The successful integration of podcasts into Ayoba's music section will require a strategic approach focusing on user education, content localization, and seamless user experience. Ayoba can enhance its value proposition and significantly increase user engagement with the music vertical."
+      },
+      "DESIGN": {
+        "TITLE": "Design music for ayoba",
+        "MUSIC": "Music for ayoba",
+        "PODCAST": "Podcast for ayoba"
+      }
+    }
+  },
+  "NEWITTS": {
+    "TITLE": "Newitts",
+    "OVERVIEW": {
+      "TITLE": "OVERVIEW",
+      "DESCRIPTION": "Newitts.com, is <bold>one of the largest online sports wholesaler</bold> e-shops in the UK with a <bold>primary focus on catering to the UK market</bold>. The predominant segment of its e-commerce sales is <bold>centered around sports equipment and sportswear, serving Schools, Sports Clubs, Organizations, and administration. The e-store accounts for 70% of the total gross income.</bold>"
+    },
+    "PROJECT": {
+      "TITLE": "Project / Overview",
+      "MOBILE_FIRST": {
+        "TITLE": "Mobile-First Approach",
+        "DESCRIPTION": "Our design approach prioritizes a mobile-first strategy, ensuring a seamless and user-friendly experience on smartphones and tablets. The interface will be responsive, optimizing content for various screen sizes and resolutions."
+      },
+      "NAVIGATION": {
+        "TITLE": "Main Navigation",
+        "DESCRIPTION": "Simplify the main navigation to enchance user experience. Implement a clean and intuitive menu structure with easily recognizable symbols and concise labels. Streamline categories for easy access to products, ensuring a hassle-free browsing experience."
+      },
+      "ARCHITECTURE": {
+        "TITLE": "Information Architecture",
+        "DESCRIPTION": "Revise the information architecture to provide a logical and intuitive flow, Group related products and categories, making it effortless for users to find what they need, suggest a search bar with auto-suggestions to expedite the navigation process."
+      },
+      "CHECKOUT": {
+        "TITLE": "Streamlined Checkout Process",
+        "DESCRIPTION": "Optimize the checkout process for efficiency and user satisfaction. Implement a multi-step checkout with progress indicators to keep users informed about their current stage. Include guest checkout options for a seamless transaction experience."
+      },
+      "BRANDING": {
+        "TITLE": "Branding Enhancement",
+        "DESCRIPTION": "Refine the branding elements to create a cohesive and memorable visual identifiy. Utilize a modern color palette, new typography, and high-quality imagery that aligns with the brand image."
+      },
+      "UX": {
+        "TITLE": "General UX Improvements",
+        "DESCRIPTION": "Address general UX issues by enchancing page loading speed, minimizing pop-ups, and ensuring a clutter-free design. Prioritize readability with clear font choices and appropriate text sizes. Implement user feedback where necessary to continually refine the user experience."
+      },
+      "UI": {
+        "TITLE": "Modern and Clutter-Free UI",
+        "DESCRIPTION": "Create a modern and visually appealing UI that focuses on showcasing products and categories. Utilize high-resolution images, prominent call-to-action buttons, and subtle animations to engage users. Prioritize a minimalist design to reduce visual clutter and ailing with industry and target standards."
+      }
+    },
+    "CHALLENGE": {
+      "TITLE": "The Challenge",
+      "PRIMARY": {
+        "DESCRIPTION": "<bold>The primary challenge</bold> of this project is to collaborate effectively with the tech team and accomodate the existing CMS capabilities and limitations. The initial stage involves the development of a (MVP) with minimal backend modifications. The key objectives include improving site navigation and Information Architecture (IA) without altering the current backend architecture. The proposed solutions aims to address existing frontend issues while laying the foundation for a scalable structure that accommodates future functionalities and features.\n\n• <bold>Tech Team Collaboration:</bold> Work closely with the tech team to implement frontend changes that align with the current backend architecture.\n\n• <bold>Scalability:</bold> Develop a scalable solution that allows for easy integration of new functionalities and features in the future."
+      },
+      "SECONDARY": {
+        "DESCRIPTION": "The challenge for the visual design and re-branding, this strategy aims to strike a balance between industry standards, brand consistency, and practical considerations, fostering a visually appealing and trustworthy online presence within the initial budget for this MVP. A new Brand typography was also selected.\n\n• <bold>Brand Style Guide:</bold> Create a comprehensive brand style guide outlining design principles, color schemes, and image treatments. This guide will serve as a reference for maintaining visual consistency.\n\n• <bold>Strategic Brand Photography:</bold> Allocate budget strategically for key product categories. Prioritize high-impact areas (categories) where professional photography can significantly enhance brand perception."
+      }
+    },
+    "PROCESS": {
+      "TITLE": "Process",
+      "DESCRIPTION": "We used a double-diamond methodology for the project encompassing Discovery, Definition, Development, and Delivery stages. Currently in the developmental phase, the portal is undergoing construction. Upon completion, A/B testing will be conducted to validate certain assumptions made during the project.",
+      "RESEARCH": {
+        "TITLE": "Qualitative Research",
+        "DESCRIPTION": "In-depth interviews with the CEOs and the Chief Technology Officer (CTO) of the company to uncover product insights and requirements."
+      },
+      "WEB_AUDIT": {
+        "TITLE": "Web Site Audit",
+        "DESCRIPTION": "A website audit was conducted to identify pain points and areas for improvement."
+      },
+      "BENCHMARK": {
+        "TITLE": "Benchmark",
+        "DESCRIPTION": "The benchmarking process involved analyzing and comparing key industry competitors."
+      },
+      "WIREFRAMES": {
+        "TITLE": "Wireframes",
+        "DESCRIPTION": "Wireframes were crafted to define the new User Experience (UX)."
+      }
+    },
+    "INTERVIEWS": {
+      "TITLE": "Interviews",
+      "SUBTITLE": "The initial phase of the project involved in-depth interviews with the CEOs and the Chief Technology Officer (CTO) of the company. The primary goals of these interviews were to gain insights into the new product requirements, focusing on both the branding and technical aspects.",
+      "DESCRIPTION": "Additionally, the interviews aimed to identify pain points in the current situation to establish the project's direction."
+    },
+    "AUDIT": {
+      "TITLE": "Website Audit",
+      "SUBTITLE": "A comprehensive website audit was conducted to identify pain points and areas for improvement in both the user interface (UI) and user experience (UX) across all main pages of the online store.",
+      "DESCRIPTION": "This thorough exercise aimed to provide valuable insights, address existing issues, and explore opportunities for innovation.",
+      "ANALYSIS": "<bold>Page-by-Page Analysis:</bold> A detailed examination of each main page, including the homepage, product pages, categories pages, and checkout process, was conducted to identify specific pain points.",
+      "JOURNEY": "<bold>User Journey Assessment:</bold> The audit focused on evaluating the user journey, from landing on the site to completing a purchase. This involved analyzing navigation, page load times, and overall user flow.",
+      "COMPATIBILITY": "<bold>Cross-Device Compatibility:</bold> The audit considered the website's performance and usability across various devices, ensuring a seamless experience for users on desktops, tablets, and mobile devices."
+    },
+    "INSIGHTS": {
+      "TITLE": "Insights",
+      "SUBTITLE": "The insights gained from the website audit, validated by client discussions and cross-referenced with quantitative data from Google Analytics, led to the following key recommendations:",
+      "HOMEPAGE": {
+        "TITLE": "Homepage",
+        "DESC_1": "Focus on a versatile Homepage Information Architecture (IA) that aims to introduce a dynamic and modular structure that aligns with seasonal campaigns, new marketing initiatives, product launches, brand promotions, and special offers. The goal is to create a scalable IA that adapts to evolving product requirements and allows for diverse tracking events to enchance conversion rates.",
+        "DESC_2": "Address the clutter on the homepage, proposing a cleaner design that prioritizes key product categories and highlights special offers.",
+        "DESC_3": "Implement SEO-generated content blocks to enchance organiz search placement.",
+        "DESC_4": "The enhanced Homepage IA, should embrace versatility and modularity, to deliver a dynamic and engaging experience for users while providing the flexibility needed to adapt to evolving marketing and product requirements."
+      },
+      "FEATURES": {
+        "TITLE": "Key Features",
+        "DESC_1": "Modular Block Design",
+        "DESC_2": "Seasonal Campaign Sections",
+        "DESC_3": "New Product Showcases",
+        "DESC_4": "Brand-Specific Promotions",
+        "DESC_5": "Customizable Marketing Campaign / SEO Blocks",
+        "DESC_6": "Tracking Event Integration",
+        "DESC_7": "Increased Conversion Opportunities"
+      },
+      "PRODUCT": {
+        "TITLE": "Product Pages",
+        "DESC_1": "Improve product page layouts for better readability and an intuitive display of product information for mobile devices.",
+        "DESC_2": "Introduce quick view options and enhanced product imagery for a more engaging user experience."
+      },
+      "CATEGORY": {
+        "TITLE": "Category Pages",
+        "DESC_1": "Streamlined category navigation and filters to simplify the browsing experience.",
+        "DESC_2": "Incorporate visual cues in main nav to guide users through different product categories.",
+        "DESC_3": "The top-level category pages, / Sports section, have presented challenges in terms of user navigation, especially on mobile devices. The extensive list of anchors has proven to be cumbersome, leading to low user engagement based on both testing results (Analytics) and stakeholder feedback.",
+        "DESC_4": "Prioritize a mobile-first approach to ensure a seamless and user-friendly experience on smaller screens.",
+        "DESC_5": "Address the low user engagement observed on these pages by creating a more compelling and user-centric layout."
+      },
+      "CHECKOUT": {
+        "TITLE": "Checkout Process",
+        "DESC_1": "Optimize the checkout process with clear progress indicators and a simplified, user-friendly interface.",
+        "DESC_2": "Introduce guest checkout options to streamline the purchase journey."
+      },
+      "RESPONSIVE": {
+        "TITLE": "Responsive Design",
+        "DESC_1": "Ensure responsive design across all devices, emphasizing a mobile-first approach to accommodate users on various platforms seamlessly."
+      }
+    },
+    "BENCHMARK": {
+      "TITLE": "Benchmarking",
+      "SUBTITLE": "The benchmarking process involved analyzing and comparing the online commerce strategies of two key industry competitors ",
+      "SUBTITLE_2": " and ",
+      "SUBTITLE_3": ", alongside a non-direct competitor, ",
+      "DESCRIPTION": "The goal was to identify best practices, gather insights, and explore innovative approaches to enhance the online store's performance.",
+      "KEY_FINDINGS": {
+        "TITLE": "Key-Findings",
+        "DESC_1": "Incorporate elements of visual storytelling on the homepage for higher engagement",
+        "DESC_2": "Mobile First hero section",
+        "DESC_3": "Mega menu and a sticky navigation bar, a crucial factor for rapid e-commerce browsing and increased conversions",
+        "DESC_4": "Emphasis on simplicity and quick navigation",
+        "DESC_5": "Clean and intuitive design, reflecting brand aesthetics",
+        "DESC_6": "Filter Chips / Categories / Curated Content (Mobile First)",
+        "DESC_7": "PRominent display of deals and discounts for user engagement",
+        "DESC_8": "Robust search and filtering options for a smoother user journey",
+        "DESC_9": "Dynamic displays of seasonal promotions and discounts",
+        "DESC_10": "Quick access to popular categories and featured products",
+        "DESC_11": "Detailed product descriptions and reviews",
+        "DESC_12": "Sticky CTA on product mobile pages for higher conversion rates",
+        "DESC_13": "Comprehensive product information and customer reviews",
+        "DESC_14": "Cross-selling strategies and related product recommendations"
+      }
+    },
+    "WIREFRAMES": {
+      "TITLE": "Wireframes",
+      "DESCRIPTION": "Wireframes were crafted to define the new User Experience (UX) and Information Architecture for the upcoming webiste. In alignment with insights from interviews, the research, and google analytics data, a Mobile-First approach was adopted, given that approximately 70% of users interact with the website through handled devices.\n\nFurthermore, a functional prototype of both the homepage and category page was developed to showcase the client the envisioned UI enhancements and key features of the upcoming site."
+    },
+    "IDEATION": {
+      "TITLE": "Ideation",
+      "SUBTITLE": "Upon consolidating product requirements, insights, and addressing pain points, the new product underwernt iterative exploration for its UX/UI. In parallel, a fresh visual language was developed for the branding, encompassing a new photography style and typography definition.",
+      "DESCRIPTION": "The suggestion is to adopt lifestyle photography, a dynamic style focused on capturing portraits of individuals in authentic situations, real-life events, or significant milestones. This approach aims to artistically enhance the brand's image. A more engaging copy is algo suggested.",
+      "HERO_EXAMPLES": "Hero Section Examples",
+      "CATEGORY_EXAMPLES": {
+        "TITLE": "Category Examples",
+        "DESCRIPTION": "Lifestyle photography, with a dynamic style focused on capturing portraits of individuals/products in authentic situations."
+      }
+    },
+    "TYPOGRAPHY": {
+      "TITLE": "Typography",
+      "SUBTITLE": "The Gilroy Family was selected for the new brand typography. Gilroy is a modern sans serif with a geometric touch."
+    },
+    "UXUI": {
+      "TITLE": "UX/UI Definition",
+      "SUBTITLE": "The final deliverables were provided in a Figma File including the research and all main screens requested by client in desktop and mobile format."
+    }
+  },
+  "AUTHORIZATION": {
+    "TITLE": "Password required",
+    "DESCRIPTION": "You need a password to access the project",
+    "PWD_PLACEHOLDER": "Enter password",
+    "CONTINUE": "Continue",
+    "ERROR_400": "Please enter a valid password",
+    "ERROR_500": "Something went wrong... please try again later"
+  },
+  "OPTICA": {
+    "TITLE": "Óptica Universitaria",
+    "SUBTITLE": "Try on Glasses",
+    "CONTEXT": {
+      "TITLE": "Context of the problem",
+      "DESCRIPTION": "Optica Universitaria stores <bold>face high customer traffic during peak times</bold>, leading to long wait times and dissatisfaction. The challenge was to <bold>enhance the in-store experience by providing a solution that allows customers to engage with products independently while waiting for sales assistance.</bold>"
+    },
+    "BUSINESS": {
+      "TITLE": "Business Strategy",
+      "DESCRIPTION": "The strategy <bold>focused on leveraging digital technology to improve customer experience</bold> and operational efficiency. Key goals included:",
+      "KEY_GOALS": {
+        "KG_1": "<bold>Reduce wait times by providing a self-service tool</bold> to engage customers during peak hours.",
+        "KG_2": "<bold>Increase Sales by enhancing product discovery</bold> and ease of purchase.",
+        "KG_3": "<bold>Customer Engagement, using AR</bold> to create an interactive and personalized shopping experience.",
+        "KG_4": "Data Collection, <bold>capturing customer information for targeted marketing</bold> and follow-up."
+      }
+    },
+    "UX_RESEARCH": {
+      "TITLE": "UX Research",
+      "DESCRIPTION": "To design an effective solution, comprehensive UX research was conducted:",
+      "RESEARCH": {
+        "RESEARCH_1": "<bold>Customer interviews</bold> where we get insights about their in-store experiences and frustrations.",
+        "RESEARCH_2": "<bold>Surveys</bold> to collect <bold>quantitative data</bold> on customer preferences and behaviours.",
+        "RESEARCH_3": "<bold>Observation of customer interactions</bold> and pain <bold>points during peak store hours.</bold>",
+        "RESEARCH_4": "Reviewed similar solutions in the <bold>market to identify best practices and opportunities.</bold>"
+      },
+      "KEY_INSIGHTS": {
+        "TITLE": "Key insights",
+        "DESC": "<bold>High Drop-off Rates:</bold> Many customers left the store due to long wait times.",
+        "DESC_2": "<bold>Interest in AR:</bold> Customers showed a strong interest in using augmented reality to try on glasses virtually.",
+        "DESC_3": "<bold>Need for Guidance:</bold> Customers wanted more information and personalized recommendations to make informed purchasing decisions.",
+        "DESC_4": "<bold>Preference for Convenience:</bold> A significant number of customers preferred an easy self-service purchase process."
+      }
+    },
+    "DESIGN_PROCESS": {
+      "TITLE": "Design Process",
+      "DESC": "Developed low-difelity wireframes to outline the app's structure and flow.",
+      "DESC_2": "Created high-fidelity prototypes in Figma, incorporating user feedback and iterative improvements.",
+      "DESC_3": "Conducted usability tests to refine the design and ensure ease of use.",
+      "DESC_4": "Delivered a polished design that met user needs and business objectives."
+    },
+    "VISUAL_DESIGN": {
+      "TITLE": "Visual Design",
+      "DESC": "The visual design emphasized a clean and modern aesthetic, using:",
+      "DESC_2": "<bold>Consistent Branding:</bold> Aligned with Optica Universitaria's brand identity.",
+      "DESC_3": "<bold>Intuitive Layouts:</bold> Simplified navigation to enhance user experience.",
+      "DESC_4": "<bold>Engaging Elements:</bold> Used high-quality images and AR to create an immersive experience."
+    },
+    "ADDITIONAL_FEATURES": {
+      "TITLE": "Additional Features",
+      "DESC": "<bold>Personalized Recommendations:</bold> The app recommends glasses based on the user's face shape.",
+      "DESC_2": "<bold>AR Technology:</bold> The AR feature attracts users by allowing them to try on glasses virtually.",
+      "DESC_3": "<bold>Email Collection and Registration:</bold> Users can register and provide their email for marketing campaigns and personalized follow-ups."
+    },
+    "FACE_SHAPE": {
+      "TITLE": "Know your face shape",
+      "DESC": "The app will take a photo of the user to detect what type of face they have and give them suggestions on the glasses that best suit their face type"
+    },
+    "SUGGESTION": {
+      "TITLE": "Glasses suggestion",
+      "DESC": "Taking into account the result of the user's face type, the app suggests different glasses so the user can try on them through AR"
+    },
+    "SHOP": {
+      "TITLE": "Shop Online",
+      "DESC": "Users must register with their email to be able to enter the online shop, see more glasses and try on them.\n\nThe app will show them recommended glasses, specifically for each user but they can also filter by different characteristics and buy them.\n\nThis register is important for Optica Universitaria because it will allow to extend its database to do targeted advertising."
+    },
+    "PURCHASE_FLOW": {
+      "TITLE": "Purchase Flow",
+      "DESC": "When users tap on a pair of glasses on the home, the app takes them to the fitting room from where they can find out more details about the glasses, follow the purchase process, and receive their glasses immediately in the store."
+    },
+    "PROTOTYPE": "Prototype"
+  }
+}

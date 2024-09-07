@@ -1,7 +1,0 @@
-{{#list-filter filter=(action 'filterByName') as |projects|}}
-	<ul class="results">
-		{{#each projects as |projectUnit|}}
-			<li>{{project-listing project=projectUnit}}</li>
-		{{/each}}
-	</ul>
-{{/list-filter}}
