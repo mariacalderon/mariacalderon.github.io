@@ -131,10 +131,10 @@ const OpticaUniversitaria = () => {
         <img className="w-full" src={`${imgPathBase}face-shape.png`} alt="try-on-glasses" />
       </div>
       <div className="p-16 flex flex-row sm:flex-col-reverse items-center gap-8 sm:p-8">
-        <div className="">
-          {/* TODO: add video */}
+        {/* <div className="">
+          TODO: add video 
           <img className="w-full" src={`/assets/imgs/homepage/optica-universitaria.png`} alt="try-on-glasses" />
-        </div>
+        </div> */}
         <div>
           <ProjectSectionTitle type={H1} title='OPTICA.SUGGESTION.TITLE' />
           <ProjectBodyText text='OPTICA.SUGGESTION.DESC' />
@@ -179,11 +179,13 @@ const OpticaUniversitaria = () => {
           </div>
         </div>
       </div>
+      {/* 
+      TODO: add prototype video
       <ProjectContentWithMargins>
         <div className="pt-16 sm:pt-12">
           <ProjectSectionTitle type={H1} title='OPTICA.PROTOTYPE' />
         </div>
-      </ProjectContentWithMargins>
+      </ProjectContentWithMargins> */}
     </div>
   )
 }
