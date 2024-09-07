@@ -13,6 +13,7 @@ import AyobaMusic from "./pages/AyobaMusic";
 import Newitts from "./pages/Newitts";
 import AyobaGeneral from "./pages/AyobaGeneral";
 import OpticaUniversitaria from "./pages/OpticaUniversitaria";
+import NotFound from "./pages/NotFound";
 
 function App() {
 
@@ -39,7 +40,7 @@ function App() {
       <Header />
       <div className="w-full">
         <Routes>
-          <Route path='*' element={<Homepage />} />
+          <Route path='*' element={<NotFound />} />
           <Route path='/' element={<Homepage />} />
           <Route path='/about' element={<Aboutme />} />
           <Route path='/ayoba' element={<AyobaGeneral />} />
