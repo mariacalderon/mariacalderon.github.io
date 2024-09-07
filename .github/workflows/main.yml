@@ -12,14 +12,12 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v1
 
-      - name: Set Environment Variables
+      - name: Set Environment Variables & Build
         env:
           REACT_APP_APIKEY: ${{ secrets.REACT_APP_APIKEY }}
           REACT_APP_APPID: ${{ secrets.REACT_APP_APPID }}
           REACT_APP_AUTH_DOMAIN: ${{ secrets.REACT_APP_AUTH_DOMAIN }}
           REACT_APP_PROJECT_ID: ${{ secrets.REACT_APP_PROJECT_ID }}
-
-      - name: Build
         run: |
           npm install
           npm run-script build
