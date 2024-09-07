@@ -18,11 +18,6 @@ jobs:
           REACT_APP_APPID: ${{ secrets.REACT_APP_APPID }}
           REACT_APP_AUTH_DOMAIN: ${{ secrets.REACT_APP_AUTH_DOMAIN }}
           REACT_APP_PROJECT_ID: ${{ secrets.REACT_APP_PROJECT_ID }}
-        run: 
-          echo "$REACT_APP_APIKEY"
-          echo "$REACT_APP_APPID"
-          echo "$REACT_APP_AUTH_DOMAIN"
-          echo "$REACT_APP_PROJECT_ID"
 
       - name: Build
         run: |
