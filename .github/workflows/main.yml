@@ -12,12 +12,17 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v1
 
-      - name: Store variables
-        run: |
-          echo "REACT_APP_APIKEY=${{ secrets.REACT_APP_APIKEY }}" >> $GITHUB_ENV
-          echo "REACT_APP_APPID=${{ secrets.REACT_APP_APPID }}" >> $GITHUB_ENV
-          echo "REACT_APP_AUTH_DOMAIN=${{ secrets.REACT_APP_AUTH_DOMAIN }}" >> $GITHUB_ENV
-          echo "REACT_APP_PROJECT_ID=${{ secrets.REACT_APP_PROJECT_ID }}" >> $GITHUB_ENV
+      - name: Set Environment Variables
+        env:
+          REACT_APP_APIKEY: ${{ secrets.REACT_APP_APIKEY }}
+          REACT_APP_APPID: ${{ secrets.REACT_APP_APPID }}
+          REACT_APP_AUTH_DOMAIN: ${{ secrets.REACT_APP_AUTH_DOMAIN }}
+          REACT_APP_PROJECT_ID: ${{ secrets.REACT_APP_PROJECT_ID }}
+        run: 
+          echo "$REACT_APP_APIKEY"
+          echo "$REACT_APP_APPID"
+          echo "$REACT_APP_AUTH_DOMAIN"
+          echo "$REACT_APP_PROJECT_ID"
 
       - name: Build
         run: |
