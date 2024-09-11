@@ -12,7 +12,7 @@ function AyobaGeneral() {
 
   const renderAyobaProjects = () => {
     return (
-      <div>
+      <div className="flex flex-col gap-16">
         <ImageTextItem
           imageOnRight={false}
           image='/assets/imgs/homepage/ayoba-redesign_messaging.png'

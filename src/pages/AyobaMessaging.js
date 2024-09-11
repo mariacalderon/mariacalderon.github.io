@@ -227,7 +227,7 @@ const AyobaMessaging = () => {
             </div>
             <div className="flex flex-col gap-4">
               <ProjectSectionTitle type={H2} title='AYOBA.MESSAGING.UX_RESEARCH.FEATURES.TITLE' />
-              <img className="w-full" src={`${imgPathBase}most-used-features,png`} alt="most-used-features-by-country" />
+              <img className="w-full" src={`${imgPathBase}most-used-features.png`} alt="most-used-features-by-country" />
             </div>
             <div className="flex flex-col gap-4">
               <ProjectSectionTitle type={H2} title='AYOBA.MESSAGING.UX_RESEARCH.BEHAVIOUR.TITLE' />
