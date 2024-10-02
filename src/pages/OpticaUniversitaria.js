@@ -96,9 +96,9 @@ const OpticaUniversitaria = () => {
         </div>
         <div>
           <ProjectSectionTitle type={H1} title='OPTICA.VISUAL_DESIGN.TITLE' />
+          <ProjectBodyText text='OPTICA.VISUAL_DESIGN.DESC' />
           <BulletList
             list={[
-              'OPTICA.VISUAL_DESIGN.DESC',
               'OPTICA.VISUAL_DESIGN.DESC_2',
               'OPTICA.VISUAL_DESIGN.DESC_3',
               'OPTICA.VISUAL_DESIGN.DESC_4',
@@ -131,10 +131,9 @@ const OpticaUniversitaria = () => {
         <img className="w-full" src={`${imgPathBase}face-shape.png`} alt="try-on-glasses" />
       </div>
       <div className="p-16 flex flex-row sm:flex-col-reverse items-center gap-8 sm:p-8">
-        {/* <div className="">
-          TODO: add video 
-          <img className="w-full" src={`/assets/imgs/homepage/optica-universitaria.png`} alt="try-on-glasses" />
-        </div> */}
+        <div>
+          <video className="w-full bg-white" controls src={`/assets/imgs/optica-universitaria/Gafas.mov`} alt="glasses-suggestion-demo" />
+        </div>
         <div>
           <ProjectSectionTitle type={H1} title='OPTICA.SUGGESTION.TITLE' />
           <ProjectBodyText text='OPTICA.SUGGESTION.DESC' />
@@ -152,40 +151,41 @@ const OpticaUniversitaria = () => {
       </div>
       <div className="relative p-20 flex flex-col gap-8 sm:p-8">
         <div className="bg-optica-gray w-full h-5/6 absolute top-32 left-0 sm:top-0 sm:h-full"></div>
-        <div className="flex flex-row sm:flex-col-reverse items-center gap-32 sm:gap-8">
-          <div className="w-2/3 sm:w-full z-10">
-            <img className="w-full" src={`${imgPathBase}purchase-flow-1.png`} alt="purchase-flow" />
+        <div className="flex flex-row sm:flex-col items-center gap-32 sm:gap-8">
+          <div className="w-3/5 pl-2 mt-[-60px] sm:w-full z-10">
+            <img className="w-full" src={`${imgPathBase}purchase-flow.png`} alt="purchase-flow" />
           </div>
           <div className="w-full max-w-md sm:w-full z-10">
             <ProjectSectionTitle type={H1} title='OPTICA.PURCHASE_FLOW.TITLE' />
             <ProjectBodyText text='OPTICA.PURCHASE_FLOW.DESC' styling='font-semibold' />
           </div>
         </div>
-        <div className="z-10 flex flex-wrap justify-center gap-12 sm:gap-6">
-          <div className="w-[48%] sm:w-full z-10">
+        <div className="z-10 flex flex-wrap justify-center gap-32 pt-20 sm:gap-6">
+          <div className="w-[45%] sm:w-full z-10">
             <img className="w-full" src={`${imgPathBase}purchase-flow-1.png`} alt="purchase-flow" />
           </div>
-          <div className="w-[48%] sm:w-full z-10">
+          <div className="w-[45%] sm:w-full z-10">
             <img className="w-full" src={`${imgPathBase}purchase-flow-2.png`} alt="purchase-flow" />
           </div>
-          <div className="w-[48%] sm:w-full z-10">
+          <div className="w-[45%] sm:w-full z-10">
             <img className="w-full" src={`${imgPathBase}purchase-flow-3.png`} alt="purchase-flow" />
           </div>
-          <div className="w-[48%] sm:w-full z-10">
+          <div className="w-[45%] sm:w-full z-10">
             <img className="w-full" src={`${imgPathBase}purchase-flow-4.png`} alt="purchase-flow" />
           </div>
-          <div className="w-[48%] sm:w-full z-10">
+          <div className="w-[45%] sm:w-full z-10">
             <img className="w-full" src={`${imgPathBase}purchase-flow-5.png`} alt="purchase-flow" />
           </div>
         </div>
       </div>
-      {/* 
-      TODO: add prototype video
       <ProjectContentWithMargins>
         <div className="pt-16 sm:pt-12">
           <ProjectSectionTitle type={H1} title='OPTICA.PROTOTYPE' />
         </div>
-      </ProjectContentWithMargins> */}
+        <div className="pb-32">
+        <video className="w-full bg-white" controls src={`/assets/imgs/optica-universitaria/Prototype.mov`} alt="prototype-demo" />
+        </div>
+      </ProjectContentWithMargins>
     </div>
   )
 }
