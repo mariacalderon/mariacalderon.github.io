@@ -381,8 +381,9 @@ const AyobaMessaging = () => {
               </ImageTextItem>
             </div>
             <div className="flex flex-col gap-4">
-              <div className="flex flex-row w-full justify-end">
-                <div className="w-full max-w-72">
+              <div className="flex flex-row w-full gap-16 justify-between">
+                <div className="w-full max-w-md"></div>
+                <div className="w-full max-w-md">
                   <ProjectSectionTitle type={H2_BUBBLE} title='AYOBA.MESSAGING.NEW_DESIGN.NEW_DESIGN.P2P_CHAT.TITLE' />
                 </div>
               </div>
@@ -431,8 +432,9 @@ const AyobaMessaging = () => {
               </ImageTextItem>
             </div>
             <div className="flex flex-col gap-4">
-              <div className="flex flex-row w-full justify-end">
-                <div className="w-full max-w-72">
+              <div className="flex flex-row w-full gap-16 justify-between">
+                <div className="w-full max-w-md"></div>
+                <div className="w-full max-w-md">
                   <ProjectSectionTitle type={H2_BUBBLE} title='AYOBA.MESSAGING.NEW_DESIGN.NEW_DESIGN.STORIES.TITLE' />
                 </div>
               </div>
