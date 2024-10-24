@@ -10,16 +10,16 @@ import ProjectBubble from "../components/ProjectBubble";
 import ProjectContentWithMargins from "../components/ProjectContentWithMargin";
 import ImageTextItem from "../components/ImageTextItem";
 import ProjectFooter from "../components/ProjectFooter";
-import { useEffect, useState } from "react";
-import Password from "./Password";
-import { useLocation } from "react-router-dom";
+// import { useEffect, useState } from "react";
+// import Password from "./Password";
+// import { useLocation } from "react-router-dom";
 
 const AyobaMessaging = () => {
 
   const { t } = useTranslation();
-  const location = useLocation();
+  // const location = useLocation();
 
-  const [isAccessible, setIsAccessible] = useState(false);
+  // const [isAccessible, setIsAccessible] = useState(false);
 
   const imgPathBase = "/assets/imgs/ayoba-messaging/";
 
@@ -491,11 +491,11 @@ const AyobaMessaging = () => {
     )
   }
 
-  useEffect(() => {
-    const prevLocation = location.state?.from?.pathname;
-    if (prevLocation === '/ayoba') setIsAccessible(true);
-    window.history.replaceState({}, '');
-  }, [setIsAccessible, location])
+  // useEffect(() => {
+  //   const prevLocation = location.state?.from?.pathname;
+  //   if (prevLocation === '/ayoba') setIsAccessible(true);
+  //   window.history.replaceState({}, '');
+  // }, [setIsAccessible, location])
 
   return (
     <div>

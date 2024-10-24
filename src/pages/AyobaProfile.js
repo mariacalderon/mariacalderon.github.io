@@ -9,16 +9,16 @@ import ProjectBodyText from "../components/ProjectBodyText";
 import ProjectBubble from "../components/ProjectBubble";
 import BulletList from "../components/BulletList";
 import ProjectFooter from "../components/ProjectFooter";
-import { useEffect, useState } from "react";
-import { useLocation } from "react-router-dom";
-import Password from "./Password";
+// import { useEffect, useState } from "react";
+// import { useLocation } from "react-router-dom";
+// import Password from "./Password";
 
 const AyobaProfile = () => {
 
   const { t } = useTranslation();
-  const location = useLocation();
+  // const location = useLocation();
 
-  const [isAccessible, setIsAccessible] = useState(false);
+  // const [isAccessible, setIsAccessible] = useState(false);
 
   const imgPathBase = "/assets/imgs/ayoba-profile/";
 
@@ -218,11 +218,11 @@ const AyobaProfile = () => {
     )
   }
 
-  useEffect(() => {
-    const prevLocation = location.state?.from?.pathname;
-    if (prevLocation === '/ayoba') setIsAccessible(true);
-    window.history.replaceState({}, '');
-  }, [setIsAccessible, location])
+  // useEffect(() => {
+  //   const prevLocation = location.state?.from?.pathname;
+  //   if (prevLocation === '/ayoba') setIsAccessible(true);
+  //   window.history.replaceState({}, '');
+  // }, [setIsAccessible, location])
 
   return (
     <div>

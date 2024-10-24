@@ -1,14 +1,14 @@
 import { useTranslation } from "react-i18next";
 import ImageTextItem from "../components/ImageTextItem";
 import { FormattingTranslation } from "../utils/translationHook";
-import { useState } from "react";
-import Password from "./Password";
+// import { useState } from "react";
+// import Password from "./Password";
 
 function AyobaGeneral() {
 
   const { t } = useTranslation();
 
-  const [isAccessible, setIsAccessible] = useState(false);
+  // const [isAccessible, setIsAccessible] = useState(false);
 
   const renderAyobaProjects = () => {
     return (
