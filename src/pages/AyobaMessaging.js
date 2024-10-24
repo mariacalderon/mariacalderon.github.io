@@ -500,11 +500,12 @@ const AyobaMessaging = () => {
   return (
     <div>
       {
-        isAccessible ?
-        renderAyobaMessaging() :
-        <div className="pt-52 pb-20 px-60 flex flex-col gap-20 sm:py-20 sm:px-8 sm:pt-32">
-          <Password onAuthenticated={()=>{ setIsAccessible(true) }} />
-        </div>
+        // isAccessible ?
+        renderAyobaMessaging() 
+        // :
+        // <div className="pt-52 pb-20 px-60 flex flex-col gap-20 sm:py-20 sm:px-8 sm:pt-32">
+        //   <Password onAuthenticated={()=>{ setIsAccessible(true) }} />
+        // </div>
       }
     </div>
   )
