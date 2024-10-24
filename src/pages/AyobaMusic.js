@@ -9,16 +9,16 @@ import { AYOBA_LINK, BLUE_H3, H1, H2, H2_UNDERLINE, H4 } from "../utils/constant
 import ProjectFooter from "../components/ProjectFooter";
 import ProjectBubble from "../components/ProjectBubble";
 import BulletList from "../components/BulletList";
-import { useLocation } from "react-router-dom";
-import { useEffect, useState } from "react";
-import Password from "./Password";
+// import { useLocation } from "react-router-dom";
+// import { useEffect, useState } from "react";
+// import Password from "./Password";
 
 const AyobaMusic = () => {
 
   const { t } = useTranslation();
-  const location = useLocation();
+  // const location = useLocation();
 
-  const [isAccessible, setIsAccessible] = useState(false);
+  // const [isAccessible, setIsAccessible] = useState(false);
 
   const imgPathBase = "/assets/imgs/ayoba-music/";
 
@@ -199,11 +199,11 @@ const AyobaMusic = () => {
     )
   }
 
-  useEffect(() => {
-    const prevLocation = location.state?.from?.pathname;
-    if (prevLocation === '/ayoba') setIsAccessible(true);
-    window.history.replaceState({}, '');
-  }, [setIsAccessible, location])
+  // useEffect(() => {
+  //   const prevLocation = location.state?.from?.pathname;
+  //   if (prevLocation === '/ayoba') setIsAccessible(true);
+  //   window.history.replaceState({}, '');
+  // }, [setIsAccessible, location])
 
   return (
     <div>
