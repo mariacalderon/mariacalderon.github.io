@@ -9,16 +9,16 @@ import { AYOBA_LINK, BLUE_H3, H1, H2, H2_UNDERLINE, H4 } from "../utils/constant
 import ProjectFooter from "../components/ProjectFooter";
 import ProjectBubble from "../components/ProjectBubble";
 import BulletList from "../components/BulletList";
-// import { useLocation } from "react-router-dom";
-// import { useEffect, useState } from "react";
-// import Password from "./Password";
+import { useLocation } from "react-router-dom";
+import { useEffect, useState } from "react";
+import Password from "./Password";
 
 const AyobaMusic = () => {
 
   const { t } = useTranslation();
-  // const location = useLocation();
+  const location = useLocation();
 
-  // const [isAccessible, setIsAccessible] = useState(false);
+  const [isAccessible, setIsAccessible] = useState(false);
 
   const imgPathBase = "/assets/imgs/ayoba-music/";
 
@@ -199,21 +199,21 @@ const AyobaMusic = () => {
     )
   }
 
-  // useEffect(() => {
-  //   const prevLocation = location.state?.from?.pathname;
-  //   if (prevLocation === '/ayoba') setIsAccessible(true);
-  //   window.history.replaceState({}, '');
-  // }, [setIsAccessible, location])
+  useEffect(() => {
+    const prevLocation = location.state?.from?.pathname;
+    if (prevLocation === '/ayoba') setIsAccessible(true);
+    window.history.replaceState({}, '');
+  }, [setIsAccessible, location])
 
   return (
     <div>
       {
-        // isAccessible ?
+        isAccessible ?
         renderAyobaMusic()
-        // :
-        // <div className="pt-52 pb-20 px-60 flex flex-col gap-20 sm:py-20 sm:px-8 sm:pt-32">
-        //   <Password onAuthenticated={()=>{ setIsAccessible(true) }} />
-        // </div>
+        :
+        <div className="pt-52 pb-20 px-60 flex flex-col gap-20 sm:py-20 sm:px-8 sm:pt-32">
+          <Password onAuthenticated={()=>{ setIsAccessible(true) }} />
+        </div>
       }
     </div>
   )
