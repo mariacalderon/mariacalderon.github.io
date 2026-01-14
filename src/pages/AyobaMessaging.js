@@ -10,16 +10,16 @@ import ProjectBubble from "../components/ProjectBubble";
 import ProjectContentWithMargins from "../components/ProjectContentWithMargin";
 import ImageTextItem from "../components/ImageTextItem";
 import ProjectFooter from "../components/ProjectFooter";
-import { useEffect, useState } from "react";
-import Password from "./Password";
-import { useLocation } from "react-router-dom";
+// import { useEffect, useState } from "react";
+// import Password from "./Password";
+// import { useLocation } from "react-router-dom";
 
 const AyobaMessaging = () => {
 
   const { t } = useTranslation();
-  const location = useLocation();
+  // const location = useLocation();
 
-  const [isAccessible, setIsAccessible] = useState(false);
+  // const [isAccessible, setIsAccessible] = useState(false);
 
   const imgPathBase = "/assets/imgs/ayoba-messaging/";
 
@@ -491,21 +491,21 @@ const AyobaMessaging = () => {
     )
   }
 
-  useEffect(() => {
-    const prevLocation = location.state?.from?.pathname;
-    if (prevLocation === '/ayoba') setIsAccessible(true);
-    window.history.replaceState({}, '');
-  }, [setIsAccessible, location])
+  // useEffect(() => {
+  //   const prevLocation = location.state?.from?.pathname;
+  //   if (prevLocation === '/ayoba') setIsAccessible(true);
+  //   window.history.replaceState({}, '');
+  // }, [setIsAccessible, location])
 
   return (
     <div>
       {
-        isAccessible ?
+        // isAccessible ?
         renderAyobaMessaging() 
-        :
-        <div className="pt-52 pb-20 px-60 flex flex-col gap-20 sm:py-20 sm:px-8 sm:pt-32">
-          <Password onAuthenticated={()=>{ setIsAccessible(true) }} />
-        </div>
+        // :
+        // <div className="pt-52 pb-20 px-60 flex flex-col gap-20 sm:py-20 sm:px-8 sm:pt-32">
+        //   <Password onAuthenticated={()=>{ setIsAccessible(true) }} />
+        // </div>
       }
     </div>
   )
