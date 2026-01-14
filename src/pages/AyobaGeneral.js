@@ -1,14 +1,14 @@
 import { useTranslation } from "react-i18next";
 import ImageTextItem from "../components/ImageTextItem";
 import { FormattingTranslation } from "../utils/translationHook";
-import { useState } from "react";
-import Password from "./Password";
+// import { useState } from "react";
+// import Password from "./Password";
 
 function AyobaGeneral() {
 
   const { t } = useTranslation();
 
-  const [isAccessible, setIsAccessible] = useState(false);
+  // const [isAccessible, setIsAccessible] = useState(false);
 
   const renderAyobaProjects = () => {
     return (
@@ -76,10 +76,10 @@ function AyobaGeneral() {
   return (
     <div className="pt-52 pb-20 px-60 flex flex-col gap-20 sm:py-20 sm:px-8 sm:pt-32">
       {
-        isAccessible ?
+        // isAccessible ?
         renderAyobaProjects()
-        :
-        <Password onAuthenticated={()=>{ setIsAccessible(true) }} />
+        // :
+        // <Password onAuthenticated={()=>{ setIsAccessible(true) }} />
       }
     </div>
   )
