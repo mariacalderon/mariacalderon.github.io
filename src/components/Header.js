@@ -4,6 +4,8 @@ import { useCallback, useState } from "react";
 import { useAnimationControls } from "framer-motion";
 import { motion } from "framer-motion";
 import ConfettiExplosion from 'react-confetti-explosion';
+import { ArrowLeft } from 'iconsax-react';
+import { useLocation, useNavigate } from 'react-router-dom';
 
 import { ReactComponent as AyobaLogo } from "../assets/icons/ayoba.svg";
 import { ReactComponent as Newitts } from "../assets/icons/newitts.svg";
@@ -14,6 +16,9 @@ const Header = () => {
   const animationControls = useAnimationControls();
 
   const [showConfetti, setShowConfetti] = useState(false);
+
+  const location = useLocation();
+  const navigate = useNavigate();
 
   const checkIfIsProjectPath = (currentPath) => {
     return PROJECTS.some(project => currentPath.includes(project));
@@ -56,6 +61,12 @@ const Header = () => {
     }
   };
 
+  // Goes one level up: /avoris/design-system -> /avoris, /avoris -> /
+  const onBackClick = () => {
+    const parentPath = location.pathname.replace(/\/[^/]+\/?$/, '') || '/';
+    navigate(parentPath);
+  };
+
   const onLogoClick = () => {
     if (!showConfetti) {
       animationControls.start('bouncing');
@@ -65,19 +76,31 @@ const Header = () => {
 
   return (
     <div className="fixed top-8 left-12 right-12 bg-white max-h-16 h-fit py-5 px-7 rounded-lg shadow-lg flex flex-row justify-between items-center z-40 sm:top-4 sm:left-6 sm:right-6">
-      <motion.div
-        animate={animationControls}
-        variants={variants}
-        transition={{ type: 'spring', bounce: 0.5, duration: 0.5, repeat: 3, repeatType: 'mirror' }}
-        className="font-bold cursor-pointer h-fit"
-        onClick={() => onLogoClick()}
-      >
-        {showConfetti && 
-          <div className="pl-12">
-            <ConfettiExplosion onComplete={() => setShowConfetti(false)} zIndex={50} force={0.4} particleCount={50} />
-          </div>}
-        {headerLogo}
-      </motion.div>
+      <div className="flex flex-row items-center gap-4">
+        {
+          checkIfIsProjectPath(location.pathname) &&
+            <button
+              className="cursor-pointer"
+              aria-label="Back"
+              onClick={() => onBackClick()}
+            >
+              <ArrowLeft size={24} color='currentColor' />
+            </button>
+        }
+        <motion.div
+          animate={animationControls}
+          variants={variants}
+          transition={{ type: 'spring', bounce: 0.5, duration: 0.5, repeat: 3, repeatType: 'mirror' }}
+          className="font-bold cursor-pointer h-fit"
+          onClick={() => onLogoClick()}
+        >
+          {showConfetti && 
+            <div className="pl-12">
+              <ConfettiExplosion onComplete={() => setShowConfetti(false)} zIndex={50} force={0.4} particleCount={50} />
+            </div>}
+          {headerLogo}
+        </motion.div>
+      </div>
       <div className="flex flex-row">
         {
           NAV_SECTIONS.map((section) => {
