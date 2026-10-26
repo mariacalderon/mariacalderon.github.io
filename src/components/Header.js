@@ -10,6 +10,7 @@ import { useLocation, useNavigate } from 'react-router-dom';
 import { ReactComponent as AyobaLogo } from "../assets/icons/ayoba.svg";
 import { ReactComponent as Newitts } from "../assets/icons/newitts.svg";
 import { ReactComponent as Optica } from "../assets/icons/universitaria.svg";
+import { ReactComponent as AvorisLogo } from "../assets/icons/avoris.svg";
 import { useLocationChange } from "../utils/locationTracking";
 
 const Header = () => {
@@ -33,6 +34,8 @@ const Header = () => {
           return <AyobaLogo />
         case 'newitts':
           return <Newitts className="w-4/5" />
+        case 'avoris':
+          return <AvorisLogo />
         case 'optica-universitaria':
           return <Optica className="sm:w-full" />
         default:
