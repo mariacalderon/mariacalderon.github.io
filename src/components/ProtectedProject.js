@@ -8,9 +8,15 @@ import Password from "../pages/Password";
 // Without Firebase keys (local dev without .env.local) the pages stay open; production builds always ask.
 const isLocalWithoutFirebase = process.env.NODE_ENV === 'development' && !process.env.REACT_APP_APIKEY;
 
-// Kept in memory only: the password is asked again on every new visit or reload,
-// but not when moving between protected pages during the same visit.
+// Kept in memory only: the password is asked again on every reload and every time the
+// protected section is opened again, but not when moving between its own pages.
 let isUnlockedThisVisit = false;
+
+export const PROTECTED_SECTION_PATH = '/avoris';
+
+export const lockProtectedProjects = () => {
+  isUnlockedThisVisit = false;
+};
 
 const ProtectedProject = (props) => {
 

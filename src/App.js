@@ -1,4 +1,4 @@
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, useLocation } from "react-router-dom";
 import Homepage from "./pages/Homepage";
 import Header from "./components/Header";
 import Aboutme from "./pages/Aboutme";
@@ -14,13 +14,19 @@ import Newitts from "./pages/Newitts";
 import AyobaGeneral from "./pages/AyobaGeneral";
 import AvorisGeneral from "./pages/AvorisGeneral";
 import AvorisDesignSystem from "./pages/AvorisDesignSystem";
-import ProtectedProject from "./components/ProtectedProject";
+import ProtectedProject, { lockProtectedProjects, PROTECTED_SECTION_PATH } from "./components/ProtectedProject";
 import OpticaUniversitaria from "./pages/OpticaUniversitaria";
 import NotFound from "./pages/NotFound";
 
 function App() {
 
   const [showFab, setShowFab] = useState(false);
+
+  const location = useLocation();
+
+  useEffect(() => {
+    if (!location.pathname.startsWith(PROTECTED_SECTION_PATH)) lockProtectedProjects();
+  }, [location.pathname]);
 
   useEffect(() => {
     window.onscroll = () => {
