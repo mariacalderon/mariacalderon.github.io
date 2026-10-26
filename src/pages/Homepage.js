@@ -10,9 +10,23 @@ function Homepage() {
   return (
     <div>
       <Hero />
-      <div className="py-40 px-60 flex flex-col gap-20 sm:py-20 sm:px-8">
+      <div className="py-40 px-60 flex flex-col gap-32 sm:py-20 sm:px-8 sm:gap-20">
         <ImageTextItem
           imageOnRight={false}
+          image='/assets/imgs/homepage/avoris-travel.png'
+          image_alt='avoris_travel'
+          path='/avoris'
+          animated={true}
+        >
+          <div className="text-4xl font-bold">
+            {t('PORTFOLIO.AVORIS_GENERAL.TITLE')}
+          </div>
+          <div className="text-lg font-sans text-body">
+            {FormattingTranslation('PORTFOLIO.AVORIS_GENERAL.DESCRIPTION')}
+          </div>
+        </ImageTextItem>
+        <ImageTextItem
+          imageOnRight={true}
           image='/assets/imgs/homepage/ayoba-redesign_messaging.png'
           image_alt='ayoba_southafrica'
           path='/ayoba'
@@ -26,7 +40,7 @@ function Homepage() {
           </div>
         </ImageTextItem>
         <ImageTextItem
-          imageOnRight={true}
+          imageOnRight={false}
           image='/assets/imgs/homepage/newitts-ecommerce.png'
           image_alt='newitts_ecommerce'
           path='/newitts'
@@ -40,7 +54,7 @@ function Homepage() {
           </div>
         </ImageTextItem>
         <ImageTextItem
-          imageOnRight={false}
+          imageOnRight={true}
           image='/assets/imgs/homepage/optica-universitaria.png'
           image_alt='try-on-glasses'
           path='/optica-universitaria'
