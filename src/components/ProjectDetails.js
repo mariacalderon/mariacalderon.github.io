@@ -118,6 +118,7 @@ const ProjectDetails = (props) => {
           })
         }
       </div>
+      {props.process.length > 0 &&
       <div className="flex flex-col gap-4">
         <div className="text-3xl font-bold">
           {t(PROJECT_DETAIL_PROCESS.titleKey)}
@@ -125,7 +126,7 @@ const ProjectDetails = (props) => {
         <div className="flex flex-row sm:flex-col sm:items-center">
           {renderProcessData()}
         </div>
-      </div>
+      </div>}
     </div>
   )
 }

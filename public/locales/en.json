@@ -24,6 +24,19 @@
       "HAPPY": "Happy",
       "BRAVE": "Brave"
     },
+    "AVORIS_GENERAL": {
+      "TITLE": "Ávoris Travel",
+      "DESCRIPTION": "Ávoris is a <bold>travel group with 24 brands</bold>, such as <bold>B travel</bold>, <bold>Halcón Viajes</bold>, <bold>Iberojet</bold>, <bold>Marsol</bold>, <bold>Travelplan</bold> or <bold>Catai</bold>. It sells <bold>flights, hotels, transfers, car rental, tickets, tours and more</bold>, to two audiences: <bold>B2B</bold>, the travel agencies that sell its trips, and <bold>B2C</bold>, the customers who book directly. \n\nAs a <bold>Product Designer</bold>, I work on the <bold>design of different projects</bold> of the group, for <bold>B2B and B2C</bold>, and on the <bold>Design System</bold> shared by all brands."
+    },
+    "AVORIS_DS": {
+      "TITLE": "Ávoris Design System",
+      "DESCRIPTION": "Ávoris has <bold>24 travel brands</bold>, and each product rebuilt the same components again and again. Design and code also drifted apart at every handoff. \n\nIn a <bold>team of 3 designers</bold>, we built <bold>one design system for all brands</bold>: the same component works for 24 brands, and only the tokens change. <bold>AI turns each Figma component into code</bold> and checks it against the design. \n\n<bold>My part:</bold> I helped define how the variables are structured for 24 brands, and designed common components for B2B and B2C products. \n\n<bold>More than 500 components in code, 24 brands, one system.</bold>"
+    },
+    "AVORIS_FLIGHTS": {
+      "TITLE": "Ávoris Flights",
+      "SOON": "Coming soon",
+      "DESCRIPTION": "A new case study about <bold>flights</bold>: the problem, how we solved it and what changed for the user. \n\nBuilt with the <bold>Ávoris Design System</bold>."
+    },
     "AYOBA_GENERAL": {
       "TITLE": "Ayoba - South Africa",
       "DESCRIPTION": "Ayoba is a <bold>SuperApp with 30 million</bold> monthly <bold>active users</bold> in more than <bold>15 African countries</bold> with 23 languages, including more than 8 African languages. <bold>MTN</bold> is the key investor, and one of the major telecommunications companies in Africa. \n\nAyoba is a cross platform app (Android, iOS, PWA) and offers a range of services such as <bold>Chat, Voip, Music, Games, News, Microapps, Payments, Gifting and more.</bold> \n\nOne of the key obstacles faced in Africa revolves around restrictes internet access, primarily attributed to high data costs and infrastructure challenges. \nAyoba addresses this issue by providing complimentary data, aiming to foster digital inclusion and broaden access to digital communication for a larger population."
@@ -104,11 +117,14 @@
     },
     "ROLES": {
       "PROD_DESIGN_LEAD": "Product Designer Lead",
-      "UXUI": "UX/UI"
+      "UXUI": "UX/UI",
+      "DS_PRODUCT_DESIGNER": "Product Designer, Design System team",
+      "PRODUCT_DESIGNER": "Product Designer"
     },
     "TEAM": {
       "UX_RESEARCH": "{{count}} UX Research",
-      "UXUI_DESIGN": "{{count}} UX/UI Designer"
+      "UXUI_DESIGN": "{{count}} UX/UI Designer",
+      "PRODUCT_DESIGN": "{{count}} Product Designers"
     },
     "TIMING": {
       "MONTHS": "{{time}} months",
@@ -803,7 +819,8 @@
     "PWD_PLACEHOLDER": "Enter password",
     "CONTINUE": "Continue",
     "ERROR_400": "Please enter a valid password",
-    "ERROR_500": "Something went wrong... please try again later"
+    "ERROR_500": "Something went wrong... please try again later",
+    "BACK": "← Back to portfolio"
   },
   "OPTICA": {
     "TITLE": "Optica Universitaria",
@@ -876,5 +893,170 @@
       "DESC": "When users tap on a pair of glasses on the home, the app takes them to the fitting room from where they can find out more details about the glasses, follow the purchase process, and receive their glasses immediately in the store."
     },
     "PROTOTYPE": "Prototype"
+  },
+  "AVORIS_FLIGHTS": {
+    "TITLE": "Ávoris",
+    "SUBTITLE": "Flights",
+    "INTRO": {
+      "OVERVIEW": "OVERVIEW",
+      "DESCRIPTION": "[Draft] One or two sentences about the project: <bold>what we designed, for whom and why it matters</bold>."
+    },
+    "CONTEXT": {
+      "TITLE": "The context",
+      "DESCRIPTION": "[Draft] Which brands and audiences (B2B / B2C) use this flow, and how users book flights today."
+    },
+    "PROBLEM": {
+      "TITLE": "The problem",
+      "DESCRIPTION": "[Draft] What was not working for users and for the business, with data if we have it."
+    },
+    "PROCESS": {
+      "TITLE": "The process",
+      "DESCRIPTION": "[Draft] How we worked: research, benchmark, flows, prototypes and tests."
+    },
+    "SOLUTION": {
+      "TITLE": "The solution",
+      "DESCRIPTION": "[Draft] The key screens and decisions, with images or videos."
+    },
+    "DS_LINK": {
+      "TITLE": "Built with the Design System",
+      "DESCRIPTION": "[Draft] Which components of the Ávoris Design System we used, and which new specific components for flights we created.",
+      "CTA": "See the Ávoris Design System →"
+    },
+    "RESULTS": {
+      "TITLE": "Results",
+      "DESCRIPTION": "[Draft] What changed after launch: metrics, feedback or team impact."
+    },
+    "LEARNINGS": {
+      "TITLE": "What we learned",
+      "DESCRIPTION": "[Draft] One or two learnings from the project."
+    }
+  },
+  "AVORIS": {
+    "TITLE": "Ávoris",
+    "SUBTITLE": "Design System",
+    "INTRO": {
+      "OVERVIEW": "OVERVIEW",
+      "DESCRIPTION": "<bold>A design system for many brands, connected to code with AI</bold>.\n\nAs part of the 3-person team that designed Ávoris' new design system from scratch, I helped define <bold>how variables are structured so one component works for 24 brands</bold>, and designed <bold>common components used across every B2B and B2C project</bold>.\n\n<bold>8 Figma files · 24 brands · B2B and B2C</bold> · flights, hotels, transfers, cars, tickets, tours…"
+    },
+    "STATS": {
+      "BRANDS_VALUE": "24",
+      "BRANDS_LABEL": "brands, one design system",
+      "VARIANTS_VALUE": "1,028",
+      "VARIANTS_LABEL": "variants in CORE",
+      "COMPONENTS_VALUE": "500+",
+      "COMPONENTS_LABEL": "Web Components in code",
+      "RULES_VALUE": "59",
+      "RULES_LABEL": "rules the AI follows"
+    },
+    "CONTEXT": {
+      "TITLE": "The context",
+      "DESCRIPTION": "Ávoris is a travel group with many brands. The system had to work for three things at the same time:",
+      "BRANDS": "<bold>24 brands.</bold> Each brand has its own colors, shapes and logo: <bold>B travel</bold>, <bold>Halcón Viajes</bold>, <bold>Marsol</bold>, <bold>Iberojet</bold>, <bold>Muchoviaje</bold>, <bold>Travelplan</bold>, <bold>Welcome</bold>, <bold>Catai</bold>…",
+      "LINES": "<bold>Many lines of business:</bold> <bold>flights, hotels, transfers, car rental, tickets, tours and more.</bold> Each line needs its own special components.",
+      "AUDIENCES": "<bold>Two audiences:</bold> <bold>B2B</bold>, the travel agencies that sell our trips, and <bold>B2C</bold>, the customers who book directly with us.",
+      "LOGIC": "All these combinations follow the same product logic: <bold>search, compare, book and pay.</bold> Without a shared system, each project built the same components again and again.",
+      "HOMES": "You can already see this idea on the group's websites. The homes of <bold>B travel</bold> and <bold>Halcón Viajes</bold> are not part of this Design System, but they follow the same concept: <bold>the same structure and the same components, each with its own brand.</bold>",
+      "HOVER": "Hover to see the whole page"
+    },
+    "PROBLEM": {
+      "TITLE": "The problem",
+      "SUBTITLE": "Too many brands, too many repeated components, and little time to launch new projects.",
+      "P_1": "With <bold>24 brands and many projects</bold>, the same component was built many times, in Figma and in code, in versions that were almost the same. <bold>Every change had to be repeated in all of them.</bold>",
+      "P_2": "<bold>A brand didn't always look the same.</bold> The same button of one brand could look different in flights and in tickets, so the brand felt less consistent for the user.",
+      "P_3": "<bold>Design and code drifted apart:</bold> every handoff to development could add small differences.",
+      "P_4": "<bold>The business needs to move fast.</bold> When it asks for a new project, we can't start from zero, but some businesses also need to stand out from the rest.",
+      "NEEDED_TITLE": "What we needed",
+      "NEEDED_DESC": "<bold>A design system organized by lines of business</bold>, with shared components at its base (CORE, common for B2B or B2C, and specific per project). This gives us:",
+      "NEEDED_1": "<bold>Reuse.</bold> Each component is built once and used across projects and brands. A change is made in one place.",
+      "NEEDED_2": "<bold>Consistency.</bold> Every project uses the same component with the brand's tokens, so a brand looks the same in flights, tickets or hotels.",
+      "NEEDED_3": "<bold>Speed.</bold> New projects start from the common components that already exist for their line.",
+      "NEEDED_4": "<bold>Customization when needed.</bold> A business that needs to stand out gets its own variants of the shared components, instead of new ones.",
+      "NEEDED_5": "<bold>Easy to document.</bold> Each component lives in its level, so we always know if it is a common element or which project it belongs to. This makes every component easier to document, find and maintain.",
+      "NEEDED_CODE": "<bold>Connected to code.</bold> Each component built in code from Figma, with the same names, and checked against the design, so design and code stop drifting apart. <bold>This is where AI comes in.</bold>",
+      "LIMITATION": "<bold>The limitation:</bold> we don't have access to the front-end repository yet, so for now the code lives in our own repository."
+    },
+    "EVOLUTION": {
+      "TITLE": "The journey",
+      "DESCRIPTION": "We started this design system <bold>two years ago</bold>, when AI was not yet ready to work with Figma and code. So we first built everything <bold>by hand in Figma</bold>. As AI improved, we added it to our process to <bold>take the design to code</bold>. This is the journey, in three steps:"
+    },
+    "STEP_ONE": {
+      "TITLE": "Step 1. Where we started: one system in Figma",
+      "DESCRIPTION": "First, we put order in Figma: we decided <bold>where each component lives</bold> and how <bold>one component can work for 24 brands</bold>. This order is what later made it possible to take the system to code with AI."
+    },
+    "STRUCTURE": {
+      "TITLE": "Three levels of scope",
+      "DESCRIPTION": "We organized the system into <bold>8 Figma files</bold>, based on <bold>where each component is used</bold>: CORE for every project, common components for all the projects of B2B or of B2C, and specific components for one project only. Three more files hold the base: Icons, Logos and Variables."
+    },
+    "SLOTS": {
+      "TITLE": "Slots: one component, many uses",
+      "P_1": "A <bold>slot</bold> is an empty space inside a component where you can put other content. It's like a picture frame: the frame doesn't change, but you can put any photo inside.",
+      "P_2": "For example, our transfer card has spaces for the image, the tags, the price and the button. <bold>The card decides where each thing goes; each screen decides what goes inside.</bold>",
+      "P_3": "This way, we don't need a different card for each case: there is <bold>only one card</bold>, and the things that change go in the slots. If a screen doesn't need one of the spaces, we can hide it.",
+      "P_4": "<bold>For developers, slots make the work much easier.</bold> They are a web standard, so they work in any browser and with any technology. Developers only need to put the real content (the photo, the price, the button) in each space, without changing the component or making new copies. The component takes care of the design, so the result always follows the design of each brand."
+    },
+    "TOKENS": {
+      "TITLE": "Variables: one component for 24 brands",
+      "FIGMA": "In Figma, the variables are organized in <bold>three layers</bold>:",
+      "LAYER_1": "<bold>Primitive variables</bold> keep the pure values (the color palette).",
+      "LAYER_2": "<bold>Semantic variables</bold> say what each color is used for (background, text, border, error…).",
+      "LAYER_3": "<bold>Component variables</bold> say the color of each part of a component (for example, the background of the main button).",
+      "LAYERS_LINK": "Each layer points to the layer before it.",
+      "MODES": "The color collections have <bold>only one mode</bold>: desktop and mobile share the same colors, so we don't need to duplicate each color variable for each device. Only <bold>typography, spacing and borders have two modes, desktop and mobile</bold>, because sizes do change depending on the screen.",
+      "BRANDS": "<bold>Each brand is an extended collection</bold> that inherits everything and only changes what is different (colors, corner radius, fonts…).",
+      "REPO": "<bold>Tokens come from Figma too.</bold> In our repository, a script reads the Figma variables and creates <bold>one single token file</bold>, with one block for each brand. To change the brand, you only change the data-brand attribute of the page. If you change the value of a token, <bold>all the components that use it change too</bold>."
+    },
+    "IN_ACTION": {
+      "TITLE": "The system in action",
+      "DESCRIPTION": "This is how the system works in Figma, with two real components.",
+      "HEADER_TITLE": "USE CASE 1 · HEADERS",
+      "HEADER_DESC": "We start from a <bold>brand-agnostic header</bold>: a component with no brand of its own. With a few clicks, applying the variables of each brand, it becomes three headers with different brands, like our own B travel. It also works the other way: <bold>any of the headers can be adapted to any brand</bold>.",
+      "CARD_TITLE": "USE CASE 2 · CARDS",
+      "CARD_DESC": "The card is also brand-agnostic and is built with <bold>slots</bold>, so each brand can add different content. When we apply the brand variables, the visual style changes and <bold>the buttons update automatically</bold>. With one click, we can also <bold>switch the orientation</bold> between horizontal and vertical. And like the headers, every card can be used for any brand, whatever its content."
+    },
+    "STEP_TWO": {
+      "TITLE": "Step 2. Today: from Figma to code with AI",
+      "DESCRIPTION": "Without waiting for access to the front-end repository, <bold>AI now builds each component as a Web Component</bold> in our own design repository, following our rules and checking it against Figma."
+    },
+    "BUILD": {
+      "SETUP_TITLE": "Setting it up",
+      "SETUP_1": "<bold>We connected AI to Figma.</bold> We used Claude Code with a Figma connector. With the connector, the AI can open our Figma files: it can read the components, the variants, the variables and the sizes, and it can also write in Figma, for example to add a new variant. <bold>The AI can only use our 8 Design System files.</bold> It can't touch anything else.",
+      "SETUP_2": "<bold>We started with a test.</bold> Before working with the real Design System, we tested everything in a separate Figma file, with fake components. We checked that we could go from Figma to code and from code back to Figma, and how a component changes brand. When the test worked, we moved to the real files.",
+      "HOW_TITLE": "How it works",
+      "SKILLS": "<bold>We turned the process into skills</bold>, written recipes that the AI follows step by step. Besides going from Figma to code and back, the AI can <bold>check which components a new design affects</bold> and <bold>what changed in Figma</bold>. This way, anyone in the team can ask in simple words, like <bold>\"Turn this Figma component into code\"</bold>, and the AI follows the right process.",
+      "RULES_TITLE": "Rules and control",
+      "RULES": "We didn't write all the rules at the start: <bold>every time something went wrong, we wrote a new rule</bold>, so it doesn't happen again. Today the AI reads them before any work, every change is checked, and <bold>people always have the last word</bold>.",
+      "MEMORY_TITLE": "Memory and scale",
+      "SCALE": "<bold>We built everything, step by step.</bold> We started with CORE, then icons, logos, B2B and B2C. For big tasks, like almost 400 icons, the AI shared the work between <bold>several agents working at the same time</bold>, and one final review checked everything.",
+      "MEMORY": "<bold>The project has a memory.</bold> Everything is written down, so the work doesn't depend on one person or one conversation:",
+      "MEM_1": "A <bold>status document</bold> says where we are and what comes next.",
+      "MEM_2": "A <bold>learning note</bold> for each component saves what we decided and what to avoid.",
+      "MEM_3": "A <bold>map</bold> connects each Figma component with its code.",
+      "MEM_4": "A <bold>local website</bold> shows every component with all its states.",
+      "HISTORY": "<bold>Every change is recorded</bold> in two places:",
+      "HIST_1": "<bold>In Figma</bold>, in the component description. A designer can see the last change without leaving Figma.",
+      "HIST_2": "<bold>In a shared change history</bold>, with the date, what changed, why, and before and after images.",
+      "TEAM": "<bold>The whole team can use it.</bold> We made a small setup file and a simple guide, so any designer can start in a few minutes. You don't need to know how to code: you just talk to the AI."
+    },
+    "ROUND_TRIP": {
+      "DESCRIPTION": "AI connects Figma and code <bold>in both directions</bold>, so design and code stay in sync."
+    },
+    "STEP_THREE": {
+      "TITLE": "Step 3. Where we are going: connecting to the real code",
+      "DESCRIPTION": "Everything we build today is ready for that step: <bold>the same names as in Figma, only tokens, written rules and a map between Figma and code.</bold> Connecting it to the real repository will only change where the work goes. We won't need to start from zero."
+    },
+    "RESULTS": {
+      "TITLE": "Results",
+      "R_1": "<bold>CORE complete:</bold> 107 component sets and <bold>1,028 variants</bold>, 100% covered.",
+      "R_2": "<bold>The 7 component files</bold> (CORE, Icons, Logos, B2B and B2C common and specific) are finished for the scope we defined.",
+      "R_3": "<bold>More than 500 Web Components</bold> built and checked in our design repository.",
+      "R_4": "<bold>About 400 icons</bold>, and the components for logos, certifications and payment methods in code.",
+      "R_5": "<bold>More than 450 learning notes</bold>, one for each component: the knowledge is written down and doesn't depend on one person.",
+      "R_6": "The same component works for <bold>24 brands</bold> by changing only the tokens."
+    },
+    "LEARNINGS": {
+      "TITLE": "What we learned",
+      "L_1": "<bold>AI is as good as the rules you give it.</bold> The most valuable part was not creating code. It was writing our decisions in a way that a person and an AI understand in the same way.",
+      "L_4": "<bold>Documenting is designing.</bold> A system for 24 brands can only grow if anyone can understand why it is made this way."
+    }
   }
 }

@@ -46,6 +46,8 @@ module.exports = {
         'optica-yellow': 'rgb(var(--optica-yellow))',
         'optica-salmon': 'rgb(var(--optica-salmon))',
         'optica-gray': 'rgb(var(--optica-gray))',
+        'avoris-yellow': 'rgb(var(--avoris-yellow))',
+        'avoris-cream': 'rgb(var(--avoris-cream))',
       },
       fontFamily: {
         gilroy: 'Gilroy',
