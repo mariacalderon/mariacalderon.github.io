@@ -14,7 +14,9 @@ i18n
       escapeValue: false 
     },
     backend: {
-      loadPath: '/locales/{{lng}}.json'
+      loadPath: '/locales/{{lng}}.json',
+      // Always checks for a newer file, so a deploy never mixes new code with old cached texts.
+      requestOptions: { cache: 'no-cache' }
     }
   });
 
