@@ -15,7 +15,7 @@ import AyobaGeneral from "./pages/AyobaGeneral";
 import DigitalDrams from "./pages/DigitalDrams";
 import AvorisGeneral from "./pages/AvorisGeneral";
 import AvorisDesignSystem from "./pages/AvorisDesignSystem";
-import ProtectedProject, { lockProtectedProjects, PROTECTED_SECTION_PATH } from "./components/ProtectedProject";
+import ProtectedProject, { lockProtectedProjects, PROTECTED_SECTION_PATHS } from "./components/ProtectedProject";
 import OpticaUniversitaria from "./pages/OpticaUniversitaria";
 import NotFound from "./pages/NotFound";
 
@@ -26,7 +26,7 @@ function App() {
   const location = useLocation();
 
   useEffect(() => {
-    if (!location.pathname.startsWith(PROTECTED_SECTION_PATH)) lockProtectedProjects();
+    if (!PROTECTED_SECTION_PATHS.some((path) => location.pathname.startsWith(path))) lockProtectedProjects();
   }, [location.pathname]);
 
   useEffect(() => {
@@ -60,7 +60,7 @@ function App() {
           <Route path='/ayoba/music' element={<AyobaMusic />} />
           <Route path='/avoris' element={<ProtectedProject bkgColor='bg-avoris-cream'><AvorisGeneral /></ProtectedProject>} />
           <Route path='/avoris/design-system' element={<ProtectedProject bkgColor='bg-avoris-cream'><AvorisDesignSystem /></ProtectedProject>} />
-          <Route path='/digital-drams' element={<DigitalDrams />} />
+          <Route path='/digital-drams' element={<ProtectedProject bkgColor='bg-[#131313]'><DigitalDrams /></ProtectedProject>} />
           <Route path='/newitts' element={<Newitts />} />
           <Route path='/optica-universitaria' element={<OpticaUniversitaria />} />
         </Routes>
