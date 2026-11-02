@@ -37,6 +37,10 @@
       "SOON": "Coming soon",
       "DESCRIPTION": "A new case study about <bold>flights</bold>: the problem, how we solved it and what changed for the user. \n\nBuilt with the <bold>Ávoris Design System</bold>."
     },
+    "DIGITAL_DRAMS": {
+      "TITLE": "Digital Drams",
+      "DESCRIPTION": "Rare whisky used to be only for big collectors. <bold>What if anyone could own a part of a bottle?</bold> \n\nDigital Drams is a platform to <bold>buy, sell and store rare whisky</bold> in a safe way, with blockchain behind it. \n\nI was the <bold>product designer from start to end</bold>: discovery, flows, screens, payments and handoff."
+    },
     "AYOBA_GENERAL": {
       "TITLE": "Ayoba - South Africa",
       "DESCRIPTION": "Ayoba is a <bold>SuperApp with 30 million</bold> monthly <bold>active users</bold> in more than <bold>15 African countries</bold> with 23 languages, including more than 8 African languages. <bold>MTN</bold> is the key investor, and one of the major telecommunications companies in Africa. \n\nAyoba is a cross platform app (Android, iOS, PWA) and offers a range of services such as <bold>Chat, Voip, Music, Games, News, Microapps, Payments, Gifting and more.</bold> \n\nOne of the key obstacles faced in Africa revolves around restrictes internet access, primarily attributed to high data costs and infrastructure challenges. \nAyoba addresses this issue by providing complimentary data, aiming to foster digital inclusion and broaden access to digital communication for a larger population."
@@ -109,11 +113,12 @@
     "PROCESS": {
       "TITLE": "Process",
       "AUDIT": "Audit",
-      "EMPHATIZE": "Emphatize",
+      "EMPHATIZE": "Empathise",
       "SPECIFY": "Specify",
       "IDEATE": "Ideate",
       "HANDOFF": "Handoff",
-      "VERIFY": "Verify"
+      "VERIFY": "Verify",
+      "PENDING": "Pending"
     },
     "ROLES": {
       "PROD_DESIGN_LEAD": "Product Designer Lead",
@@ -124,7 +129,10 @@
     "TEAM": {
       "UX_RESEARCH": "{{count}} UX Research",
       "UXUI_DESIGN": "{{count}} UX/UI Designer",
-      "PRODUCT_DESIGN": "{{count}} Product Designers"
+      "PRODUCT_DESIGN": "{{count}} Product Designers",
+      "SOLO_PRODUCT_DESIGNER": "{{count}} Product Designer",
+      "BUSINESS": "Business team",
+      "DEVELOPMENT": "Development team"
     },
     "TIMING": {
       "MONTHS": "{{time}} months",
@@ -1057,6 +1065,335 @@
       "TITLE": "What we learned",
       "L_1": "<bold>AI is as good as the rules you give it.</bold> The most valuable part was not creating code. It was writing our decisions in a way that a person and an AI understand in the same way.",
       "L_4": "<bold>Documenting is designing.</bold> A system for 24 brands can only grow if anyone can understand why it is made this way."
+    }
+  },
+  "DIGITAL_DRAMS": {
+    "TITLE": "Digital Drams",
+    "SUBTITLE": "Investing in whisky",
+    "OVERVIEW": {
+      "TITLE": "OVERVIEW",
+      "DESCRIPTION": "Rare whisky used to be only for big collectors. <bold>What if anyone could own a part of a bottle?\n\nDigital Drams is a website to invest in rare whisky.</bold> It works as a <bold>marketplace</bold> where people can <bold>buy</bold>, <bold>sell</bold> and <bold>bid</bold> on bottles worth €5,000 to €100,000, <bold>whole</bold> or in <bold>fractions</bold>. \n\n<bold>Sellers</bold> send their bottles to Digital Drams. The company checks them, stores them in an insured vault and turns them into digital assets, in the number of fractions the seller asks for. Sellers can then list them for sale. \n\n<bold>Buyers</bold> can buy at a fixed price or make an offer. They can follow the value of their investment online, resell their fractions, or get the bottle at home if they own 100%."
+    },
+    "STATS": {
+      "BOTTLES_VALUE": "€5K–100K",
+      "BOTTLES_LABEL": "price of each bottle, whole or in fractions",
+      "FRACTIONS_VALUE": "Custom",
+      "FRACTIONS_LABEL": "number of fractions, requested by the seller",
+      "YEARS_VALUE": "7 years",
+      "YEARS_LABEL": "of the company in this market"
+    },
+    "CONTEXT": {
+      "TITLE": "Context of the problem",
+      "DESCRIPTION": "<bold>Investing in rare whisky is expensive, and storing it is risky.</bold> Digital Drams makes it more accessible, with secure storage and fractions."
+    },
+    "CHALLENGE": {
+      "TITLE": "The Challenge",
+      "PRIMARY": {
+        "TITLE": "Primary Challenge",
+        "DESCRIPTION": "Digital Drams asks people to <bold>invest thousands of euros</bold> in <bold>a bottle they may never hold</bold>. The central challenge was <bold>earning enough trust</bold> for that decision, while keeping <bold>custody, fractional ownership, identity checks and payments simple</bold> to use."
+      },
+      "TECHNICAL": {
+        "TITLE": "Simplifying Technical Complexity",
+        "DESCRIPTION": "NFTs are <bold>minted on Polygon</bold> and held in Digital Drams’ <bold>custodial wallet</bold>, while most activity happens <bold>inside the platform</bold>. Users needed clear information about <bold>what they owned, its status and its costs</bold>, <bold>without needing to understand blockchain</bold>. Users sign up with <bold>email or Google</bold>, with <bold>no external wallet</bold>."
+      },
+      "COMPLIANCE": {
+        "TITLE": "Compliance Without Friction",
+        "DESCRIPTION": "Nobody can buy, sell or redeem <bold>without passing KYC</bold>, done by an <bold>external provider</bold> to meet <bold>anti-money laundering</bold> rules. The challenge was to make verification <bold>mandatory without blocking people</bold> from discovering the product, or creating barriers that could <bold>increase abandonment</bold>."
+      },
+      "USERS": {
+        "TITLE": "Different Users, One Platform",
+        "DESCRIPTION": "The platform had to serve <bold>investors, collectors</bold> and people who <bold>could not afford a full bottle</bold>, as well as owners who wanted to <bold>digitize and sell</bold>. Each group had <bold>different goals</bold>, but all needed clarity about <bold>ownership, costs and status</bold>."
+      },
+      "TEAM": {
+        "TITLE": "Team Collaboration",
+        "DESCRIPTION": "Many <bold>business rules had to be clarified</bold> during the project. I presented flows and options in <bold>meetings and in Loom videos</bold>, so the client could take time and <bold>watch them again</bold>, because these were important decisions. I raised UX questions in a <bold>clarifications document</bold> to define <bold>what users would do and what the platform would handle</bold>. I also worked closely with <bold>developers</bold> to check whether flows and features were <bold>feasible</bold>, and I will carry out <bold>QA</bold> to make sure the build matches the design."
+      },
+      "MARKETPLACE": {
+        "TITLE": "A Marketplace, Not a Blockchain Product",
+        "DESCRIPTION": "We didn’t want the platform to feel like a <bold>blockchain product</bold>, but like a <bold>modern marketplace</bold> that felt familiar to people with <bold>no crypto experience</bold>. The challenge was keeping that simplicity while including the <bold>clarity and legal information</bold> expected from a financial product."
+      },
+      "PLATFORMS": {
+        "TITLE": "Platforms",
+        "DESCRIPTION": "The platform was designed for <bold>mobile, tablet and desktop</bold>, with the <bold>same logic</bold> on all of them."
+      }
+    },
+    "DISCOVERY": {
+      "TITLE": "Discovery",
+      "DESCRIPTION": "At first, I did not fully understand the project, and there were many loose ends in how the business explained it. So I started with an <bold>audit</bold>, asked to talk to customers of IWA, the main company, and to people the business knew could become customers or were interested in whisky. Only then did I start the flows.",
+      "AUDIT": {
+        "TITLE": "1. Audit of the old website",
+        "DESCRIPTION": "I reviewed the old website screen by screen to find usability problems. The design was not intuitive, and the product had to be designed almost from zero. \n\nThe review was based on:",
+        "CRITERIA": {
+          "USERPROFILE": "User profile",
+          "PRINCIPLES": "General UX principles",
+          "INTERACTION": "Interaction design",
+          "USABILITY": "Usability"
+        },
+        "LEGEND": {
+          "TITLE": "Audit Legend",
+          "CRITICAL": {
+            "TITLE": "Critical- Tech, UX, UI",
+            "DESCRIPTION": "Critical violation: Urgent issues/bugs that <bold>disturb the user experience</bold>"
+          },
+          "AVERAGE": {
+            "TITLE": "Average- Tech, UX, UI",
+            "DESCRIPTION": "Average violation: Issues that can <bold>disturb some of the users and can improve the UX</bold>"
+          },
+          "LOW": {
+            "TITLE": "Low- Tech, UX, UI",
+            "DESCRIPTION": "Low violation: Issues that might <bold>disturb a small percentage of users</bold>"
+          }
+        },
+        "INSIGHTS": {
+          "TITLE": "Key insights",
+          "I_1": "<bold>The basics were missing.</bold> Key flows such as buying, selling and logging in did not exist.",
+          "I_NEXT": "<bold>There was no clear next step.</bold> The home page had three competing actions, and Buy, Bid and Sell looked the same.",
+          "I_FIND": "<bold>Bottles were hard to find and compare.</bold> Filters were cut, and sorting did not work.",
+          "I_3": "<bold>Nothing built trust.</bold> Missing bottle information gave people no reason to invest.",
+          "I_4": "<bold>Fractions and status were not clear.</bold> Users could not see what a price included, or follow each of their bottles.",
+          "I_LOOK": "<bold>The look and feel did not match the product.</bold> Rare whisky should feel premium and trustworthy, but the site looked like a tech product, with circuit patterns and inconsistent components."
+        }
+      },
+      "RESEARCH": {
+        "TITLE": "2. Surveys and interviews",
+        "DESCRIPTION": "I asked the business for access to customers of <bold>IWA</bold>, the main company, and to people they knew could become customers or were interested in whisky. \n\n<bold>Surveys</bold> showed us 5 user profiles. Then I ran <bold>10 interviews</bold> to understand their motivations, needs and worries. \n\nI ran the surveys and the interviews, and a co-founder of Digital Drams joined them to stay close to what users said."
+      },
+      "PROFILES": {
+        "TITLE": "3. Five user profiles",
+        "CAPTION": "The fuller the bottle, the bigger the budget.",
+        "BEGINNER": {
+          "TITLE": "The fractional investor",
+          "AMOUNT": "€100–500",
+          "NEED": "<bold>Cannot pay for a whole bottle</bold>, and <bold>does not know what owning a fraction means</bold>."
+        },
+        "ENTHUSIAST": {
+          "TITLE": "The whisky enthusiast",
+          "AMOUNT": "€1K–3K",
+          "NEED": "<bold>Loves whisky</bold>, but has <bold>never invested</bold> and does not know if a <bold>price is fair</bold>."
+        },
+        "INVESTOR": {
+          "TITLE": "The digital investor",
+          "AMOUNT": "€5K–15K",
+          "NEED": "<bold>Knows crypto</bold>, but not how a bottle becomes a <bold>digital asset</bold>, or how to <bold>get the money back</bold>."
+        },
+        "RESELLER": {
+          "TITLE": "The strategic reseller",
+          "AMOUNT": "€25K–50K",
+          "NEED": "Wants <bold>good deals</bold>, and to <bold>sell without managing every step</bold>."
+        },
+        "COLLECTOR": {
+          "TITLE": "The collector",
+          "AMOUNT": "€100K+",
+          "NEED": "<bold>Home insurance</bold> does not cover the collection, and it needs <bold>professional care</bold>."
+        }
+      },
+      "CONCLUSIONS": {
+        "TITLE": "What we learned from the surveys and interviews",
+        "C_1": "<bold>There is not one type of user.</bold> Some protect a collection, some look for profit, and some want to start with little money.",
+        "C_2": "<bold>Storage has value on its own.</bold> It helps investors who do not want the bottle at home, and collectors who need special care and cover.",
+        "C_3": "<bold>Trust drives the decision.</bold> Users must understand what they buy, how ownership is proved and what guarantees they have.",
+        "C_4": "<bold>Selling matters as much as buying.</bold> People want to know they can sell later and get their money back.",
+        "C_5": "<bold>Bottle information is vital.</bold> People need it to decide."
+      },
+      "FEE": {
+        "TITLE": "How research changed a business decision",
+        "DESCRIPTION": "The business <bold>wanted to charge a high registration fee</bold>. I showed the co-founder the survey data: <bold>several people wanted to invest but had little money. That is the reason to sell bottles in fractions</bold>, so the fee made no sense. \n\nThe co-founder agreed, and <bold>we removed the fee</bold>. <bold>Now users only need to complete KYC.</bold>"
+      },
+      "BENCHMARK": {
+        "TITLE": "4. Benchmark",
+        "DESCRIPTION": "I reviewed <bold>CaskX, Cult Wine, BlockBar, Vinovest and Whiskystats</bold>, plus NFT marketplaces and digital art platforms. \n\nThe difference: a <bold>luxury checkout</bold>, which the client rated above BlockBar's.",
+        "SITES": {
+          "BLOCKBAR": {
+            "TITLE": "BlockBar",
+            "TAKE": "<bold>Luxury feel</bold>, big bottles and detailed filters."
+          },
+          "VINOVEST": {
+            "TITLE": "Vinovest",
+            "TAKE": "<bold>Shows results</bold> and explains how to sell."
+          },
+          "CASKX": {
+            "TITLE": "CaskX",
+            "TAKE": "<bold>Builds credibility</bold> with real barrels, press and guides."
+          },
+          "CULT": {
+            "TITLE": "Cult Wine",
+            "TAKE": "<bold>Explains investing</bold> in simple, friendly steps."
+          },
+          "WHISKYSTATS": {
+            "TITLE": "Whiskystats",
+            "TAKE": "<bold>Shows the value of data</bold> to decide."
+          }
+        },
+        "TABLE": {
+          "FEATURE": "Feature",
+          "YES": "Yes",
+          "MARKETPLACE": "Marketplace",
+          "BIDS": "Bids or offers",
+          "STORAGE": "Secure storage",
+          "FRACTIONS": "Fractions",
+          "DELIVERY": "Physical delivery"
+        },
+        "LEARNED": {
+          "TITLE": "What we learned from the benchmark",
+          "L_1": "<bold>BlockBar</bold> sets the luxury feel, with big bottles and detailed filters.",
+          "L_2": "<bold>Vinovest</bold> and <bold>Cult Wine</bold> explain investing simply, and show results.",
+          "L_3": "<bold>Whiskystats</bold> shows the value of data to decide.",
+          "L_4": "<bold>The opportunity:</bold> <bold>none of the platforms I reviewed offered fractions</bold>. Digital Drams brings together a luxury marketplace, bids, secure storage, fractions and physical delivery in one place, so more people can invest in rare whisky."
+        }
+      },
+      "QUESTIONS": {
+        "TITLE": "5. What we defined with the business",
+        "DESCRIPTION": "The product was not fully defined yet, and many rules were still open. So I created a <bold>detailed requirements document</bold> with my questions, for the business to complete. Some of the things we found:",
+        "TOKEN": "<bold>Digital Drams creates the token in the background</bold>, so the interface only needs a confirmation: “Bottle Verified and Token Created”.",
+        "FRACTIONS": "<bold>The seller asks for the number of fractions</bold>, and Digital Drams creates them.",
+        "OWNER": "<bold>Each listing shows who owns the bottle:</bold> “Owned by Digital Drams” or “User Owned”.",
+        "REDEEM": "<bold>With 100% of the fractions, users can receive the bottle</bold>, with its own checkout for physical delivery.",
+        "FEE": "<bold>After the 2 free years there is a yearly fee</bold>, and users must know before it is charged.",
+        "ROLES": "<bold>There are two main roles:</bold> sellers and buyers.",
+        "COLLECTION": "<bold>“My Collection” replaces “Dashboard”</bold>, which becomes a section with analytics."
+      }
+    },
+    "PRIORITIES": {
+      "TITLE": "From research to priorities",
+      "DESCRIPTION": "The research opened many opportunities, and we could not design them all. So we used a <bold>product pyramid</bold> to choose what to build first: a first version bigger than a usual MVP. \n\nOther solutions, and some profiles that were less important for the business, moved to a second or third phase."
+    },
+    "FLOWS": {
+      "TITLE": "Flows",
+      "DESCRIPTION": "After the research, <bold>I wrote the flows in an Excel file</bold>: what the user, the backend and the blockchain do at each step. Then I drew them as wireframes. \n\nI mapped each journey: <bold>buy, make an offer, My Collection, redeem, digitize a bottle</bold> and how it works. Buying has three paths: <bold>card, crypto and wire transfer</bold>.",
+      "ACTIONS": {
+        "TITLE": "Buttons for each user",
+        "DESCRIPTION": "From my Excel file: what each user can do in each scenario, and the button that does it.",
+        "COLUMNS": {
+          "ROLE": "User",
+          "SCENARIO": "Scenario",
+          "BUTTON": "Button",
+          "ACTION": "What it does"
+        },
+        "ROWS": {
+          "LIST": {
+            "ROLE": "Seller",
+            "SCENARIO": "Lists Fractional NFT",
+            "BUTTON": "List for Sale",
+            "ACTION": "Allows seller to list fractional NFTs for a specified price."
+          },
+          "EDIT": {
+            "ROLE": "Seller",
+            "SCENARIO": "Manages Listing",
+            "BUTTON": "Edit Listing",
+            "ACTION": "Allows seller to update the price or details of a listing."
+          },
+          "REMOVE": {
+            "ROLE": "Seller",
+            "SCENARIO": "Manages Listing",
+            "BUTTON": "Remove Listing",
+            "ACTION": "Allows seller to remove an NFT from the marketplace."
+          },
+          "SELLER_REDEEM": {
+            "ROLE": "Seller",
+            "SCENARIO": "Redeems Bottle",
+            "BUTTON": "Redeem Bottle",
+            "ACTION": "Triggers the redemption process if seller owns 100% of the fractions."
+          },
+          "BUY": {
+            "ROLE": "Buyer",
+            "SCENARIO": "Browsing Fractional NFTs",
+            "BUTTON": "Buy Now (if up for sale)",
+            "ACTION": "Allows buyer to purchase fractional NFTs at the listed price."
+          },
+          "OFFER": {
+            "ROLE": "Buyer",
+            "SCENARIO": "Making Offers",
+            "BUTTON": "Make Offer",
+            "ACTION": "Allows buyer to propose a custom price for fractional NFTs."
+          },
+          "CANCEL": {
+            "ROLE": "Buyer",
+            "SCENARIO": "Manages Offers",
+            "BUTTON": "Cancel Offer (once not accepted)",
+            "ACTION": "Allows buyer to cancel their pending offer for an NFT."
+          },
+          "OWNERSHIP": {
+            "ROLE": "Buyer",
+            "SCENARIO": "Viewing Ownership",
+            "BUTTON": "View Fractional Ownership",
+            "ACTION": "Displays the buyer's percentage ownership of the bottle."
+          },
+          "BUYER_REDEEM": {
+            "ROLE": "Buyer",
+            "SCENARIO": "Completes Ownership",
+            "BUTTON": "Redeem Bottle",
+            "ACTION": "Becomes visible only when the buyer owns 100% of the fractions. Triggers redemption."
+          }
+        }
+      },
+      "WIREFRAMES": {
+        "TITLE": "Wireframes",
+        "DESCRIPTION": "I used wireframes to define the structure of each screen before the visual design."
+      }
+    },
+    "PROTOTYPE": {
+      "TITLE": "The new design",
+      "DESCRIPTION": "A walkthrough of the prototype: from the home page to the marketplace, the checkout and making an offer."
+    },
+    "DESIGN": {
+      "TITLE": "Design decisions",
+      "TRUST": {
+        "TITLE": "Building trust before investing",
+        "FOR": "<bold>For:</bold> the digital investor and the fractional investor",
+        "PROBLEM": "<bold>Problem:</bold> users must understand what they buy and how ownership is proved, before they invest thousands of euros in a bottle they may never hold.",
+        "DECISION": "<bold>Decision:</bold> the How it works pages explain in simple words how to digitize a bottle, what a fraction is and how to redeem it. Each bottle shows its owner, rarity score, transaction history and NFT certification. Before paying, the checkout explains what a fraction gives you, and what it does not."
+      },
+      "TRACKER": {
+        "TITLE": "A long process, always visible",
+        "FOR": "<bold>For:</bold> the collector and the strategic reseller",
+        "PROBLEM": "<bold>Problem:</bold> digitizing a bottle takes time, and users do not know what is happening.",
+        "DECISION": "<bold>Decision:</bold> a 7-step tracker in My Collection: form, shipping instructions, bottle shipped, bottle received, authentication, secure storage and digital asset. Each bottle has a status label and a clear message. The NFT is created in the background, and the user only sees the confirmation."
+      },
+      "REDEEM": {
+        "TITLE": "Getting the bottle at home",
+        "FOR": "<bold>For:</bold> anyone who owns 100% of a bottle",
+        "PROBLEM": "<bold>Problem:</bold> users pay to receive a very valuable bottle, their NFTs are held by the platform, and redeeming cannot be undone once approved.",
+        "DECISION": "<bold>Decision:</bold> “Redeem bottle” only appears when the backend confirms 100% of the fractions. A separate checkout shows conditions and costs before paying. Then users follow 4 shipping statuses: Validated, Preparing, In transit and Delivered."
+      },
+      "KYC": {
+        "TITLE": "KYC that does not block exploring",
+        "FOR": "<bold>For:</bold> all profiles",
+        "PROBLEM": "<bold>Problem:</bold> nobody can buy without KYC, and asking too early can make people leave.",
+        "DECISION": "<bold>Decision:</bold> after login, a small window invites users to verify. If they cancel, they keep exploring. When they click “Buy”, a central window asks again. I showed two options, and the client chose the small window because it was cleaner and the other could increase drop-off. This is a hypothesis, to be measured with KYC drop-off."
+      },
+      "OFFERS": {
+        "TITLE": "Clear offers for both sides",
+        "FOR": "<bold>For:</bold> the strategic reseller and the digital investor",
+        "PROBLEM": "<bold>Problem:</bold> research showed that selling matters as much as buying. An offer can end in different ways, so both sides need to know where it stands.",
+        "DECISION": "<bold>Decision:</bold> the buyer sees the time left and past bids. The seller accepts or rejects, and every offer shows a clear status."
+      },
+      "COLLECTION": {
+        "TITLE": "One place to manage an investment",
+        "FOR": "<bold>For:</bold> the collector, the digital investor and the fractional investor",
+        "PROBLEM": "<bold>Problem:</bold> after buying, users need to see what they own and what they can do with it.",
+        "DECISION": "<bold>Decision:</bold> My Collection shows each bottle with its status (Listed for sale, Private or Complete), value and ownership percentage. A side menu brings together My offers & bids, My Sales, Redeem bottles, Settings and Notifications."
+      },
+      "DASHBOARD": {
+        "TITLE": "Analytics inside My Collection",
+        "FOR": "<bold>For:</bold> the digital investor and the strategic reseller",
+        "PROBLEM": "<bold>Problem:</bold> an investor needs to know the value of their bottles.",
+        "DECISION": "<bold>Decision:</bold> with the client, we made My Collection the main area. The dashboard became a section with total value, profit, a chart and recent activity."
+      }
+    },
+    "NEXT": {
+      "TITLE": "Where the project is now",
+      "DESCRIPTION": "The design was handed over to development, and <bold>the product is now being built</bold>. These are the next steps:",
+      "QA": "<bold>QA:</bold> I will review the build to make sure it matches the design.",
+      "WCAG": "<bold>Accessibility:</bold> the product was designed last year, and WCAG 2.2 AA is now a requirement. So I will adjust the design to meet it.",
+      "METRICS": "<bold>Metrics:</bold> there is no usage data yet. Once people use the product, we will track these metrics with Firebase Analytics or a similar tool.",
+      "MEASURE": {
+        "TITLE": "What we will measure",
+        "M_1": "<bold>First purchase:</bold> how many registered users make their first purchase. This is the main metric.",
+        "M_2": "<bold>KYC drop-off:</bold> nobody can buy, sell or redeem without KYC, and it happens with an external provider.",
+        "M_3": "<bold>Checkout completion:</bold> how many people finish paying, by step and by payment method.",
+        "M_4": "<bold>Fractions:</bold> how many purchases are fractions, to see if the product really opens the market to smaller budgets.",
+        "M_5": "<bold>Understanding:</bold> in usability tests, how many people can explain what they are buying."
+      }
     }
   }
 }

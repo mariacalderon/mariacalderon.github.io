@@ -71,21 +71,33 @@ const ProjectDetails = (props) => {
   const renderProcessData = () => {
     return props.process.map((proc, index) => {
       const item = PROJECT_DETAIL_PROCESS.sections.find(section => section.id === proc);
+      const isLast = index + 1 === props.process.length;
+      const isPending = props.pendingProcess?.includes(proc);
+      const isNextPending = props.pendingProcess?.includes(props.process[index + 1]);
       return (
-        <div key={`${props.projectTitle}-${proc}`} className="flex flex-row sm:flex-col sm:items-center">
-          <div className="flex flex-col items-center">
-            <div className="w-8">
+        <div
+          key={`${props.projectTitle}-${proc}`}
+          className={`flex flex-row sm:flex-col sm:items-center ${props.fullWidth && !isLast ? 'flex-1 sm:flex-none' : ''}`}
+        >
+          <div className={`flex flex-col items-center ${isPending ? 'gap-1' : ''}`}>
+            <div className={`w-8 ${isPending ? 'opacity-40' : ''}`}>
               {
                 item.icon ?? <img src={item.iconPath} alt={`icon-${item.id}`} />
               }
             </div>
-            <div className="text-2xl font-bold pt-1">
+            <div className={`text-2xl font-bold pt-1 ${isPending ? 'text-gray' : ''}`}>
               {t(item.titleKey)}
             </div>
+            {
+              isPending &&
+              <div className="rounded-full bg-light-gray px-3 py-0.5 text-sm font-semibold text-body">
+                {t('PROJECT_COMMON.PROCESS.PENDING')}
+              </div>
+            }
           </div>
           {
-            index + 1 !== props.process.length &&
-            <div className="w-[95px] h-1/4 border-b-2 border-gray sm:w-[2px] sm:h-[32px] sm:border-b-0 sm:border-l-2"></div>
+            !isLast &&
+            <div className={`${props.fullWidth ? 'flex-1 h-6 sm:flex-none' : 'w-[95px] h-1/4'} border-b-2 border-gray sm:w-[2px] sm:h-[32px] sm:border-b-0 sm:border-l-2 ${isNextPending ? 'border-dashed' : ''}`}></div>
           }
         </div>
       )
@@ -97,9 +109,9 @@ const ProjectDetails = (props) => {
       <div className="flex flex-row justify-between sm:flex-col sm:gap-4 sm:items-center">
         {
           PROJECT_DETAILS_BASIC.map((section) => {
-            if (props[section.id].length === 0) return (<div key={`${props.projectTitle}-${section.id}`}></div>)
+            if (props[section.id].length === 0) return props.fullWidth ? null : (<div key={`${props.projectTitle}-${section.id}`}></div>)
             return (
-              <div key={`${props.projectTitle}-${section.id}`} className="flex flex-col w-full max-w-[70%] gap-2">
+              <div key={`${props.projectTitle}-${section.id}`} className={`flex flex-col gap-2 ${props.fullWidth ? '' : 'w-full max-w-[70%]'}`}>
                 <div className="flex flex-row items-center gap-4">
                   <div className="w-12 flex items-start">
                     {

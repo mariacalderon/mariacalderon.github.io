@@ -27,6 +27,20 @@ function Homepage() {
         </ImageTextItem>
         <ImageTextItem
           imageOnRight={true}
+          image='/assets/imgs/homepage/digital-drams.png'
+          image_alt='digital_drams'
+          path='/digital-drams'
+          animated={true}
+        >
+          <div className="text-4xl font-bold">
+            {t('PORTFOLIO.DIGITAL_DRAMS.TITLE')}
+          </div>
+          <div className="text-lg font-sans text-body">
+            {FormattingTranslation('PORTFOLIO.DIGITAL_DRAMS.DESCRIPTION')}
+          </div>
+        </ImageTextItem>
+        <ImageTextItem
+          imageOnRight={false}
           image='/assets/imgs/homepage/ayoba-redesign_messaging.png'
           image_alt='ayoba_southafrica'
           path='/ayoba'
@@ -40,7 +54,7 @@ function Homepage() {
           </div>
         </ImageTextItem>
         <ImageTextItem
-          imageOnRight={false}
+          imageOnRight={true}
           image='/assets/imgs/homepage/newitts-ecommerce.png'
           image_alt='newitts_ecommerce'
           path='/newitts'
@@ -54,7 +68,7 @@ function Homepage() {
           </div>
         </ImageTextItem>
         <ImageTextItem
-          imageOnRight={true}
+          imageOnRight={false}
           image='/assets/imgs/homepage/optica-universitaria.png'
           image_alt='try-on-glasses'
           path='/optica-universitaria'

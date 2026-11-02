@@ -12,6 +12,7 @@ import AyobaGames from "./pages/AyobaGames";
 import AyobaMusic from "./pages/AyobaMusic";
 import Newitts from "./pages/Newitts";
 import AyobaGeneral from "./pages/AyobaGeneral";
+import DigitalDrams from "./pages/DigitalDrams";
 import AvorisGeneral from "./pages/AvorisGeneral";
 import AvorisDesignSystem from "./pages/AvorisDesignSystem";
 import ProtectedProject, { lockProtectedProjects, PROTECTED_SECTION_PATH } from "./components/ProtectedProject";
@@ -59,6 +60,7 @@ function App() {
           <Route path='/ayoba/music' element={<AyobaMusic />} />
           <Route path='/avoris' element={<ProtectedProject bkgColor='bg-avoris-cream'><AvorisGeneral /></ProtectedProject>} />
           <Route path='/avoris/design-system' element={<ProtectedProject bkgColor='bg-avoris-cream'><AvorisDesignSystem /></ProtectedProject>} />
+          <Route path='/digital-drams' element={<DigitalDrams />} />
           <Route path='/newitts' element={<Newitts />} />
           <Route path='/optica-universitaria' element={<OpticaUniversitaria />} />
         </Routes>
