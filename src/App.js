@@ -13,8 +13,10 @@ import AyobaMusic from "./pages/AyobaMusic";
 import Newitts from "./pages/Newitts";
 import AyobaGeneral from "./pages/AyobaGeneral";
 import DigitalDrams from "./pages/DigitalDrams";
+import B2bToolIpad from "./pages/B2bToolIpad";
 import AvorisGeneral from "./pages/AvorisGeneral";
 import AvorisDesignSystem from "./pages/AvorisDesignSystem";
+import AvorisFlights from "./pages/AvorisFlights";
 import ProtectedProject, { lockProtectedProjects, PROTECTED_SECTION_PATHS } from "./components/ProtectedProject";
 import OpticaUniversitaria from "./pages/OpticaUniversitaria";
 import NotFound from "./pages/NotFound";
@@ -60,7 +62,13 @@ function App() {
           <Route path='/ayoba/music' element={<AyobaMusic />} />
           <Route path='/avoris' element={<ProtectedProject bkgColor='bg-avoris-cream'><AvorisGeneral /></ProtectedProject>} />
           <Route path='/avoris/design-system' element={<ProtectedProject bkgColor='bg-avoris-cream'><AvorisDesignSystem /></ProtectedProject>} />
+          {
+            // Work in progress: only reachable while developing locally, hidden on the published site
+            process.env.NODE_ENV === 'development' &&
+              <Route path='/avoris/flights' element={<ProtectedProject bkgColor='bg-avoris-cream'><AvorisFlights /></ProtectedProject>} />
+          }
           <Route path='/digital-drams' element={<ProtectedProject bkgColor='bg-[#131313]'><DigitalDrams /></ProtectedProject>} />
+          <Route path='/b2b-tool-ipad' element={<ProtectedProject bkgColor='bg-[#131313]'><B2bToolIpad /></ProtectedProject>} />
           <Route path='/newitts' element={<Newitts />} />
           <Route path='/optica-universitaria' element={<OpticaUniversitaria />} />
         </Routes>

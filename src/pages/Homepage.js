@@ -41,6 +41,20 @@ function Homepage() {
         </ImageTextItem>
         <ImageTextItem
           imageOnRight={false}
+          image='/assets/imgs/homepage/b2b-tool-ipad.svg'
+          image_alt='b2b_tool_ipad'
+          path='/b2b-tool-ipad'
+          animated={true}
+        >
+          <div className="text-4xl font-bold">
+            {t('PORTFOLIO.B2B_TOOL_IPAD.TITLE')}
+          </div>
+          <div className="text-lg font-sans text-body">
+            {FormattingTranslation('PORTFOLIO.B2B_TOOL_IPAD.DESCRIPTION')}
+          </div>
+        </ImageTextItem>
+        <ImageTextItem
+          imageOnRight={true}
           image='/assets/imgs/homepage/ayoba-redesign_messaging.png'
           image_alt='ayoba_southafrica'
           path='/ayoba'
@@ -54,7 +68,7 @@ function Homepage() {
           </div>
         </ImageTextItem>
         <ImageTextItem
-          imageOnRight={true}
+          imageOnRight={false}
           image='/assets/imgs/homepage/newitts-ecommerce.png'
           image_alt='newitts_ecommerce'
           path='/newitts'
@@ -68,7 +82,7 @@ function Homepage() {
           </div>
         </ImageTextItem>
         <ImageTextItem
-          imageOnRight={false}
+          imageOnRight={true}
           image='/assets/imgs/homepage/optica-universitaria.png'
           image_alt='try-on-glasses'
           path='/optica-universitaria'

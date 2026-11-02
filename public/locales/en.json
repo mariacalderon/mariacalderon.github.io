@@ -41,6 +41,10 @@
       "TITLE": "Digital Drams",
       "DESCRIPTION": "Rare whisky used to be only for big collectors. <bold>What if anyone could own a part of a bottle?</bold> \n\nDigital Drams is a platform to <bold>buy, sell and store rare whisky</bold> in a safe way, with blockchain behind it. \n\nI was the <bold>product designer from start to end</bold>: discovery, flows, screens, payments and handoff."
     },
+    "B2B_TOOL_IPAD": {
+      "TITLE": "B2B tool for iPad",
+      "DESCRIPTION": "A native iPad app for the sales team of a leading eyewear brand, used every day on visits to opticians and stores. \n\nIt brings together <bold>sales performance and store management</bold>: tracking targets, placing orders, processing returns and requesting marketing materials, all in one place."
+    },
     "AYOBA_GENERAL": {
       "TITLE": "Ayoba - South Africa",
       "DESCRIPTION": "Ayoba is a <bold>SuperApp with 30 million</bold> monthly <bold>active users</bold> in more than <bold>15 African countries</bold> with 23 languages, including more than 8 African languages. <bold>MTN</bold> is the key investor, and one of the major telecommunications companies in Africa. \n\nAyoba is a cross platform app (Android, iOS, PWA) and offers a range of services such as <bold>Chat, Voip, Music, Games, News, Microapps, Payments, Gifting and more.</bold> \n\nOne of the key obstacles faced in Africa revolves around restrictes internet access, primarily attributed to high data costs and infrastructure challenges. \nAyoba addresses this issue by providing complimentary data, aiming to foster digital inclusion and broaden access to digital communication for a larger population."
@@ -124,7 +128,8 @@
       "PROD_DESIGN_LEAD": "Product Designer Lead",
       "UXUI": "UX/UI",
       "DS_PRODUCT_DESIGNER": "Product Designer, Design System team",
-      "PRODUCT_DESIGNER": "Product Designer"
+      "PRODUCT_DESIGNER": "Product Designer",
+      "PRODUCT_DESIGNER_DS": "Product Designer / Design System"
     },
     "TEAM": {
       "UX_RESEARCH": "{{count}} UX Research",
@@ -907,36 +912,83 @@
     "SUBTITLE": "Flights",
     "INTRO": {
       "OVERVIEW": "OVERVIEW",
-      "DESCRIPTION": "[Draft] One or two sentences about the project: <bold>what we designed, for whom and why it matters</bold>."
+      "DESCRIPTION": "<bold>A new way to search and book flights</bold>, designed for the end customer.\n\nI designed the flows, the screens and the components, and I turned them into <bold>Design System components</bold>, so the same flow can be used by any brand of the group."
+    },
+    "STATS": {
+      "ISSUES_VALUE": "18",
+      "ISSUES_LABEL": "usability issues found in the old flow",
+      "CRITICAL_VALUE": "5",
+      "CRITICAL_LABEL": "critical issues solved",
+      "BRANDS_VALUE": "24",
+      "BRANDS_LABEL": "brands the flow is ready for",
+      "DEVICES_VALUE": "2",
+      "DEVICES_LABEL": "versions: desktop and mobile"
     },
     "CONTEXT": {
       "TITLE": "The context",
-      "DESCRIPTION": "[Draft] Which brands and audiences (B2B / B2C) use this flow, and how users book flights today."
+      "DESCRIPTION": "Ávoris sells flights on the websites of its brands, such as <bold>B travel</bold>, <bold>Halcón Viajes</bold> or <bold>TuBillete</bold>.",
+      "SAME_FLOW": "<bold>The same flow for agencies and customers.</bold> The flights flow was the same for B2B and B2C, and only the colours of each brand changed. It was not designed for the end customer.",
+      "GOAL": "<bold>The goal:</bold> modernize the B2C flights flow, from the search box to the step before payment.",
+      "LIMIT": "<bold>The limitation:</bold> no changes to the flights engine. All the improvements had to come from design and the front end."
     },
     "PROBLEM": {
       "TITLE": "The problem",
-      "DESCRIPTION": "[Draft] What was not working for users and for the business, with data if we have it."
+      "SUBTITLE": "Customers didn't always understand what they were buying, or how much they were paying.",
+      "P_1": "<bold>Baggage information was not reliable.</bold> The web always showed 1 checked bag of 20 kg, even when the fare didn't include it.",
+      "P_2": "<bold>The fare conditions were hard to understand.</bold> They came in English and in agency language, and sometimes they didn't load at all.",
+      "P_3": "<bold>The final price came late.</bold> Resident and large family discounts were applied in a later step, so the price was only an estimate.",
+      "P_4": "<bold>Too much noise.</bold> Some fares were up to 36 times more expensive than the cheapest one, and they also made the results slower."
+    },
+    "RESEARCH": {
+      "TITLE": "Research",
+      "DESCRIPTION": "Before designing, I wanted to understand <bold>where the old flow failed</bold> and <bold>what the business needed</bold>.",
+      "AUDIT_TITLE": "Heuristic audit",
+      "AUDIT_DESC": "I audited the old flow, still live on one of the group's brands, with a real search: <bold>Gran Canaria – Valencia, round trip</bold>. I reviewed each key moment against <bold>Nielsen's 10 usability heuristics</bold> and gave each problem a severity.",
+      "REQ_TITLE": "From business requirements to user needs",
+      "REQ_DESC": "Business shared a requirements document. I translated each requirement into a <bold>user need</bold>, so every design decision had a reason.",
+      "REQ_1": "<bold>Show only competitive fares</bold> (up to 3 times the cheapest one) → less noise and faster results.",
+      "REQ_2": "<bold>Show the real baggage of each fare</bold> → customers can trust what they see.",
+      "REQ_3": "<bold>Translate the fare conditions into customer language</bold> → customers understand what they buy.",
+      "REQ_4": "<bold>Show the resident and large family discounts from the start</bold> → no surprises with the price.",
+      "REQ_5": "<bold>A guided search form, with validations</bold> → fewer errors before the search.",
+      "INSIGHTS_TITLE": "Key insights",
+      "INS_1": "Users need to see <bold>one clear price</bold>, always updated.",
+      "INS_2": "The system can suggest a flight, but <bold>the user must feel in control</bold>.",
+      "INS_3": "<bold>Waiting is part of the flow</bold>: loading states must show progress without blocking the page.",
+      "INS_4": "On mobile, <bold>key information can't depend on hover</bold>."
     },
     "PROCESS": {
       "TITLE": "The process",
-      "DESCRIPTION": "[Draft] How we worked: research, benchmark, flows, prototypes and tests."
+      "DESCRIPTION": "I worked alone on the whole design: from the <bold>user flows</bold> and <bold>wireframes</bold> to the final screens, for <bold>desktop and mobile</bold>."
     },
     "SOLUTION": {
       "TITLE": "The solution",
-      "DESCRIPTION": "[Draft] The key screens and decisions, with images or videos."
+      "DESCRIPTION": "A clearer flow, in the same steps the customer already knows: <bold>flights → discounts → insurance → details → payment</bold>.",
+      "SOL_1": "<bold>A guided search box.</bold> It takes the user from origin to destination, dates and passengers, and validates each field.",
+      "SOL_2": "<bold>Outbound and return in two columns.</bold> On mobile, the second column peeks out, so users know they can swipe.",
+      "SOL_3": "<bold>One price for each combination.</bold> Round trips are grouped in boxes with a single, clear price.",
+      "SOL_4": "<bold>The cheapest combination, as a suggestion.</bold> It is highlighted, but every option has its own Select button.",
+      "SOL_5": "<bold>Resident discount from the results.</bold> A switch shows the estimated price, with a clear note that it is not final.",
+      "SOL_6": "<bold>A reusable flight card.</bold> Airline, times, duration, stops, baggage and seats left, always in the same place.",
+      "SOL_7": "<bold>Three detail windows:</bold> flight information, fare conditions in customer language, and a transparent price breakdown.",
+      "SOL_8": "<bold>Fares you can compare.</bold> Each fare shows what it includes, with text and not only icons.",
+      "SOL_9": "<bold>Filters that help on mobile.</bold> Baggage and direct flights are always visible, and the rest open in a panel."
     },
     "DS_LINK": {
       "TITLE": "Built with the Design System",
-      "DESCRIPTION": "[Draft] Which components of the Ávoris Design System we used, and which new specific components for flights we created.",
+      "DESCRIPTION": "I turned the new flow into <bold>components of the Ávoris Design System</bold>: the flight card, the detail windows, the filters and the fare comparison. With tokens and an extended collection for each brand, <bold>the same flow can be used by any brand of the group</bold>.",
       "CTA": "See the Ávoris Design System →"
     },
     "RESULTS": {
       "TITLE": "Results",
-      "DESCRIPTION": "[Draft] What changed after launch: metrics, feedback or team impact."
+      "R_1": "<bold>Live on B travel.</bold> The new flights flow is already working on btravel.com, on desktop and mobile.",
+      "R_2": "<bold>Ready for every brand.</bold> Because it is built with the Design System, other brands can use it by changing the tokens.",
+      "R_3": "<bold>The 5 critical issues</bold> found in the audit are solved in the new design."
     },
     "LEARNINGS": {
       "TITLE": "What we learned",
-      "DESCRIPTION": "[Draft] One or two learnings from the project."
+      "L_1": "<bold>Design inside the limits.</bold> With no changes to the engine, the biggest improvements came from how we show the information.",
+      "L_2": "<bold>Components first.</bold> Thinking in components from the start made the flow ready for many brands."
     }
   },
   "AVORIS": {
@@ -1065,6 +1117,118 @@
       "TITLE": "What we learned",
       "L_1": "<bold>AI is as good as the rules you give it.</bold> The most valuable part was not creating code. It was writing our decisions in a way that a person and an AI understand in the same way.",
       "L_4": "<bold>Documenting is designing.</bold> A system for 24 brands can only grow if anyone can understand why it is made this way."
+    }
+  },
+  "B2B_TOOL_IPAD": {
+    "TITLE": "B2B tool for iPad",
+    "SUBTITLE": "Sales Performance & Store Management",
+    "OVERVIEW": {
+      "TITLE": "01. Project overview",
+      "DESCRIPTION": "A native B2B app for iOS, designed mainly for iPad and also available on iPhone. It supports the sales team of a leading eyewear brand in their daily work. \n\nEach sales representative has a portfolio of customers (opticians and stores) that they visit regularly. The app brings together everything they need to do with them: from checking each customer's revenue and progress to placing orders, processing returns, reviewing new products in the sample collection and requesting marketing materials such as display stands, among many other tasks. \n\nSales representatives can also follow the progress of their sales targets and find opportunities, based on the products that sell best among their customers and in their area.",
+      "ROLE": {
+        "TITLE": "My role",
+        "DESCRIPTION": "Product Designer: UX/UI",
+        "RESPONSIBILITIES": {
+          "TITLE": "Responsibilities",
+          "R_1": "UX research and interviews with sales representatives, to understand how they work during their visits.",
+          "R_2": "User flows and information architecture.",
+          "R_3": "Wireframes and prototypes to explore and validate solutions.",
+          "R_4": "Interface and interaction design for iPad and iPhone."
+        }
+      }
+    },
+    "CHALLENGE": {
+      "TITLE": "02. The challenge",
+      "BUSINESS": {
+        "TITLE": "For the business",
+        "DESCRIPTION": "The company needed to grow its revenue and, to do that, follow closely whether its whole sales network was meeting its sales targets. At the same time, many processes, such as orders, returns and material requests, were still manual, and the information was spread across different places. \n\nThe challenge was twofold: to boost sales with better visibility of results, and to digitise and bring all operations together in one tool."
+      },
+      "USERS": {
+        "TITLE": "For users",
+        "DESCRIPTION": "Sales representatives needed to know at any moment how they were doing against their yearly targets, without searching for data in several places. They wanted all their customer information in one place, and to place orders and complete tasks quickly during a visit. \n\nThey also needed tools to help them reach their targets and sell more on each visit."
+      }
+    },
+    "USERS": {
+      "TITLE": "03. Understanding the users",
+      "DESCRIPTION": "To understand the daily work of sales representatives, I interviewed several of them and looked at the difficulties they faced in their work and during their customer visits. \n\nOne problem came up in almost every conversation: they had no simple way to know, at any moment, how much they had billed or how they were doing against their yearly target. Many realised too late that they would not reach it, when there was little time left to react. This mattered a lot to them, because missing their targets could cost them their job.",
+      "INSIGHTS": {
+        "TITLE": "Key insights",
+        "I_1": {
+          "TITLE": "01. No common way to track targets",
+          "DESCRIPTION": "Each sales representative tracked their revenue and yearly target in their own way, with personal spreadsheets or notes. There was no standard system, and no up-to-date data they could check to compare their revenue.",
+          "OPPORTUNITY": "<bold>Design opportunity:</bold> Provide clear sales data, updated every day, along with tools that help them follow and reach their targets."
+        },
+        "I_2": {
+          "TITLE": "02. Scattered and outdated information",
+          "DESCRIPTION": "The data they needed on each visit was in different places: customer information in one, orders and their status in another, and revenue in a third. It was not always up to date, so they worked with unreliable data. On top of that, placing an order took many steps, and during a visit they needed to do it quickly and with the latest information.",
+          "OPPORTUNITY": "<bold>Design opportunity:</bold> Create one tool with all the information up to date (customer data, orders and their status), and a quick order flow that works with real stock."
+        },
+        "I_3": {
+          "TITLE": "03. Marketing materials managed outside the order",
+          "DESCRIPTION": "On their visits, sales representatives did not only order and return glasses. They also offered and managed marketing materials for stores, such as display stands and corners. For this they relied on separate documents, such as PDFs or static catalogues, which made it hard to show the options to customers and process requests.",
+          "OPPORTUNITY": "<bold>Design opportunity:</bold> Include the marketing materials catalogue in the app, and allow these items to be added to the same order as the glasses."
+        }
+      }
+    },
+    "SOLUTION": {
+      "TITLE": "04. The solution",
+      "NEEDS": {
+        "TITLE": "One platform, two main needs",
+        "PERFORMANCE": {
+          "TITLE": "Sales performance",
+          "DESCRIPTION": "Understand business results",
+          "F_1": "Revenue",
+          "F_2": "Units sold",
+          "F_3": "Sales comparison",
+          "F_4": "Performance over time"
+        },
+        "OPERATIONS": {
+          "TITLE": "Store operations",
+          "DESCRIPTION": "Manage daily store needs",
+          "F_1": "Stock requests",
+          "F_2": "Returns",
+          "F_3": "Product orders",
+          "F_4": "Marketing materials"
+        }
+      },
+      "D_1": {
+        "TITLE": "Comparing sales with last year",
+        "PROBLEM": "<bold>Problem:</bold> Each sales representative tracked their results in their own way, with spreadsheets or notes. They had no up-to-date data to compare their revenue, so many realised too late that they would miss their target.",
+        "DECISION": "<bold>Decision:</bold> The customer summary has a switch between this year and last year. An arrow shows if a value went up or down, and the colour shows if that is good (green) or bad (red). The selected year stays the same when they change screen or customer."
+      },
+      "D_2": {
+        "TITLE": "The whole store visit in one order",
+        "PROBLEM": "<bold>Problem:</bold> The data they needed on each visit was in different places and was not always updated. Placing an order also took many steps, and during a visit they needed to do it quickly.",
+        "DECISION": "<bold>Decision:</bold> From one order, a side menu gives access to products, returns, order details and customer details. They can start an order with a swipe on the customer card. If they leave without sending it, the order is saved as a draft.",
+        "WHY": "<bold>Why:</bold> They can do everything in one place, and they do not lose their work if the visit is interrupted."
+      },
+      "D_3": {
+        "TITLE": "Marketing materials in the same order",
+        "PROBLEM": "<bold>Problem:</bold> To offer display stands and corners, sales representatives relied on separate documents, such as PDFs or static catalogues. This made it hard to show the options to customers and process requests.",
+        "DECISION": "<bold>Decision:</bold> The marketing materials catalogue is now in the app, in the side menu of the order. They can search and filter the items, and add them to the same order as the glasses.",
+        "WHY": "<bold>Why:</bold> They can show the options to the customer and complete the request during the visit, without separate documents."
+      }
+    },
+    "FLOW": {
+      "TITLE": "05. Key user flow & final design"
+    },
+    "IMPACT": {
+      "TITLE": "06. Impact",
+      "CONTRIBUTION": {
+        "TITLE": "What I contributed",
+        "I_1": {
+          "TITLE": "01. Better access to business information",
+          "DESCRIPTION": "Designed a clearer way for sales representatives to track their performance, compare sales results and understand changes over time."
+        },
+        "I_2": {
+          "TITLE": "02. Simplified store management",
+          "DESCRIPTION": "Brought key store tasks together in one platform, including stock requests, product returns, orders and marketing material requests."
+        },
+        "I_3": {
+          "TITLE": "03. A more user-focused experience",
+          "DESCRIPTION": "Translated user needs into clear user flows and interfaces, making daily tasks easier to understand and manage."
+        }
+      }
     }
   },
   "DIGITAL_DRAMS": {

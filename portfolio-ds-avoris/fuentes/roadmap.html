@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="base.css">
+<style>
+  .intro { font-size: 24px; color: var(--body); font-weight: 500; margin-top: 14px; }
+  .intro b { color: var(--black); }
+
+  /* timeline, same as the journey diagram */
+  .timeline { position: relative; display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; margin: 40px 0 32px; height: 64px; }
+  .track { position: absolute; top: 31px; left: calc((100% - 56px) / 6); right: calc((100% - 56px) / 6); height: 3px;
+    background: repeating-linear-gradient(to right, #CFCFCA 0 10px, var(--bg) 10px 18px); }
+  .stop { position: relative; display: flex; align-items: center; justify-content: center; }
+  .dot { width: 64px; height: 64px; border-radius: 50%; display: grid; place-items: center; font-size: 28px; font-weight: 800; position: relative; z-index: 1; }
+  .dot.now { background: var(--yellow); color: var(--black); box-shadow: 0 0 0 8px rgba(255, 221, 30, 0.35); }
+  .dot.next { background: var(--bg); color: var(--gray); border: 3px dashed var(--gray); }
+  .here { position: absolute; left: calc(50% + 52px); z-index: 1; background: var(--black); color: #fff; font-size: 17px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; padding: 9px 16px; border-radius: 999px; }
+
+  .cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; align-items: stretch; }
+  .card { padding: 36px 32px 30px; display: flex; flex-direction: column; }
+  .card.yellow { box-shadow: 0 14px 40px rgba(255,221,30,0.25), 0 0 0 3px var(--yellow); }
+  .card.yellow .label { color: #B08F00; }
+  .card h2 { font-size: 32px; margin: 12px 0 16px; }
+  .card p { font-size: 21px; flex: 1; }
+  .status { margin-top: 22px; }
+  .chip.soft { background: #FFF8CC; }
+
+  .card.also { margin-top: 28px; padding: 26px 32px; flex-direction: row; align-items: center; justify-content: flex-start; gap: 22px; }
+  .also .muted-label { margin: 0; }
+</style>
+</head>
+<body>
+  <div class="eyebrow">Where we are going</div>
+  <div class="intro">The way to the real repository, <b>step by step</b>.</div>
+
+  <div class="timeline">
+    <div class="track"></div>
+    <div class="stop"><div class="dot now">1</div><div class="here">We are here</div></div>
+    <div class="stop"><div class="dot next">2</div></div>
+    <div class="stop"><div class="dot next">3</div></div>
+  </div>
+
+  <div class="cards">
+    <div class="card yellow">
+      <div class="label">1 · Tokens</div>
+      <h2>The first connection with developers</h2>
+      <p>The Figma variables of the 24 brands are exported to a token file. <b>To change the brand, you only change one attribute.</b></p>
+      <div class="status"><span class="chip soft">Testing now</span></div>
+    </div>
+    <div class="card dashed">
+      <div class="label">2 · Components</div>
+      <h2>The DS components, with pull requests</h2>
+      <p>AI suggests each change as a pull request, and <b>developers review and approve it</b>.</p>
+      <div class="status"><span class="chip outline">Next</span></div>
+    </div>
+    <div class="card dashed">
+      <div class="label">3 · Map</div>
+      <h2>Each Figma component, linked to its real code</h2>
+      <p>So <b>design and development talk about the same component</b>.</p>
+      <div class="status"><span class="chip outline">Later</span></div>
+    </div>
+  </div>
+
+  <div class="card also">
+    <div class="muted-label">Also on the way</div>
+    <div class="chips">
+      <span class="chip">Responsive components</span>
+      <span class="chip">Review duplicates and naming</span>
+      <span class="chip">Change alerts in Slack</span>
+    </div>
+  </div>
+</body>
+</html>

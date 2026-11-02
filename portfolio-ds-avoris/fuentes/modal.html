@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="base.css">
+<style>
+  .head { display: flex; justify-content: space-between; align-items: flex-end; }
+  .intro { font-size: 24px; color: var(--body); font-weight: 500; margin-top: 14px; }
+  .legend { flex: none; display: flex; gap: 22px; font-size: 18px; font-weight: 600; color: var(--body); }
+  .legend span { display: flex; align-items: center; gap: 10px; }
+  .legend i { width: 34px; height: 22px; border-radius: 6px; display: block; }
+  .legend .slot-i { border: 2px dashed var(--blue); background: var(--blue-soft); }
+  .legend .fixed-i { border: 2px solid var(--black); background: #fff; }
+
+  .devices { margin-top: 40px; display: grid; grid-template-columns: 1fr 360px; gap: 40px; align-items: start; }
+  .device-label { font-size: 17px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: var(--gray); margin-bottom: 14px; }
+
+  .screen { position: relative; border-radius: 24px; overflow: hidden; background: #fff; box-shadow: 0 10px 30px rgba(0,0,0,0.07), 0 0 0 1px rgba(0,0,0,0.04); }
+  .desktop .screen { height: 700px; background: #3D4246; }
+  .desktop .page { position: absolute; inset: 0; padding: 36px; display: flex; flex-direction: column; gap: 18px; opacity: 0.35; }
+  .desktop .page div { background: #9AA0A6; border-radius: 10px; }
+  .desktop .modal { position: absolute; top: 0; right: 0; bottom: 0; width: 64%; background: #fff; display: flex; flex-direction: column; box-shadow: -12px 0 40px rgba(0,0,0,0.25); }
+  .mobile .screen { height: 700px; display: flex; flex-direction: column; }
+  .mobile .modal { display: flex; flex-direction: column; height: 100%; }
+
+  .m-head { display: flex; justify-content: space-between; align-items: center; padding: 22px 26px; border-bottom: 1px solid var(--light); }
+  .m-title { font-size: 22px; font-weight: 700; }
+  .close { width: 34px; height: 34px; border-radius: 50%; background: var(--light); display: grid; place-items: center; font-size: 20px; font-weight: 700; }
+  .m-body { flex: 1; padding: 24px 26px; display: flex; flex-direction: column; gap: 16px; overflow: hidden; }
+  .m-foot { padding: 20px 26px; border-top: 1px solid var(--light); display: flex; gap: 14px; align-items: center; box-shadow: 0 -8px 20px rgba(0,0,0,0.04); }
+  .mobile .m-foot { flex-direction: column; align-items: stretch; gap: 10px; }
+
+  .slot { border: 2px dashed var(--blue); background: var(--blue-soft); border-radius: 14px; display: grid; place-items: center; font-size: 15px; font-weight: 700; letter-spacing: 0.14em; color: var(--blue); }
+  .m-body .slot { flex: 1; min-height: 90px; }
+  .m-foot .slot { height: 52px; flex: 1; }
+  .mobile .m-foot .slot { flex: none; height: 46px; }
+  .btn { background: var(--yellow); border-radius: 12px; font-size: 18px; font-weight: 700; padding: 15px 26px; text-align: center; white-space: nowrap; }
+  .desktop .btn { flex: 1.3; }
+
+  .tag { position: absolute; background: var(--black); color: #fff; font-size: 14px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; padding: 6px 12px; border-radius: 999px; }
+
+  .footer { margin-top: 36px; font-size: 24px; font-weight: 500; color: var(--body); }
+</style>
+</head>
+<body>
+  <div class="head">
+    <div>
+      <div class="eyebrow">Slots · The modal</div>
+      <div class="intro">A <b>common component</b>. The title, the close button and the main button are always the same; <b>everything else is a slot</b> that each screen fills.</div>
+    </div>
+  </div>
+
+  <div class="devices">
+    <div class="desktop">
+      <div class="device-label">Desktop</div>
+      <div class="screen">
+        <div class="page">
+          <div style="height:56px"></div>
+          <div style="height:180px; width:30%"></div>
+          <div style="height:180px; width:30%"></div>
+          <div style="height:180px; width:30%"></div>
+        </div>
+        <div class="modal">
+          <div class="m-head"><div class="m-title">Modal title</div><div class="close">✕</div></div>
+          <div class="m-body">
+            <div class="slot">SLOT</div>
+            <div class="slot">SLOT</div>
+            <div class="slot">SLOT</div>
+            <div class="slot">SLOT</div>
+          </div>
+          <div class="m-foot">
+            <div class="slot">SLOT</div>
+            <div class="slot">SLOT</div>
+            <div class="btn">Main button</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="mobile">
+      <div class="device-label">Mobile</div>
+      <div class="screen">
+        <div class="modal">
+          <div class="m-head"><div class="m-title">Modal title</div><div class="close">✕</div></div>
+          <div class="m-body">
+            <div class="slot">SLOT</div>
+            <div class="slot">SLOT</div>
+            <div class="slot">SLOT</div>
+          </div>
+          <div class="m-foot">
+            <div class="slot">SLOT</div>
+            <div class="slot">SLOT</div>
+            <div class="btn">Main button</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">The same modal works on <b>desktop and mobile</b>, for any content and any brand. We never need a new modal: we only fill its slots.</div>
+</body>
+</html>

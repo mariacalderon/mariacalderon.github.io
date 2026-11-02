@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Un componente, 24 marcas</title>
+<script>document.documentElement.lang = new URLSearchParams(location.search).get('lang') === 'en' ? 'en' : 'es';</script>
+<!-- Tipografías reales de las marcas mostradas (las que están en Google Fonts) -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&family=Quicksand:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&family=Lato:wght@400;700&family=Roboto:wght@400;500;700&family=Open+Sans:wght@400;600;700&family=Merriweather:wght@400;700&family=Urbanist:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/tokens.css">
+<link rel="stylesheet" href="/tokens/brands.css">
+<link rel="stylesheet" href="diagramas.css">
+<script type="module" src="/web-components/organisms/trf-card-b2b.js"></script>
+<script type="module" src="/web-components/atoms/core-button.js"></script>
+<style>
+  .cards { display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; margin-top: 40px; }
+  .brand { min-width: 0; display: flex; flex-direction: column; gap: 12px; }
+  .brand .name { font-size: 15px; font-weight: 700; display: flex; align-items: baseline; gap: 8px; color: var(--ink); font-family: 'Inter', sans-serif; }
+  .brand .name small { font-weight: 500; color: var(--ink-3); font-size: 13px; }
+  .frame { height: 500px; overflow: hidden; padding: 2px; }
+  .frame .scale { width: 400px; transform: scale(.835); transform-origin: top left; }
+  .strip { margin-top: 36px; padding: 20px 24px; }
+  .strip .ttl { font-size: 13px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--ink-3); margin-bottom: 14px; }
+  .btns { display: flex; flex-wrap: wrap; gap: 12px 10px; }
+</style>
+</head>
+<body>
+  <p class="eyebrow">Tokens</p>
+  <h1>
+    <span data-lang="es">El mismo componente, 24 marcas: solo cambian los tokens</span>
+    <span data-lang="en">The same component, 24 brands: only the tokens change</span>
+  </h1>
+
+  <div class="cards" id="cards"></div>
+
+  <div class="card strip">
+    <div class="ttl"><span data-lang="es">El botón principal en las 24 marcas</span><span data-lang="en">The main button in all 24 brands</span></div>
+    <div class="btns" id="btns"></div>
+  </div>
+
+  <script type="module">
+    import { foto } from './foto.js';
+    const fonts = { avoris: 'Inter', catai: 'Poppins', iberojet: 'Quicksand', leplan: 'Montserrat' };
+    const nombres = { avoris: 'Ávoris', catai: 'Catai', iberojet: 'Iberojet', leplan: 'Le Plan' };
+    const cards = document.getElementById('cards');
+    for (const b of Object.keys(fonts)) {
+      cards.insertAdjacentHTML('beforeend', `
+        <div class="brand">
+          <div class="name">${nombres[b]} <small>${fonts[b]}</small></div>
+          <div class="frame" data-brand="${b}"><div class="scale"><trf-card-b2b layout="vertical">${foto}</trf-card-b2b></div></div>
+        </div>`);
+    }
+    // Las 24 marcas de tokens/brands.css, en su orden
+    const todas = [...document.styleSheets].flatMap(s => { try { return [...s.cssRules]; } catch { return []; } })
+      .map(r => r.selectorText && r.selectorText.match(/^\[data-brand="([^"]+)"\]$/)?.[1]).filter(Boolean);
+    const btns = document.getElementById('btns');
+    for (const b of [...new Set(todas)]) {
+      btns.insertAdjacentHTML('beforeend', `<div data-brand="${b}"><core-button variant="primary" size="sm" label="${b}" leading-icon="false" trailing-icon="false"></core-button></div>`);
+    }
+  </script>
+</body>
+</html>

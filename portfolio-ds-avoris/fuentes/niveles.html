@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Niveles del DS</title>
+<script>document.documentElement.lang = new URLSearchParams(location.search).get('lang') === 'en' ? 'en' : 'es';</script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/tokens.css">
+<link rel="stylesheet" href="/tokens/brands.css">
+<link rel="stylesheet" href="diagramas.css">
+<script type="module" src="/web-components/atoms/core-button.js"></script>
+<script type="module" src="/web-components/molecules/com-availability-price-box-b2b.js"></script>
+<script type="module" src="/web-components/organisms/trf-card-b2b.js"></script>
+<style>
+  .grid { display: grid; grid-template-columns: 900px 1fr; gap: 40px; margin-top: 44px; height: 680px; }
+  .stack { display: grid; grid-template-columns: 56px 1fr; gap: 20px; }
+  .axis { display: flex; flex-direction: column; align-items: center; justify-content: space-between; padding: 4px 0; }
+  .axis span { writing-mode: vertical-rl; transform: rotate(180deg); font-size: 13px; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--ink-3); }
+  .axis .bar { flex: 1; width: 2px; margin: 12px 0; background: linear-gradient(var(--ink-3), var(--line)); position: relative; }
+  .axis .bar::before { content: ''; position: absolute; top: -2px; left: -5px; border: 6px solid transparent; border-bottom: 9px solid var(--ink-3); border-top: 0; }
+  .layers { display: flex; flex-direction: column; gap: 14px; height: 100%; }
+  .layers > .core { flex: 1; }
+  .row { display: grid; gap: 14px; }
+  .row.two { grid-template-columns: 1fr 1fr; }
+  .row.three { grid-template-columns: 1fr 1fr 1fr; }
+  .box { padding: 18px 22px; }
+  .lvl { font-size: 12px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--ink-3); margin-bottom: 6px; }
+  .box h3 { margin: 0; font-size: 21px; font-weight: 700; letter-spacing: -.01em; }
+  .box p { margin: 6px 0 0; font-size: 15px; color: var(--ink-2); line-height: 1.4; }
+  .core { background: var(--ink); color: #fff; border-color: var(--ink); padding: 24px 26px; display: flex; justify-content: space-between; align-items: center; }
+  .core .lvl { color: #9aa1aa; }
+  .core h3 { font-size: 30px; }
+  .core p { color: #c9ced4; }
+  .core .num { text-align: right; }
+  .core .num b { display: block; font-size: 34px; color: var(--accent); letter-spacing: -.02em; }
+  .core .num small { font-size: 14px; color: #c9ced4; }
+  .found { background: transparent; border-style: dashed; }
+  .found h3 { font-size: 18px; }
+  .b2b { border-top: 4px solid var(--blue); }
+  .b2c { border-top: 4px solid #e0a400; }
+
+  .atomic { padding: 26px 28px; display: flex; flex-direction: column; }
+  .atomic h2 { margin: 0; font-size: 21px; }
+  .atomic .sub { margin: 4px 0 0; font-size: 15px; color: var(--ink-2); }
+  .stage { display: grid; grid-template-columns: 112px 1fr; gap: 16px; align-items: center; padding: 16px 0; border-top: 1px solid var(--line); }
+  .stage:first-of-type { margin-top: 18px; }
+  .stage .k { font-size: 12px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--ink-3); }
+  .stage .k b { display: block; font-size: 17px; letter-spacing: 0; text-transform: none; color: var(--ink); margin-top: 2px; }
+  .demo { display: flex; justify-content: center; }
+  .scale { transform-origin: top center; }
+</style>
+</head>
+<body>
+  <p class="eyebrow"><span data-lang="es">Arquitectura</span><span data-lang="en">Structure</span></p>
+  <h1>
+    <span data-lang="es">Cada componente se diseña una sola vez, en el nivel más compartido posible</span>
+    <span data-lang="en">We design each component only once, in the most shared level possible</span>
+  </h1>
+
+  <div class="grid">
+    <div class="stack">
+      <div class="axis">
+        <span><span data-lang="es">Más específico</span><span data-lang="en">More specific</span></span>
+        <div class="bar"></div>
+        <span><span data-lang="es">Más compartido</span><span data-lang="en">More shared</span></span>
+      </div>
+      <div class="layers">
+        <div class="row two">
+          <div class="card box b2b">
+            <div class="lvl"><span data-lang="es">Específicos</span><span data-lang="en">Specific</span></div>
+            <h3>B2B</h3>
+            <p><span data-lang="es">Propios de un producto: transfers, rent a car, tickets, SIM…</span><span data-lang="en">One product only: transfers, car rental, tickets, SIM…</span></p>
+          </div>
+          <div class="card box b2c">
+            <div class="lvl"><span data-lang="es">Específicos</span><span data-lang="en">Specific</span></div>
+            <h3>B2C</h3>
+            <p><span data-lang="es">Propios de un producto: vuelos, circuitos, checkout…</span><span data-lang="en">One product only: flights, tours, checkout…</span></p>
+          </div>
+        </div>
+        <div class="row two">
+          <div class="card box b2b">
+            <div class="lvl"><span data-lang="es">Comunes</span><span data-lang="en">Common</span></div>
+            <h3><span data-lang="es">B2B · agencias</span><span data-lang="en">B2B · agencies</span></h3>
+            <p><span data-lang="es">Transversales a todos los productos B2B: buscador, desglose, modal…</span><span data-lang="en">Used by all B2B products: search, price breakdown, modal…</span></p>
+          </div>
+          <div class="card box b2c">
+            <div class="lvl"><span data-lang="es">Comunes</span><span data-lang="en">Common</span></div>
+            <h3><span data-lang="es">B2C · cliente final</span><span data-lang="en">B2C · direct customers</span></h3>
+            <p><span data-lang="es">Transversales a todos los productos B2C: buscador, filtros, fechas…</span><span data-lang="en">Used by all B2C products: search, filters, dates…</span></p>
+          </div>
+        </div>
+        <div class="card core">
+          <div>
+            <div class="lvl">Core</div>
+            <h3><span data-lang="es">Para todos</span><span data-lang="en">For everyone</span></h3>
+            <p><span data-lang="es">Botón, campo de texto, etiqueta, calendario, header…</span><span data-lang="en">Button, text field, tag, calendar, header…</span></p>
+          </div>
+          <div class="num">
+            <b>107</b><small><span data-lang="es">component sets · 1.028 variantes</span><span data-lang="en">component sets · 1,028 variants</span></small>
+          </div>
+        </div>
+        <div class="row three">
+          <div class="card box found">
+            <div class="lvl"><span data-lang="es">Fundamentos</span><span data-lang="en">Base</span></div>
+            <h3>Variables</h3>
+            <p><span data-lang="es">24 marcas = 24 extended collections</span><span data-lang="en">24 brands = 24 extended collections</span></p>
+          </div>
+          <div class="card box found">
+            <div class="lvl"><span data-lang="es">Fundamentos</span><span data-lang="en">Base</span></div>
+            <h3><span data-lang="es">Iconos</span><span data-lang="en">Icons</span></h3>
+            <p><span data-lang="es">~400 iconos</span><span data-lang="en">~400 icons</span></p>
+          </div>
+          <div class="card box found">
+            <div class="lvl"><span data-lang="es">Fundamentos</span><span data-lang="en">Base</span></div>
+            <h3>Logos</h3>
+            <p><span data-lang="es">Marcas, pagos, sellos</span><span data-lang="en">Brands, payments, seals</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card atomic" data-brand="avoris">
+      <h2><span data-lang="es">Componentes pequeños forman componentes grandes</span><span data-lang="en">Small components make bigger components</span></h2>
+      <p class="sub"><span data-lang="es">Igual en Figma que en código</span><span data-lang="en">The same in Figma and in code</span></p>
+      <div class="stage">
+        <div class="k"><span data-lang="es">Átomo</span><span data-lang="en">Atom</span><b><span data-lang="es">Botón</span><span data-lang="en">Button</span></b></div>
+        <div class="demo"><core-button variant="primary" label="Seleccionar" leading-icon="false" trailing-icon="false"></core-button></div>
+      </div>
+      <div class="stage">
+        <div class="k"><span data-lang="es">Molécula</span><span data-lang="en">Molecule</span><b><span data-lang="es">Caja de precio</span><span data-lang="en">Price box</span></b></div>
+        <div class="demo"><com-availability-price-box-b2b price="14,70 €" old-price="18,90 €" open-details-label="Ver desglose"></com-availability-price-box-b2b></div>
+      </div>
+      <div class="stage" style="align-items:start">
+        <div class="k" style="padding-top:8px"><span data-lang="es">Organismo</span><span data-lang="en">Organism</span><b><span data-lang="es">Tarjeta</span><span data-lang="en">Card</span></b></div>
+        <div class="demo" style="height:286px"><div class="scale" style="width:340px; transform: scale(.62)"><trf-card-b2b id="org" layout="vertical"></trf-card-b2b></div></div>
+      </div>
+    </div>
+  </div>
+
+  <script type="module">
+    import { foto } from './foto.js';
+    document.getElementById('org').insertAdjacentHTML('beforeend', foto);
+  </script>
+</body>
+</html>

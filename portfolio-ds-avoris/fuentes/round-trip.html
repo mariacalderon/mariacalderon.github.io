@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Round-trip Figma y código</title>
+<script>document.documentElement.lang = new URLSearchParams(location.search).get('lang') === 'en' ? 'en' : 'es';</script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="diagramas.css">
+<style>
+  .flow { position: relative; height: 300px; margin-top: 40px; }
+  .flow svg { position: absolute; inset: 0; overflow: visible; }
+  .node { position: absolute; top: 20px; width: 330px; height: 260px; padding: 26px 28px; display: flex; flex-direction: column; justify-content: space-between; }
+  .node .lvl { font-size: 12px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--ink-3); }
+  .node h2 { margin: 6px 0 0; font-size: 34px; letter-spacing: -.02em; }
+  .node p { margin: 0; font-size: 16px; line-height: 1.45; color: var(--ink-2); }
+  .n-figma { left: 0; }
+  .n-ai { left: 547px; background: var(--ink); color: #fff; border-color: var(--ink); }
+  .n-ai .lvl { color: #9aa1aa; } .n-ai p { color: #c9ced4; }
+  .n-ai h2 { color: var(--accent); }
+  .n-code { right: 0; }
+  .lane { position: absolute; font-size: 14px; font-weight: 600; text-align: center; width: 217px; }
+  .lane small { display: block; font-weight: 500; color: var(--ink-3); font-size: 13px; margin-top: 2px; }
+
+  .steps { margin-top: 34px; }
+  .steps .ttl, .boxes .ttl { font-size: 13px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--ink-3); margin-bottom: 12px; }
+  .steps ol { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(6, 1fr); gap: 12px; counter-reset: s; }
+  .steps li { counter-increment: s; padding: 16px 16px 18px; font-size: 15px; line-height: 1.35; font-weight: 500; }
+  .steps li::before { content: counter(s); display: grid; place-items: center; width: 28px; height: 28px; border-radius: 50%; background: var(--accent); color: var(--ink); font-weight: 700; font-size: 14px; margin-bottom: 10px; }
+
+  .boxes { margin-top: 30px; display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+  .boxes .card { padding: 20px 24px; }
+  .chips { display: flex; flex-wrap: wrap; gap: 8px; }
+  .chip { display: inline-flex; align-items: center; height: 34px; padding: 0 14px; border-radius: 999px; background: var(--bg); border: 1px solid var(--line); font-size: 14px; font-weight: 500; }
+  .chip b { margin-right: 6px; }
+</style>
+</head>
+<body>
+  <p class="eyebrow">Round-trip</p>
+  <h1>
+    <span data-lang="es">La IA conecta Figma con el código, en las dos direcciones</span>
+    <span data-lang="en">AI connects Figma to code, in both directions</span>
+  </h1>
+
+  <div class="flow">
+    <svg width="1424" height="300" viewBox="0 0 1424 300">
+      <defs>
+        <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#17191c"/></marker>
+        <marker id="b" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#8a9099"/></marker>
+      </defs>
+      <!-- ida -->
+      <path d="M338 100 H537" stroke="#17191c" stroke-width="2.5" marker-end="url(#a)"/>
+      <path d="M885 100 H1084" stroke="#17191c" stroke-width="2.5" marker-end="url(#a)"/>
+      <!-- vuelta -->
+      <path d="M1084 210 H885" stroke="#8a9099" stroke-width="2.5" stroke-dasharray="7 6" marker-end="url(#b)"/>
+      <path d="M537 210 H338" stroke="#8a9099" stroke-width="2.5" stroke-dasharray="7 6" marker-end="url(#b)"/>
+    </svg>
+
+    <div class="card node n-figma">
+      <div><div class="lvl"><span data-lang="es">Diseño</span><span data-lang="en">Design</span></div><h2>Figma</h2></div>
+      <p><span data-lang="es">8 archivos · componentes, variantes y variables. Una extended collection por marca.</span><span data-lang="en">8 files · components, variants and variables. One extended collection per brand.</span></p>
+    </div>
+    <div class="card node n-ai">
+      <div><div class="lvl"><span data-lang="es">El puente</span><span data-lang="en">The bridge</span></div><h2><span data-lang="es">IA</span><span data-lang="en">AI</span></h2></div>
+      <p><span data-lang="es">Claude Code + conector de Figma. Lee, construye, verifica y pregunta antes de decidir.</span><span data-lang="en">Claude Code + Figma connector. It reads, builds, checks, and asks before deciding.</span></p>
+    </div>
+    <div class="card node n-code">
+      <div><div class="lvl"><span data-lang="es">Código</span><span data-lang="en">Code</span></div><h2>Web Components</h2></div>
+      <p><span data-lang="es">+500 componentes con el mismo nombre que en Figma y solo tokens, nunca valores sueltos.</span><span data-lang="en">More than 500 components with the same name as in Figma. Only tokens, no fixed values.</span></p>
+    </div>
+
+    <div class="lane" style="left:330px; top:58px"><span data-lang="es">Ida</span><span data-lang="en">Figma → code</span><small><span data-lang="es">lee el componente</span><span data-lang="en">reads the component</span></small></div>
+    <div class="lane" style="left:877px; top:58px"><span data-lang="es">Ida</span><span data-lang="en">Figma → code</span><small><span data-lang="es">construye y prueba</span><span data-lang="en">builds and tests</span></small></div>
+    <div class="lane" style="left:877px; top:222px; color:var(--ink-2)"><span data-lang="es">Vuelta</span><span data-lang="en">Code → Figma</span><small><span data-lang="es">idea prototipada en código</span><span data-lang="en">an idea tried in code</span></small></div>
+    <div class="lane" style="left:330px; top:222px; color:var(--ink-2)"><span data-lang="es">Vuelta</span><span data-lang="en">Code → Figma</span><small><span data-lang="es">solo con aprobación del equipo</span><span data-lang="en">only after team approval</span></small></div>
+  </div>
+
+  <div class="steps">
+    <div class="ttl"><span data-lang="es">La ida, en 6 pasos</span><span data-lang="en">Figma → code, in 6 steps</span></div>
+    <ol>
+      <li class="card"><span data-lang="es">Lee el componente: medidas, colores, variantes y variables</span><span data-lang="en">Reads the component: sizes, colors, variants, variables</span></li>
+      <li class="card"><span data-lang="es">Busca si ya existe un componente parecido</span><span data-lang="en">Checks if a similar component already exists</span></li>
+      <li class="card"><span data-lang="es">Construye con el nombre de Figma y tokens</span><span data-lang="en">Builds it with the Figma name and tokens</span></li>
+      <li class="card"><span data-lang="es">Lo compone a partir de componentes más pequeños</span><span data-lang="en">Builds it from smaller components</span></li>
+      <li class="card"><span data-lang="es">Lo prueba en el navegador y lo compara con Figma</span><span data-lang="en">Tests it in the browser and compares it with Figma</span></li>
+      <li class="card"><span data-lang="es">Guarda notas y un registro de cambios</span><span data-lang="en">Saves notes and a list of changes</span></li>
+    </ol>
+  </div>
+
+  <div class="boxes">
+    <div class="card">
+      <div class="ttl"><span data-lang="es">Lo que la IA lee siempre</span><span data-lang="en">What AI always reads</span></div>
+      <div class="chips">
+        <span class="chip"><b>59</b><span data-lang="es">decisiones del sistema</span><span data-lang="en">system decisions</span></span>
+        <span class="chip"><span data-lang="es">Estado actual del proyecto</span><span data-lang="en">Current project status</span></span>
+        <span class="chip"><span data-lang="es">Aprendizajes por componente</span><span data-lang="en">A learning note for each component</span></span>
+        <span class="chip"><span data-lang="es">Mapa Figma ↔ código</span><span data-lang="en">Figma ↔ code map</span></span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="ttl"><span data-lang="es">En cada cambio</span><span data-lang="en">On every change</span></div>
+      <div class="chips">
+        <span class="chip"><span data-lang="es">Prueba en navegador</span><span data-lang="en">Browser check</span></span>
+        <span class="chip"><span data-lang="es">Capturas antes/después</span><span data-lang="en">Before and after images</span></span>
+        <span class="chip"><span data-lang="es">Revisión de contraste</span><span data-lang="en">Contrast check</span></span>
+        <span class="chip"><span data-lang="es">Changelog, también en Figma</span><span data-lang="en">Change history, also in Figma</span></span>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

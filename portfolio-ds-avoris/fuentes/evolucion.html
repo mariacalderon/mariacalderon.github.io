@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Evolución del DS</title>
+<script>document.documentElement.lang = new URLSearchParams(location.search).get('lang') === 'en' ? 'en' : 'es';</script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="diagramas.css">
+<style>
+  .line { position: relative; height: 40px; margin-top: 72px; }
+  .line::before { content: ''; position: absolute; left: 0; right: 0; top: 19px; height: 2px; background: linear-gradient(90deg, var(--ink-3) 0 66%, transparent 66%); }
+  .line::after { content: ''; position: absolute; left: 66%; right: 0; top: 19px; border-top: 2px dashed var(--ink-3); }
+  .dot { position: absolute; top: 8px; width: 24px; height: 24px; border-radius: 50%; background: var(--bg); border: 3px solid var(--ink-3); transform: translateX(-50%); }
+  .dot.now { background: var(--accent); border-color: var(--ink); width: 30px; height: 30px; top: 5px; }
+  .dot.next { border-style: dashed; }
+
+  .cols { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 28px; margin-top: 24px; }
+  .stage { padding: 28px 30px; height: 520px; display: flex; flex-direction: column; }
+  .stage .when { font-size: 13px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--ink-3); }
+  .stage h2 { margin: 8px 0 0; font-size: 27px; line-height: 1.2; letter-spacing: -.01em; }
+  .stage ul { margin: 18px 0 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 12px; }
+  .stage li { font-size: 16px; line-height: 1.45; color: var(--ink-2); padding-left: 20px; position: relative; }
+  .stage li::before { content: ''; position: absolute; left: 2px; top: 9px; width: 7px; height: 7px; border-radius: 50%; background: var(--ink-3); }
+  .flow { margin-top: auto; padding-top: 20px; border-top: 1px solid var(--line); }
+  .flow .ttl { font-size: 12px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--ink-3); margin-bottom: 12px; }
+  .chips { display: flex; flex-wrap: nowrap; align-items: center; gap: 4px; }
+  .chip { display: inline-flex; align-items: center; height: 34px; padding: 0 9px; white-space: nowrap; border-radius: 999px; background: var(--bg); border: 1px solid var(--line); font-size: 12.5px; font-weight: 600; color: var(--ink); }
+  .arr { color: var(--ink-3); font-size: 14px; }
+
+  .now-card { background: var(--ink); border-color: var(--ink); color: #fff; }
+  .now-card .when { color: var(--accent); }
+  .now-card li { color: #c9ced4; } .now-card li::before { background: var(--accent); }
+  .now-card .flow { border-color: #33373d; }
+  .now-card .flow .ttl { color: #9aa1aa; }
+  .now-card .chip { background: #24282d; border-color: #3a3f46; color: #fff; }
+  .now-card .chip.hl { background: var(--accent); border-color: var(--accent); color: var(--ink); }
+  .next-card { background: transparent; border: 2px dashed #cfccc3; }
+  .next-card .chip.hl { background: var(--soft-yellow); border-color: #f0dc7a; }
+  .status { align-self: flex-start; display: inline-flex; align-items: center; gap: 10px; margin-top: 16px; height: 36px; padding: 0 14px; border-radius: 999px; background: var(--soft-yellow); border: 1px solid #f0dc7a; font-size: 14.5px; color: var(--accent-ink); }
+  .status b { color: var(--ink); }
+  .status .live { width: 9px; height: 9px; border-radius: 50%; background: #e0a400; box-shadow: 0 0 0 4px rgba(224,164,0,.2); }
+</style>
+</head>
+<body>
+  <p class="eyebrow"><span data-lang="es">Evolución</span><span data-lang="en">Evolution</span></p>
+  <h1>
+    <span data-lang="es">De dibujar componentes a mano a proponer cambios en el código real</span>
+    <span data-lang="en">From building components by hand to suggesting changes in the real code</span>
+  </h1>
+
+  <div class="line">
+    <span class="dot" style="left:16.2%"></span>
+    <span class="dot now" style="left:50%"></span>
+    <span class="dot next" style="left:83.8%"></span>
+  </div>
+
+  <div class="cols">
+    <div class="card stage">
+      <div class="when"><span data-lang="es">Antes</span><span data-lang="en">Before</span></div>
+      <h2><span data-lang="es">Componentes a mano en Figma</span><span data-lang="en">Components by hand in Figma</span></h2>
+      <ul>
+        <li><span data-lang="es">Cada componente y cada variante se construía a mano.</span><span data-lang="en">Every component and variant was built by hand.</span></li>
+        <li><span data-lang="es">Con 24 marcas, cada cambio se multiplicaba.</span><span data-lang="en">With 24 brands, every change meant a lot of extra work.</span></li>
+        <li><span data-lang="es">El traspaso a desarrollo eran specs y capturas.</span><span data-lang="en">We gave developers specs and screenshots.</span></li>
+      </ul>
+      <div class="flow">
+        <div class="ttl"><span data-lang="es">El camino al código</span><span data-lang="en">The path to code</span></div>
+        <div class="chips">
+          <span class="chip">Figma</span><span class="arr">→</span>
+          <span class="chip"><span data-lang="es">Specs</span><span data-lang="en">Specs</span></span><span class="arr">→</span>
+          <span class="chip"><span data-lang="es">Desarrollo interpreta</span><span data-lang="en">Developers rebuild it</span></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="card stage now-card">
+      <div class="when"><span data-lang="es">Hoy</span><span data-lang="en">Today</span></div>
+      <h2><span data-lang="es">Web Components con IA, en nuestro propio repositorio</span><span data-lang="en">Web Components with AI, in our own repository</span></h2>
+      <ul>
+        <li><span data-lang="es">La IA convierte cada componente de Figma en un Web Component.</span><span data-lang="en">AI turns each Figma component into a Web Component.</span></li>
+        <li><span data-lang="es">Reglas escritas, solo tokens y verificación contra Figma.</span><span data-lang="en">Written rules, only tokens, and checks against Figma.</span></li>
+        <li><span data-lang="es">Una referencia viva y verificable, todavía no código de producción.</span><span data-lang="en">A reference we can see and test. It is not production code yet.</span></li>
+      </ul>
+      <div class="flow">
+        <div class="ttl"><span data-lang="es">El camino al código</span><span data-lang="en">The path to code</span></div>
+        <div class="chips">
+          <span class="chip">Figma</span><span class="arr">→</span>
+          <span class="chip hl"><span data-lang="es">IA + reglas</span><span data-lang="en">AI + rules</span></span><span class="arr">→</span>
+          <span class="chip"><span data-lang="es">Repo de diseño</span><span data-lang="en">Design repo</span></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="card stage next-card">
+      <div class="when"><span data-lang="es">Próximamente</span><span data-lang="en">Next</span></div>
+      <h2><span data-lang="es">Conexión con el repositorio de maquetación</span><span data-lang="en">Connect to the front-end repository</span></h2>
+      <div class="status"><span class="live"></span><span><b><span data-lang="es">Tokens:</span><span data-lang="en">Tokens:</span></b> <span data-lang="es">ya en fase de prueba</span><span data-lang="en">we are testing them now</span></span></div>
+      <ul>
+        <li><span data-lang="es">Cuando desarrollo nos dé acceso a su repositorio.</span><span data-lang="en">When developers give us access to their repository.</span></li>
+        <li><span data-lang="es">La IA propone cambios como pull requests.</span><span data-lang="en">AI suggests changes as pull requests.</span></li>
+        <li><span data-lang="es">Desarrollo revisa y decide qué entra.</span><span data-lang="en">Developers review them and decide what goes in.</span></li>
+      </ul>
+      <div class="flow">
+        <div class="ttl"><span data-lang="es">El camino al código</span><span data-lang="en">The path to code</span></div>
+        <div class="chips">
+          <span class="chip">Figma</span><span class="arr">→</span>
+          <span class="chip"><span data-lang="es">IA + reglas</span><span data-lang="en">AI + rules</span></span><span class="arr">→</span>
+          <span class="chip hl">Pull request</span><span class="arr">→</span>
+          <span class="chip"><span data-lang="es">Revisión dev</span><span data-lang="en">Dev review</span></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,22 @@
+// usage: node fullshot.mjs <url> <out.jpg>  — full-length page, 1440 wide, DPR 1.5
+import fs from 'node:fs';
+const [url, out] = process.argv.slice(2);
+const t = await (await fetch('http://127.0.0.1:9333/json/new?about:blank', { method: 'PUT' })).json();
+const ws = new WebSocket(t.webSocketDebuggerUrl); await new Promise(r => ws.onopen = r);
+let id = 0; const pend = {}; ws.onmessage = m => { const d = JSON.parse(m.data); if (d.id && pend[d.id]) { pend[d.id](d); delete pend[d.id]; } };
+const send = (method, params = {}) => new Promise(r => { const i = ++id; pend[i] = r; ws.send(JSON.stringify({ id: i, method, params })); });
+const sleep = ms => new Promise(r => setTimeout(r, ms));
+const evalJs = async e => (await send('Runtime.evaluate', { expression: e, awaitPromise: true, returnByValue: true })).result.result?.value;
+await send('Page.enable');
+await send('Emulation.setDeviceMetricsOverride', { width: 1440, height: +(process.env.TALL || 900), deviceScaleFactor: 1.5, mobile: false });
+const css = '#onetrust-consent-sdk,#gtm-wa-widget{display:none!important} body{overflow:auto!important} .dsc-co-header-wrapper,.dsc-co-header{display:block!important;position:relative!important;top:0!important;transform:none!important;opacity:1!important;visibility:visible!important;max-height:none!important;height:auto!important} .fade-scale-up,.dsc-co-hero,.dsc-co-hero *,.dsc-co-header-wrapper,.dsc-co-header-wrapper *{opacity:1!important;transition:none!important;animation:none!important}';
+await send('Page.addScriptToEvaluateOnNewDocument', { source: `(() => { const s = document.createElement('style'); s.textContent = ${JSON.stringify(css)}; const add = () => (document.head || document.documentElement).appendChild(s); if (document.documentElement) add(); else document.addEventListener('DOMContentLoaded', add); new MutationObserver(() => { if (!s.isConnected) add(); }).observe(document, { childList: true, subtree: true }); })();` });
+await send('Page.navigate', { url });
+await sleep(10000);
+if (!process.env.TALL) await evalJs(`(async () => { for (let y = 0; y < document.documentElement.scrollHeight; y += 500) { window.scrollTo(0, y); await new Promise(r => setTimeout(r, 350)); } for (let y = document.documentElement.scrollHeight; y >= 0; y -= 400) { window.scrollTo(0, y); await new Promise(r => setTimeout(r, 120)); } window.scrollTo(0, 0); window.dispatchEvent(new Event("scroll")); await new Promise(r => setTimeout(r, 4000)); })()`);
+const h = await evalJs('document.documentElement.scrollHeight');
+await send('Emulation.setDeviceMetricsOverride', { width: 1440, height: h, deviceScaleFactor: 1.5, mobile: false });
+await sleep(4000);
+const r = await send('Page.captureScreenshot', { format: 'jpeg', quality: 82, captureBeyondViewport: true, clip: { x: 0, y: 0, width: 1440, height: h, scale: 1 } });
+fs.writeFileSync(out, Buffer.from(r.result.data, 'base64'));
+console.log(out, h); process.exit(0);

@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="base.css">
+<style>
+  html, body { width: 1000px; height: 680px; background: #FFFCEB; padding: 0; overflow: hidden; }
+  .stage { position: relative; width: 1000px; height: 680px; }
+
+  .card { position: absolute; width: 330px; background: #fff; border-radius: 22px; padding: 16px; box-shadow: 0 24px 60px rgba(5,48,61,0.14), 0 0 0 1px rgba(5,48,61,0.05); }
+  .photo { height: 150px; border-radius: 14px; position: relative; overflow: hidden;
+    background: radial-gradient(ellipse 70% 60% at 30% 100%, #8FC39A 0 60%, transparent 61%), radial-gradient(ellipse 80% 55% at 85% 100%, #A9D3AE 0 60%, transparent 61%), #CFE6F2; }
+  .photo::after { content: ''; position: absolute; right: 44px; top: 28px; width: 38px; height: 38px; border-radius: 50%; background: #FCE38A; }
+  .badge { position: absolute; top: 12px; left: 12px; z-index: 1; font-size: 13px; font-weight: 700; padding: 5px 10px; border-radius: 6px; background: #fff; }
+  .brand { font-size: 14px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; margin-top: 16px; }
+  .card h4 { font-size: 22px; font-weight: 700; margin-top: 4px; }
+  .sub { font-size: 15px; color: var(--gray); font-weight: 500; }
+  .tags { display: flex; gap: 6px; margin-top: 12px; }
+  .tag { font-size: 13px; font-weight: 600; padding: 5px 9px; border-radius: 6px; }
+  .price { margin-top: 14px; font-size: 15px; font-weight: 600; color: var(--body); }
+  .price b { font-size: 28px; font-weight: 800; color: var(--black); margin-left: 6px; }
+  .btn { margin-top: 14px; color: #fff; font-size: 17px; font-weight: 700; padding: 13px; text-align: center; }
+
+  .c1 { left: 90px; top: 120px; transform: rotate(-7deg); }
+  .c1 .brand, .c1 .badge { color: #6667ab; } .c1 .tag { background: #ECECF7; color: #4B4C8F; } .c1 .btn { background: #6667ab; border-radius: 999px; }
+  .c2 { left: 330px; top: 70px; transform: rotate(-1deg); z-index: 2; }
+  .c2 .brand, .c2 .badge { color: #d52620; } .c2 .tag { background: #FCE7E6; color: #A11D18; } .c2 .btn { background: #d52620; border-radius: 999px; }
+  .c3 { left: 580px; top: 140px; transform: rotate(6deg); z-index: 3; }
+  .c3 .brand, .c3 .badge { color: #1f72db; } .c3 .tag { background: #E3EEFC; color: #1857A8; } .c3 .btn { background: #1f72db; border-radius: 10px; }
+
+  .chip-token { position: absolute; z-index: 4; background: #05303D; color: #fff; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 15px; padding: 10px 16px; border-radius: 999px; box-shadow: 0 10px 24px rgba(5,48,61,0.2); }
+  .chip-token i { display: inline-block; width: 12px; height: 12px; border-radius: 50%; background: var(--yellow); margin-right: 10px; vertical-align: -1px; }
+  .t1 { left: 470px; top: 600px; }
+  .dot { position: absolute; width: 26px; height: 26px; border-radius: 50%; background: var(--yellow); }
+</style>
+</head>
+<body>
+  <div class="stage">
+
+    <div class="card c1">
+      <div class="photo"><span class="badge">Best price</span></div>
+      <div class="brand">Marsol</div>
+      <h4>Bus transfer</h4>
+      <div class="sub">Shared shuttle service</div>
+      <div class="tags"><span class="tag">Shared</span><span class="tag">1 suitcase</span></div>
+      <div class="price">Total<b>14,70 €</b></div>
+      <div class="btn">Select</div>
+    </div>
+
+    <div class="card c2">
+      <div class="photo"><span class="badge">Best price</span></div>
+      <div class="brand">Halcón Viajes</div>
+      <h4>Bus transfer</h4>
+      <div class="sub">Shared shuttle service</div>
+      <div class="tags"><span class="tag">Shared</span><span class="tag">1 suitcase</span></div>
+      <div class="price">Total<b>14,70 €</b></div>
+      <div class="btn">Select</div>
+    </div>
+
+    <div class="card c3">
+      <div class="photo"><span class="badge">Best price</span></div>
+      <div class="brand">B travel</div>
+      <h4>Bus transfer</h4>
+      <div class="sub">Shared shuttle service</div>
+      <div class="tags"><span class="tag">Shared</span><span class="tag">1 suitcase</span></div>
+      <div class="price">Total<b>14,70 €</b></div>
+      <div class="btn">Select</div>
+    </div>
+
+  </div>
+</body>
+</html>

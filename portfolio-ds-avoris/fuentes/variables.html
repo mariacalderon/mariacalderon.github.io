@@ -1,0 +1,110 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="base.css">
+<style>
+  /* Valores reales de figma-wc-figma/tokens/brands.css (bttb, halcon, marsol) */
+  .table { margin-top: 36px; display: grid; grid-template-columns: 150px 1fr 44px 1fr 44px 1fr 44px 230px; align-items: center; row-gap: 18px; }
+  .head { align-self: stretch; background: var(--blue-soft); border-radius: 20px; padding: 20px 22px; }
+  .head span { display: block; font-size: 15px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--blue); margin-bottom: 6px; }
+  .head b { display: block; font-size: 24px; line-height: 1.2; }
+  .head small { display: block; font-size: 17px; font-weight: 500; color: var(--body); margin-top: 4px; line-height: 1.3; }
+  .head.res { background: transparent; border: 2px dashed #CFCFCA; }
+
+  .brand { font-size: 24px; font-weight: 700; }
+  .cell { padding: 20px 22px; border-radius: 22px; display: flex; align-items: center; gap: 16px; }
+  .sw { flex: none; width: 56px; height: 56px; border-radius: 14px; box-shadow: inset 0 0 0 1px rgba(0,0,0,0.08); }
+  .cell code { display: block; font: 600 15px/1.3 ui-monospace, Menlo, monospace; color: var(--black); }
+  .cell .hex { font-size: 16px; font-weight: 600; color: var(--gray); margin-top: 4px; }
+  .arrow { justify-self: center; width: 30px; height: 3px; background: var(--blue); position: relative; }
+  .arrow::after { content: ''; position: absolute; right: -4px; top: 50%; transform: translateY(-50%); border: 9px solid transparent; border-left: 12px solid var(--blue); border-right: 0; }
+  .result { display: flex; justify-content: center; }
+  .btn { font-size: 19px; font-weight: 600; padding: 15px 34px; color: #fff; }
+  .note { grid-column: 4 / 9; margin-top: -4px; font-size: 17px; font-weight: 500; color: var(--black); background: var(--yellow); border-radius: 14px; padding: 12px 18px; }
+
+  .bottom { margin-top: 40px; display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; }
+  .bottom .card { padding: 28px 30px; display: flex; flex-direction: column; }
+  .bottom h2 { font-size: 28px; margin: 8px 0 10px; }
+  .bottom p { font-size: 19px; flex: 1; }
+  .devices { display: flex; gap: 16px; align-items: flex-end; margin-top: 20px; }
+  .dev { border: 3px solid var(--black); border-radius: 10px; display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 7px; padding: 8px; }
+  .dev.desk { width: 128px; height: 80px; }
+  .dev.mob { width: 50px; height: 88px; border-radius: 12px; }
+  .dev .dot { width: 28px; height: 12px; border-radius: 4px; background: var(--blue); }
+  .dev .line { height: 6px; border-radius: 3px; background: var(--line); }
+  .eq { font-size: 28px; font-weight: 700; color: var(--blue); padding-bottom: 26px; }
+  .inherit { display: flex; align-items: center; gap: 10px; margin-top: 20px; flex-wrap: wrap; }
+</style>
+</head>
+<body>
+  <div class="eyebrow">Variables</div>
+
+  <div class="table">
+    <div></div>
+    <div class="head"><span>1 · Primitives</span><b>The pure value</b><small>Color from the brand book</small></div>
+    <div></div>
+    <div class="head"><span>2 · Semantic</span><b>What it is used for</b><small>Background of a main interactive element</small></div>
+    <div></div>
+    <div class="head"><span>3 · Component</span><b>Where it is used</b><small>Background of the main button</small></div>
+    <div></div>
+    <div class="head res"><span>Result</span><b>The component</b><small>Same button, another brand</small></div>
+
+    <div class="brand">B travel</div>
+    <div class="card cell"><span class="sw" style="background:#1f72db"></span><div><code>color-primary-3</code><div class="hex">#1f72db</div></div></div>
+    <div class="arrow"></div>
+    <div class="card cell"><span class="sw" style="background:#1f72db"></span><div><code>interactive-background-<wbr>primary-default</code><div class="hex">#1f72db</div></div></div>
+    <div class="arrow"></div>
+    <div class="card cell"><span class="sw" style="background:#1f72db"></span><div><code>button-primary-bg-def</code><div class="hex">#1f72db</div></div></div>
+    <div class="arrow"></div>
+    <div class="result"><span class="btn" style="background:#1f72db; border-radius:12px">Select</span></div>
+
+    <div class="brand">Halcón</div>
+    <div class="card cell"><span class="sw" style="background:#d52620"></span><div><code>color-primary-3</code><div class="hex">#d52620</div></div></div>
+    <div class="arrow"></div>
+    <div class="card cell"><span class="sw" style="background:#d52620"></span><div><code>interactive-background-<wbr>primary-default</code><div class="hex">#d52620</div></div></div>
+    <div class="arrow"></div>
+    <div class="card cell"><span class="sw" style="background:#d52620"></span><div><code>button-primary-bg-def</code><div class="hex">#d52620</div></div></div>
+    <div class="arrow"></div>
+    <div class="result"><span class="btn" style="background:#d52620; border-radius:999px">Select</span></div>
+
+    <div class="brand">Marsol</div>
+    <div class="card cell"><span class="sw" style="background:#6667ab"></span><div><code>color-primary-3</code><div class="hex">#6667ab</div></div></div>
+    <div class="arrow"></div>
+    <div class="card cell"><span class="sw" style="background:#6667ab"></span><div><code>interactive-background-<wbr>primary-default</code><div class="hex">#6667ab</div></div></div>
+    <div class="arrow"></div>
+    <div class="card cell"><span class="sw" style="background:#6667ab"></span><div><code>button-primary-bg-def</code><div class="hex">#6667ab</div></div></div>
+    <div class="arrow"></div>
+    <div class="result"><span class="btn" style="background:#6667ab; border-radius:999px">Select</span></div>
+  </div>
+
+  <div class="bottom">
+    <div class="card">
+      <div class="label">Color · 1 mode</div>
+      <h2>Desktop and mobile share colors</h2>
+      <p>We don't duplicate each color for each device.</p>
+      <div class="devices">
+        <div class="dev desk"><span class="dot"></span><span class="line" style="width:74px"></span></div>
+        <span class="eq">=</span>
+        <div class="dev mob"><span class="dot" style="width:22px"></span><span class="line" style="width:26px"></span></div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="label">Sizes · 2 modes</div>
+      <h2>Desktop and mobile change sizes</h2>
+      <p>Fonts, spacing and borders adapt to the screen.</p>
+      <div class="devices">
+        <div class="dev desk"><span class="line" style="width:84px;height:11px;background:var(--black)"></span><span class="line" style="width:62px"></span></div>
+        <span class="eq">≠</span>
+        <div class="dev mob"><span class="line" style="width:30px;height:7px;background:var(--black)"></span><span class="line" style="width:22px;height:4px"></span></div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="label">Brands · extended collections</div>
+      <h2>They inherit everything, and change what is different</h2>
+      <p>Each brand takes the base values and only changes its own:</p>
+      <div class="inherit"><span class="chip blue">Colors</span><span class="chip blue">Corners</span><span class="chip blue">Fonts</span></div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,38 @@
+@font-face { font-family: 'Gilroy'; src: url('file:///Users/mariafranciscacalderon/Documents/PORTFOLIO/public/assets/fonts/Gilroy-Regular.otf'); font-weight: 400; }
+@font-face { font-family: 'Gilroy'; src: url('file:///Users/mariafranciscacalderon/Documents/PORTFOLIO/public/assets/fonts/Gilroy-Medium.otf'); font-weight: 500; }
+@font-face { font-family: 'Gilroy'; src: url('file:///Users/mariafranciscacalderon/Documents/PORTFOLIO/public/assets/fonts/Gilroy-Semibold.otf'); font-weight: 600; }
+@font-face { font-family: 'Gilroy'; src: url('file:///Users/mariafranciscacalderon/Documents/PORTFOLIO/public/assets/fonts/Gilroy-Bold.otf'); font-weight: 700; }
+@font-face { font-family: 'Gilroy'; src: url('file:///Users/mariafranciscacalderon/Documents/PORTFOLIO/public/assets/fonts/Gilroy-Extrabold.otf'); font-weight: 800; }
+
+:root {
+  --black: #1A1919;
+  --body: #4A4A4A;
+  --gray: #909090;
+  --line: #E0E0DB;
+  --light: #F1F1F1;
+  --bg: #F9F9F9;
+  --blue: #2286FC;
+  --blue-soft: #E8F2FF;
+  --yellow: #FFDD1E;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { width: 1600px; background: var(--bg); }
+body { font-family: 'Gilroy', sans-serif; color: var(--black); padding: 64px 56px; }
+
+.eyebrow { font-size: 18px; font-weight: 700; letter-spacing: 0.14em; color: var(--blue); text-transform: uppercase; }
+.label { font-size: 17px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: var(--blue); }
+.muted-label { font-size: 15px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: var(--gray); }
+
+.card { background: #fff; border-radius: 28px; padding: 32px; box-shadow: 0 10px 30px rgba(0,0,0,0.07), 0 0 0 1px rgba(0,0,0,0.03); }
+.card.dashed { background: rgba(255,255,255,0.6); box-shadow: none; border: 2px dashed #CFCFCA; }
+.card.blue { box-shadow: 0 14px 40px rgba(34,134,252,0.18), 0 0 0 3px var(--blue); }
+
+h2 { font-size: 34px; font-weight: 700; line-height: 1.15; }
+p, .text { font-size: 22px; line-height: 1.42; color: var(--body); font-weight: 500; }
+b { color: var(--black); font-weight: 700; }
+
+.chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.chip { font-size: 17px; font-weight: 600; padding: 8px 14px; border-radius: 999px; background: var(--light); color: var(--black); white-space: nowrap; }
+.chip.blue { background: var(--blue); color: #fff; }
+.chip.yellow { background: var(--yellow); }
+.chip.outline { background: transparent; border: 2px solid var(--line); }

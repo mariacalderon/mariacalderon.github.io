@@ -12,7 +12,7 @@ const isLocalWithoutFirebase = process.env.NODE_ENV === 'development' && !proces
 // protected section is opened again, but not when moving between its own pages.
 let isUnlockedThisVisit = false;
 
-export const PROTECTED_SECTION_PATHS = ['/avoris', '/digital-drams'];
+export const PROTECTED_SECTION_PATHS = ['/avoris', '/digital-drams', '/b2b-tool-ipad'];
 
 export const lockProtectedProjects = () => {
   isUnlockedThisVisit = false;

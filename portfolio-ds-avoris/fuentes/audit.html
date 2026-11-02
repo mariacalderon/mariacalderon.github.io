@@ -1,0 +1,119 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="base.css">
+<style>
+  :root { --critical: #E5484D; --high: #F59E0B; --medium: #FFDD1E; }
+  .intro { font-size: 24px; color: var(--body); font-weight: 500; margin-top: 14px; }
+  .intro b { color: var(--black); }
+
+  .stats { margin-top: 36px; display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; }
+  .stat { padding: 24px 28px; }
+  .stat b { display: block; font-size: 52px; font-weight: 800; line-height: 1; color: var(--blue); }
+  .stat b.red { color: var(--critical); }
+  .stat span { display: block; margin-top: 10px; font-size: 19px; font-weight: 600; color: var(--body); }
+
+  .grid { margin-top: 28px; display: grid; grid-template-columns: 1fr 1fr; gap: 28px; }
+  .panel { padding: 20px 20px 22px; }
+  .panel .label { margin: 4px 4px 14px; }
+  .shot { position: relative; width: 690px; height: 390px; border-radius: 14px; overflow: hidden; background-repeat: no-repeat; box-shadow: 0 0 0 1px rgba(0,0,0,0.06); }
+  .shot.a { background-image: url(d-results-mid.png); background-size: 690px auto; background-position: 0 0; }
+  .shot.b { background-image: url(user-11.webp); background-size: 690px auto; background-position: 0 -58.7px; }
+  .shot.c { background-image: url(user-14.webp); background-size: 690px auto; background-position: 0 -58.7px; }
+  .shot.d { background-image: url(user-16.webp); background-size: 690px auto; background-position: 0 -58.7px; }
+
+  .m { position: absolute; transform: translate(-50%, -50%); width: 40px; height: 40px; border-radius: 50%; display: grid; place-items: center; font-size: 19px; font-weight: 800; color: #fff; box-shadow: 0 0 0 4px #fff, 0 6px 16px rgba(0,0,0,0.3); }
+  .m.critical { background: var(--critical); }
+  .m.high { background: var(--high); }
+  .m.medium { background: var(--medium); color: var(--black); }
+
+  .legend { margin-top: 28px; display: grid; grid-template-columns: 1fr 1fr; gap: 28px; align-items: stretch; }
+  .stack { display: flex; flex-direction: column; gap: 28px; }
+  .group { padding: 28px 30px; }
+  .group h3 { display: flex; align-items: center; gap: 12px; font-size: 22px; font-weight: 800; margin-bottom: 18px; }
+  .group h3 i { width: 14px; height: 14px; border-radius: 50%; display: block; }
+  ul { list-style: none; display: flex; flex-direction: column; gap: 16px; }
+  li { display: flex; gap: 14px; align-items: flex-start; }
+  li .n { flex: none; width: 30px; height: 30px; border-radius: 50%; display: grid; place-items: center; font-size: 15px; font-weight: 800; color: #fff; margin-top: 1px; }
+  li .n.critical { background: var(--critical); }
+  li .n.high { background: var(--high); }
+  li .n.medium { background: var(--medium); color: var(--black); }
+  li p { font-size: 19px; line-height: 1.35; color: var(--black); font-weight: 600; }
+  li p small { display: block; font-size: 16px; font-weight: 500; color: var(--gray); margin-top: 3px; }
+</style>
+</head>
+<body>
+  <div class="eyebrow">Heuristic audit · Previous flow</div>
+  <div class="intro">I reviewed the previous flow, still live on one of the group's brands, against <b>Nielsen's 10 usability heuristics</b>.</div>
+
+  <div class="stats">
+    <div class="card stat"><b>18</b><span>usability issues found</span></div>
+    <div class="card stat"><b class="red">5</b><span>critical issues</span></div>
+    <div class="card stat"><b>9 / 10</b><span>heuristics not met</span></div>
+    <div class="card stat"><b>4</b><span>key moments reviewed</span></div>
+  </div>
+
+  <div class="grid">
+    <div class="card panel">
+      <div class="label">1 · Results</div>
+      <div class="shot a">
+        <div class="m critical" style="left:50%; top:41%">5</div>
+        <div class="m critical" style="left:51%; top:75%">4</div>
+        <div class="m high" style="left:22%; top:58%">8</div>
+      </div>
+    </div>
+    <div class="card panel">
+      <div class="label">2 · Fare conditions</div>
+      <div class="shot b">
+        <div class="m critical" style="left:25%; top:56%">1</div>
+      </div>
+    </div>
+    <div class="card panel">
+      <div class="label">3 · Changing the fare</div>
+      <div class="shot c">
+        <div class="m critical" style="left:84%; top:10%">2</div>
+        <div class="m critical" style="left:78%; top:91%">2</div>
+        <div class="m high" style="left:62%; top:58%">6</div>
+      </div>
+    </div>
+    <div class="card panel">
+      <div class="label">4 · Filters</div>
+      <div class="shot d">
+        <div class="m critical" style="left:41%; top:93%">3</div>
+        <div class="m high" style="left:6%; top:86%">7</div>
+        <div class="m medium" style="left:52%; top:74%">9</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="legend">
+    <div class="card group">
+      <h3><i style="background:var(--critical)"></i>Critical</h3>
+      <ul>
+        <li><span class="n critical">1</span><p>An error with no way out: the fare conditions don't load<small>Help users recover from errors</small></p></li>
+        <li><span class="n critical">2</span><p>Two different prices on the same screen<small>Consistency and standards</small></p></li>
+        <li><span class="n critical">3</span><p>The selected flight ignores the filters<small>Visibility of system status</small></p></li>
+        <li><span class="n critical">4</span><p>A flight is already selected, without telling the user<small>User control and freedom</small></p></li>
+        <li><span class="n critical">5</span><p>Loading screens that block the whole page<small>Visibility of system status</small></p></li>
+      </ul>
+    </div>
+    <div class="stack">
+    <div class="card group">
+      <h3><i style="background:var(--high)"></i>High</h3>
+      <ul>
+        <li><span class="n high">6</span><p>Sorting hidden behind a ⋮ menu<small>Flexibility and efficiency of use</small></p></li>
+        <li><span class="n high">7</span><p>Filters that become useless<small>Error prevention</small></p></li>
+        <li><span class="n high">8</span><p>Fares up to 36× more expensive than the cheapest<small>Aesthetic and minimalist design</small></p></li>
+      </ul>
+    </div>
+    <div class="card group">
+      <h3><i style="background:var(--medium)"></i>Medium</h3>
+      <ul>
+        <li><span class="n medium">9</span><p>Icons explained only on hover, not on mobile<small>Recognition rather than recall</small></p></li>
+      </ul>
+    </div>
+    </div>
+  </div>
+</body>
+</html>

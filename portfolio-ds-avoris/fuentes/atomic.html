@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="base.css">
+<style>
+  .intro { font-size: 24px; color: var(--body); font-weight: 500; margin-top: 14px; }
+  .intro b { color: var(--black); }
+
+  .cols { margin-top: 40px; display: grid; grid-template-columns: 1fr 64px 1fr 64px 1.25fr; align-items: stretch; }
+  .col { display: flex; flex-direction: column; padding: 32px; }
+  .col h2 { font-size: 32px; margin: 8px 0 6px; }
+  .col p { font-size: 20px; }
+  .stage { flex: 1; margin-top: 26px; border-radius: 20px; background: var(--bg); display: grid; place-items: center; padding: 28px; min-height: 380px; }
+  .plus { display: grid; place-items: center; }
+  .plus div { width: 44px; height: 44px; border-radius: 50%; background: var(--blue); color: #fff; display: grid; place-items: center; font-size: 26px; font-weight: 800; }
+
+  /* mock components */
+  .btn { background: var(--yellow); border-radius: 10px; font-size: 20px; font-weight: 700; padding: 14px 34px; text-align: center; }
+  .tag { display: inline-flex; font-size: 14px; font-weight: 600; background: #D9ECFF; color: #1B4F8A; padding: 5px 10px; border-radius: 6px; }
+  .price .from { font-size: 16px; color: var(--gray); }
+  .price .from s { margin-left: 4px; }
+  .price .total { font-size: 18px; font-weight: 600; margin-top: 4px; }
+  .price .total b { font-size: 34px; font-weight: 800; margin-left: 6px; }
+  .price .link { font-size: 15px; color: #B08F00; font-weight: 700; margin-top: 6px; }
+  .mol { background: #fff; border-radius: 16px; padding: 22px 24px; box-shadow: 0 6px 18px rgba(0,0,0,0.06); width: 100%; }
+
+  .org { background: #fff; border-radius: 18px; padding: 16px; box-shadow: 0 8px 24px rgba(0,0,0,0.08); width: 100%; }
+  .photo { height: 120px; border-radius: 12px; background: linear-gradient(to bottom, #CFE6F2 0 55%, transparent 55%), radial-gradient(ellipse 70% 60% at 30% 100%, #8FC39A 0 60%, transparent 61%), radial-gradient(ellipse 80% 55% at 85% 100%, #A9D3AE 0 60%, transparent 61%), #CFE6F2; position: relative; }
+  .photo::after { content: ''; position: absolute; right: 40px; top: 22px; width: 34px; height: 34px; border-radius: 50%; background: #FCE38A; }
+  .org h4 { font-size: 20px; font-weight: 700; margin-top: 14px; }
+  .org .sub { font-size: 14px; color: var(--gray); font-weight: 500; }
+  .reuse { position: relative; border: 2px dashed var(--blue); border-radius: 12px; padding: 10px; margin-top: 12px; }
+  .reuse .lbl { position: absolute; top: -12px; right: 10px; background: var(--blue); color: #fff; font-size: 12px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; padding: 3px 9px; border-radius: 999px; }
+  .tags { display: flex; gap: 6px; flex-wrap: wrap; }
+  .org .price .total b { font-size: 26px; }
+  .org .btn { font-size: 16px; padding: 10px; }
+
+  .footer { margin-top: 36px; display: flex; align-items: center; gap: 16px; font-size: 24px; font-weight: 500; color: var(--body); }
+  .footer .pill { background: var(--yellow); color: var(--black); font-weight: 700; padding: 10px 18px; border-radius: 999px; font-size: 20px; }
+</style>
+</head>
+<body>
+  <div class="eyebrow">Small components make big components</div>
+  <div class="intro">Apart from the level, we classify each component by its <b>size</b>. The same in Figma and in code.</div>
+
+  <div class="cols">
+    <div class="card col">
+      <div class="label">Atom</div>
+      <h2>The smallest piece</h2>
+      <p>For example, <b>a button</b>.</p>
+      <div class="stage"><div class="btn">Select</div></div>
+    </div>
+
+    <div class="plus"><div>→</div></div>
+
+    <div class="card col">
+      <div class="label">Molecule</div>
+      <h2>A few atoms together</h2>
+      <p>For example, <b>the price box</b>.</p>
+      <div class="stage">
+        <div class="mol price">
+          <div class="from">From <s>18,90 €</s></div>
+          <div class="total">Total<b>14,70 €</b></div>
+          <div class="link">See breakdown ⌄</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="plus"><div>→</div></div>
+
+    <div class="card blue col">
+      <div class="label">Organism</div>
+      <h2>A big block of smaller pieces</h2>
+      <p>For example, <b>the transfer card</b>: tags, the price box and the button inside.</p>
+      <div class="stage">
+        <div class="org">
+          <div class="photo"></div>
+          <h4>Bus transfer</h4>
+          <div class="sub">Shared shuttle service</div>
+          <div class="reuse"><span class="lbl">Atoms</span>
+            <div class="tags"><span class="tag">Shared</span><span class="tag">1 suitcase</span><span class="tag">90 min</span></div>
+          </div>
+          <div class="reuse"><span class="lbl">Molecule</span>
+            <div class="price"><div class="total">Total<b>14,70 €</b></div></div>
+          </div>
+          <div class="reuse"><span class="lbl">Atom</span>
+            <div class="btn">Select</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer"><span class="pill">Reuse, don't redraw</span> The card uses the same button as the rest of the system. If the button changes, it changes in all the cards.</div>
+</body>
+</html>
